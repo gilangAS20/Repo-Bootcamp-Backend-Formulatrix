@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\Day12-Maskin\TryString\bin\Debug\net7.0\TryString.exe
+d:\bootcamp_gilang2\Day12-Maskin\TryString\bin\Debug\net7.0\TryString.deps.json
+d:\bootcamp_gilang2\Day12-Maskin\TryString\bin\Debug\net7.0\TryString.runtimeconfig.json
+D:\bootcamp_gilang2\Day12-Maskin\TryString\bin\Debug\net7.0\TryString.dll
+D:\bootcamp_gilang2\Day12-Maskin\TryString\bin\Debug\net7.0\TryString.pdb
+D:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\TryString.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\TryString.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\TryString.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\TryString.AssemblyInfo.cs
+D:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\TryString.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\TryString.dll
+D:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\refint\TryString.dll
+D:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\TryString.pdb
+d:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\TryString.genruntimeconfig.cache
+d:\bootcamp_gilang2\Day12-Maskin\TryString\obj\Debug\net7.0\ref\TryString.dll

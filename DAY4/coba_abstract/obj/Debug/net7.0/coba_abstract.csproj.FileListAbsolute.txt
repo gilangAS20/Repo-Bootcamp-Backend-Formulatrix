@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\bin\Debug\net7.0\coba_abstract.exe
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\bin\Debug\net7.0\coba_abstract.deps.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\bin\Debug\net7.0\coba_abstract.runtimeconfig.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\bin\Debug\net7.0\coba_abstract.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\bin\Debug\net7.0\coba_abstract.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\coba_abstract.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\coba_abstract.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\coba_abstract.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\coba_abstract.AssemblyInfo.cs
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\coba_abstract.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\coba_abstract.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\refint\coba_abstract.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\coba_abstract.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\coba_abstract.genruntimeconfig.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_abstract\obj\Debug\net7.0\ref\coba_abstract.dll

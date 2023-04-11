@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\String_TextHandling.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\String_TextHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\String_TextHandling.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\String_TextHandling.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\String_TextHandling.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY9\String_TextHandling\bin\Debug\net7.0\String_TextHandling.exe
+D:\bootcamp_gilang2\DAY9\String_TextHandling\bin\Debug\net7.0\String_TextHandling.deps.json
+D:\bootcamp_gilang2\DAY9\String_TextHandling\bin\Debug\net7.0\String_TextHandling.runtimeconfig.json
+D:\bootcamp_gilang2\DAY9\String_TextHandling\bin\Debug\net7.0\String_TextHandling.dll
+D:\bootcamp_gilang2\DAY9\String_TextHandling\bin\Debug\net7.0\String_TextHandling.pdb
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\String_TextHandling.dll
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\refint\String_TextHandling.dll
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\String_TextHandling.pdb
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\String_TextHandling.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY9\String_TextHandling\obj\Debug\net7.0\ref\String_TextHandling.dll

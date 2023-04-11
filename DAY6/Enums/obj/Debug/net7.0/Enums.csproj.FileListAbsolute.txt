@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\bin\Debug\net7.0\Enums.exe
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\bin\Debug\net7.0\Enums.deps.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\bin\Debug\net7.0\Enums.runtimeconfig.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\bin\Debug\net7.0\Enums.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\bin\Debug\net7.0\Enums.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\Enums.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\Enums.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\Enums.AssemblyInfo.cs
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\Enums.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\Enums.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\refint\Enums.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\Enums.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\Enums.genruntimeconfig.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY6\Enums\obj\Debug\net7.0\ref\Enums.dll

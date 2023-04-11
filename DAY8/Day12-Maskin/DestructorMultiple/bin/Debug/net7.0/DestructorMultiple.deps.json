@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DestructorMultiple/1.0.0": {
+        "runtime": {
+          "DestructorMultiple.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DestructorMultiple/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

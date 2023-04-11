@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY5\test\bin\Debug\net7.0\test.exe
+D:\bootcamp_gilang2\DAY5\test\bin\Debug\net7.0\test.deps.json
+D:\bootcamp_gilang2\DAY5\test\bin\Debug\net7.0\test.runtimeconfig.json
+D:\bootcamp_gilang2\DAY5\test\bin\Debug\net7.0\test.dll
+D:\bootcamp_gilang2\DAY5\test\bin\Debug\net7.0\test.pdb
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\test.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\test.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\test.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\test.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\test.dll
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\refint\test.dll
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\test.pdb
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\test.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY5\test\obj\Debug\net7.0\ref\test.dll

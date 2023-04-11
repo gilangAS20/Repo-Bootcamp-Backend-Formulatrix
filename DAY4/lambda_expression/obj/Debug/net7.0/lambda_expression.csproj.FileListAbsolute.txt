@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY4\lambda_expression\bin\Debug\net7.0\lambda_expression.exe
+D:\bootcamp_gilang2\DAY4\lambda_expression\bin\Debug\net7.0\lambda_expression.deps.json
+D:\bootcamp_gilang2\DAY4\lambda_expression\bin\Debug\net7.0\lambda_expression.runtimeconfig.json
+D:\bootcamp_gilang2\DAY4\lambda_expression\bin\Debug\net7.0\lambda_expression.dll
+D:\bootcamp_gilang2\DAY4\lambda_expression\bin\Debug\net7.0\lambda_expression.pdb
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\lambda_expression.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\lambda_expression.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\lambda_expression.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\lambda_expression.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\lambda_expression.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\lambda_expression.dll
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\refint\lambda_expression.dll
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\lambda_expression.pdb
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\lambda_expression.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY4\lambda_expression\obj\Debug\net7.0\ref\lambda_expression.dll

@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\bin\Debug\net7.0\cobaSendiri_generic.exe
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\bin\Debug\net7.0\cobaSendiri_generic.deps.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\bin\Debug\net7.0\cobaSendiri_generic.runtimeconfig.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\bin\Debug\net7.0\cobaSendiri_generic.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\bin\Debug\net7.0\cobaSendiri_generic.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\cobaSendiri_generic.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\cobaSendiri_generic.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\cobaSendiri_generic.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\cobaSendiri_generic.AssemblyInfo.cs
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\cobaSendiri_generic.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\cobaSendiri_generic.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\refint\cobaSendiri_generic.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\cobaSendiri_generic.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\cobaSendiri_generic.genruntimeconfig.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY5\cobaSendiri_generic\obj\Debug\net7.0\ref\cobaSendiri_generic.dll

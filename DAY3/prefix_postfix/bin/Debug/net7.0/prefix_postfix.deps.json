@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "prefix_postfix/1.0.0": {
+        "runtime": {
+          "prefix_postfix.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "prefix_postfix/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

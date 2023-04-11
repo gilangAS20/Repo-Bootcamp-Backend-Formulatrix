@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\Tuple.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\Tuple.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\Tuple.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\Tuple.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\Tuple.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY4\Tuple\bin\Debug\net7.0\Tuple.exe
+D:\bootcamp_gilang2\DAY4\Tuple\bin\Debug\net7.0\Tuple.deps.json
+D:\bootcamp_gilang2\DAY4\Tuple\bin\Debug\net7.0\Tuple.runtimeconfig.json
+D:\bootcamp_gilang2\DAY4\Tuple\bin\Debug\net7.0\Tuple.dll
+D:\bootcamp_gilang2\DAY4\Tuple\bin\Debug\net7.0\Tuple.pdb
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\Tuple.dll
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\refint\Tuple.dll
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\Tuple.pdb
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\Tuple.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY4\Tuple\obj\Debug\net7.0\ref\Tuple.dll

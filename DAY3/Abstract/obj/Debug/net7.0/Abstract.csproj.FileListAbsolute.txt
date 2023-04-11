@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY3\Abstract\bin\Debug\net7.0\Abstract.exe
+D:\bootcamp_gilang2\DAY3\Abstract\bin\Debug\net7.0\Abstract.deps.json
+D:\bootcamp_gilang2\DAY3\Abstract\bin\Debug\net7.0\Abstract.runtimeconfig.json
+D:\bootcamp_gilang2\DAY3\Abstract\bin\Debug\net7.0\Abstract.dll
+D:\bootcamp_gilang2\DAY3\Abstract\bin\Debug\net7.0\Abstract.pdb
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\Abstract.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\Abstract.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\Abstract.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\Abstract.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\Abstract.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\Abstract.dll
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\refint\Abstract.dll
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\Abstract.pdb
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\Abstract.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY3\Abstract\obj\Debug\net7.0\ref\Abstract.dll

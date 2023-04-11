@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY3\Method_Hiding\bin\Debug\net7.0\Method_Hiding.exe
+D:\bootcamp_gilang2\DAY3\Method_Hiding\bin\Debug\net7.0\Method_Hiding.deps.json
+D:\bootcamp_gilang2\DAY3\Method_Hiding\bin\Debug\net7.0\Method_Hiding.runtimeconfig.json
+D:\bootcamp_gilang2\DAY3\Method_Hiding\bin\Debug\net7.0\Method_Hiding.dll
+D:\bootcamp_gilang2\DAY3\Method_Hiding\bin\Debug\net7.0\Method_Hiding.pdb
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\Method_Hiding.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\Method_Hiding.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\Method_Hiding.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\Method_Hiding.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\Method_Hiding.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\Method_Hiding.dll
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\refint\Method_Hiding.dll
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\Method_Hiding.pdb
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\Method_Hiding.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY3\Method_Hiding\obj\Debug\net7.0\ref\Method_Hiding.dll

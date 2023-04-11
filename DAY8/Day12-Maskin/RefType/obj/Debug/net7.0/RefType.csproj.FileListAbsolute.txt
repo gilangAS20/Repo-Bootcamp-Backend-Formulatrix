@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 12\RefType\bin\Debug\net7.0\RefType.exe
+c:\C#\Bootcamp\vscode\Day 12\RefType\bin\Debug\net7.0\RefType.deps.json
+c:\C#\Bootcamp\vscode\Day 12\RefType\bin\Debug\net7.0\RefType.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\RefType\bin\Debug\net7.0\RefType.dll
+c:\C#\Bootcamp\vscode\Day 12\RefType\bin\Debug\net7.0\RefType.pdb
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\RefType.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\RefType.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\RefType.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\RefType.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\RefType.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\RefType.dll
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\refint\RefType.dll
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\RefType.pdb
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\RefType.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\RefType\obj\Debug\net7.0\ref\RefType.dll

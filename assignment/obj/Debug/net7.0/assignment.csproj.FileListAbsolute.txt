@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\bin\Debug\net7.0\assignment.exe
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\bin\Debug\net7.0\assignment.deps.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\bin\Debug\net7.0\assignment.runtimeconfig.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\bin\Debug\net7.0\assignment.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\bin\Debug\net7.0\assignment.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\assignment.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\assignment.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\assignment.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\assignment.AssemblyInfo.cs
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\assignment.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\assignment.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\refint\assignment.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\assignment.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\assignment.genruntimeconfig.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\assignment\obj\Debug\net7.0\ref\assignment.dll

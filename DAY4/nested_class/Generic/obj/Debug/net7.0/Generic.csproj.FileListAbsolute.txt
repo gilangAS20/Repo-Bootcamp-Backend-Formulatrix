@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY4\Generic\bin\Debug\net7.0\Generic.exe
+D:\bootcamp_gilang2\DAY4\Generic\bin\Debug\net7.0\Generic.deps.json
+D:\bootcamp_gilang2\DAY4\Generic\bin\Debug\net7.0\Generic.runtimeconfig.json
+D:\bootcamp_gilang2\DAY4\Generic\bin\Debug\net7.0\Generic.dll
+D:\bootcamp_gilang2\DAY4\Generic\bin\Debug\net7.0\Generic.pdb
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\Generic.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\Generic.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\Generic.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\Generic.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\Generic.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\Generic.dll
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\refint\Generic.dll
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\Generic.pdb
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\Generic.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY4\Generic\obj\Debug\net7.0\ref\Generic.dll

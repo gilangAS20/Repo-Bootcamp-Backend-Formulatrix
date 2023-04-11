@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\bin\Debug\net7.0\Event_Handler.exe
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\bin\Debug\net7.0\Event_Handler.deps.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\bin\Debug\net7.0\Event_Handler.runtimeconfig.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\bin\Debug\net7.0\Event_Handler.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\bin\Debug\net7.0\Event_Handler.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\Event_Handler.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\Event_Handler.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\Event_Handler.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\Event_Handler.AssemblyInfo.cs
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\Event_Handler.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\Event_Handler.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\refint\Event_Handler.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\Event_Handler.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\Event_Handler.genruntimeconfig.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY7\Event_Handler\obj\Debug\net7.0\ref\Event_Handler.dll

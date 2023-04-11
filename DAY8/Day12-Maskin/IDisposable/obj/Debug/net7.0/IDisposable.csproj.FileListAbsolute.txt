@@ -1,0 +1,5 @@
+c:\C#\Bootcamp\vscode\Day 12\IDisposable\obj\Debug\net7.0\IDisposable.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\IDisposable\obj\Debug\net7.0\IDisposable.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\IDisposable\obj\Debug\net7.0\IDisposable.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\IDisposable\obj\Debug\net7.0\IDisposable.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\IDisposable\obj\Debug\net7.0\IDisposable.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\bin\Debug\net7.0\SingleLoop.exe
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\bin\Debug\net7.0\SingleLoop.deps.json
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\bin\Debug\net7.0\SingleLoop.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\bin\Debug\net7.0\SingleLoop.dll
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\bin\Debug\net7.0\SingleLoop.pdb
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\SingleLoop.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\SingleLoop.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\SingleLoop.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\SingleLoop.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\SingleLoop.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\SingleLoop.dll
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\refint\SingleLoop.dll
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\SingleLoop.pdb
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\SingleLoop.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\SingleLoop\obj\Debug\net7.0\ref\SingleLoop.dll

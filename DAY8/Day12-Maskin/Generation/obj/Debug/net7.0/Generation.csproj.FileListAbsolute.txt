@@ -1,0 +1,30 @@
+c:\C#\Bootcamp\vscode\Day 12\Generation\bin\Debug\net7.0\Generation.exe
+c:\C#\Bootcamp\vscode\Day 12\Generation\bin\Debug\net7.0\Generation.deps.json
+c:\C#\Bootcamp\vscode\Day 12\Generation\bin\Debug\net7.0\Generation.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\Generation\bin\Debug\net7.0\Generation.dll
+c:\C#\Bootcamp\vscode\Day 12\Generation\bin\Debug\net7.0\Generation.pdb
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\Generation.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\Generation.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\Generation.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\Generation.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\Generation.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\Generation.dll
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\refint\Generation.dll
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\Generation.pdb
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\Generation.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\Generation\obj\Debug\net7.0\ref\Generation.dll
+D:\bootcamp_gilang2\Day12-Maskin\Generation\bin\Debug\net7.0\Generation.exe
+d:\bootcamp_gilang2\Day12-Maskin\Generation\bin\Debug\net7.0\Generation.deps.json
+d:\bootcamp_gilang2\Day12-Maskin\Generation\bin\Debug\net7.0\Generation.runtimeconfig.json
+D:\bootcamp_gilang2\Day12-Maskin\Generation\bin\Debug\net7.0\Generation.dll
+D:\bootcamp_gilang2\Day12-Maskin\Generation\bin\Debug\net7.0\Generation.pdb
+D:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\Generation.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\Generation.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\Generation.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\Generation.AssemblyInfo.cs
+D:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\Generation.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\Generation.dll
+D:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\refint\Generation.dll
+D:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\Generation.pdb
+d:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\Generation.genruntimeconfig.cache
+d:\bootcamp_gilang2\Day12-Maskin\Generation\obj\Debug\net7.0\ref\Generation.dll

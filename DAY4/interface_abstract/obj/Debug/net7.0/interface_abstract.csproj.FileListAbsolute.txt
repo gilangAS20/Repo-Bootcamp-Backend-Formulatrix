@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\interface_abstract.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\interface_abstract.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\interface_abstract.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\interface_abstract.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\interface_abstract.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY4\interface_abstract\bin\Debug\net7.0\interface_abstract.exe
+D:\bootcamp_gilang2\DAY4\interface_abstract\bin\Debug\net7.0\interface_abstract.deps.json
+D:\bootcamp_gilang2\DAY4\interface_abstract\bin\Debug\net7.0\interface_abstract.runtimeconfig.json
+D:\bootcamp_gilang2\DAY4\interface_abstract\bin\Debug\net7.0\interface_abstract.dll
+D:\bootcamp_gilang2\DAY4\interface_abstract\bin\Debug\net7.0\interface_abstract.pdb
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\interface_abstract.dll
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\refint\interface_abstract.dll
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\interface_abstract.pdb
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\interface_abstract.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY4\interface_abstract\obj\Debug\net7.0\ref\interface_abstract.dll

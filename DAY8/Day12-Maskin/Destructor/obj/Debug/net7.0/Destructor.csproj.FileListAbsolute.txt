@@ -1,0 +1,30 @@
+c:\C#\Bootcamp\vscode\Day 12\Destructor\bin\Debug\net7.0\Destructor.exe
+c:\C#\Bootcamp\vscode\Day 12\Destructor\bin\Debug\net7.0\Destructor.deps.json
+c:\C#\Bootcamp\vscode\Day 12\Destructor\bin\Debug\net7.0\Destructor.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\Destructor\bin\Debug\net7.0\Destructor.dll
+c:\C#\Bootcamp\vscode\Day 12\Destructor\bin\Debug\net7.0\Destructor.pdb
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\Destructor.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\Destructor.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\Destructor.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\Destructor.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\Destructor.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\Destructor.dll
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\refint\Destructor.dll
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\Destructor.pdb
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\Destructor.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\Destructor\obj\Debug\net7.0\ref\Destructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\bin\Debug\net7.0\Destructor.exe
+d:\bootcamp_gilang2\Day12-Maskin\Destructor\bin\Debug\net7.0\Destructor.deps.json
+d:\bootcamp_gilang2\Day12-Maskin\Destructor\bin\Debug\net7.0\Destructor.runtimeconfig.json
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\bin\Debug\net7.0\Destructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\bin\Debug\net7.0\Destructor.pdb
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\Destructor.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\Destructor.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\Destructor.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\Destructor.AssemblyInfo.cs
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\Destructor.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\Destructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\refint\Destructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\Destructor.pdb
+d:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\Destructor.genruntimeconfig.cache
+d:\bootcamp_gilang2\Day12-Maskin\Destructor\obj\Debug\net7.0\ref\Destructor.dll

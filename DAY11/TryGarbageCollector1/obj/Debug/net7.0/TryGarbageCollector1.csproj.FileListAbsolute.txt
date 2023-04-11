@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\bin\Debug\net7.0\TryGarbageCollector1.exe
+d:\bootcamp_gilang2\DAY11\TryGarbageCollector1\bin\Debug\net7.0\TryGarbageCollector1.deps.json
+d:\bootcamp_gilang2\DAY11\TryGarbageCollector1\bin\Debug\net7.0\TryGarbageCollector1.runtimeconfig.json
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\bin\Debug\net7.0\TryGarbageCollector1.dll
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\bin\Debug\net7.0\TryGarbageCollector1.pdb
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\TryGarbageCollector1.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\TryGarbageCollector1.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\TryGarbageCollector1.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\TryGarbageCollector1.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\TryGarbageCollector1.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\TryGarbageCollector1.dll
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\refint\TryGarbageCollector1.dll
+D:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\TryGarbageCollector1.pdb
+d:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\TryGarbageCollector1.genruntimeconfig.cache
+d:\bootcamp_gilang2\DAY11\TryGarbageCollector1\obj\Debug\net7.0\ref\TryGarbageCollector1.dll

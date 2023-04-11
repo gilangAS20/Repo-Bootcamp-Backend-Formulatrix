@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\Calculator.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\Calculator.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\Calculator.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\Calculator.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY 2\Calculator\bin\Debug\net7.0\Calculator.exe
+D:\bootcamp_gilang2\DAY 2\Calculator\bin\Debug\net7.0\Calculator.deps.json
+D:\bootcamp_gilang2\DAY 2\Calculator\bin\Debug\net7.0\Calculator.runtimeconfig.json
+D:\bootcamp_gilang2\DAY 2\Calculator\bin\Debug\net7.0\Calculator.dll
+D:\bootcamp_gilang2\DAY 2\Calculator\bin\Debug\net7.0\Calculator.pdb
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\Calculator.dll
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\refint\Calculator.dll
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\Calculator.pdb
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\Calculator.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY 2\Calculator\obj\Debug\net7.0\ref\Calculator.dll

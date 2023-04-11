@@ -1,0 +1,30 @@
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.exe
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.deps.json
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.dll
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.pdb
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.dll
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\refint\GenerationDestructor.dll
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.pdb
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\GenerationDestructor\obj\Debug\net7.0\ref\GenerationDestructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.exe
+d:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.deps.json
+d:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.runtimeconfig.json
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\bin\Debug\net7.0\GenerationDestructor.pdb
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.AssemblyInfo.cs
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\refint\GenerationDestructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.pdb
+d:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\GenerationDestructor.genruntimeconfig.cache
+d:\bootcamp_gilang2\Day12-Maskin\GenerationDestructor\obj\Debug\net7.0\ref\GenerationDestructor.dll

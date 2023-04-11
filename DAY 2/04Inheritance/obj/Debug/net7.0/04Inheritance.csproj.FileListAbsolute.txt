@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\04Inheritance.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\04Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\04Inheritance.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\04Inheritance.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\04Inheritance.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY 2\04Inheritance\bin\Debug\net7.0\04Inheritance.exe
+D:\bootcamp_gilang2\DAY 2\04Inheritance\bin\Debug\net7.0\04Inheritance.deps.json
+D:\bootcamp_gilang2\DAY 2\04Inheritance\bin\Debug\net7.0\04Inheritance.runtimeconfig.json
+D:\bootcamp_gilang2\DAY 2\04Inheritance\bin\Debug\net7.0\04Inheritance.dll
+D:\bootcamp_gilang2\DAY 2\04Inheritance\bin\Debug\net7.0\04Inheritance.pdb
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\04Inheritance.dll
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\refint\04Inheritance.dll
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\04Inheritance.pdb
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\04Inheritance.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY 2\04Inheritance\obj\Debug\net7.0\ref\04Inheritance.dll

@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\bin\Debug\net7.0\Try_Catch1.exe
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\bin\Debug\net7.0\Try_Catch1.deps.json
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\bin\Debug\net7.0\Try_Catch1.runtimeconfig.json
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\bin\Debug\net7.0\Try_Catch1.dll
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\bin\Debug\net7.0\Try_Catch1.pdb
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\Try_Catch1.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\Try_Catch1.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\Try_Catch1.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\Try_Catch1.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\Try_Catch1.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\Try_Catch1.dll
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\refint\Try_Catch1.dll
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\Try_Catch1.pdb
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\Try_Catch1.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY8_2\Try_Catch1\obj\Debug\net7.0\ref\Try_Catch1.dll

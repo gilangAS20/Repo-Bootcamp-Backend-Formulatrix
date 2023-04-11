@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\Value_Reference.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\Value_Reference.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\Value_Reference.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\Value_Reference.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\Value_Reference.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY3\Value_Reference\bin\Debug\net7.0\Value_Reference.exe
+D:\bootcamp_gilang2\DAY3\Value_Reference\bin\Debug\net7.0\Value_Reference.deps.json
+D:\bootcamp_gilang2\DAY3\Value_Reference\bin\Debug\net7.0\Value_Reference.runtimeconfig.json
+D:\bootcamp_gilang2\DAY3\Value_Reference\bin\Debug\net7.0\Value_Reference.dll
+D:\bootcamp_gilang2\DAY3\Value_Reference\bin\Debug\net7.0\Value_Reference.pdb
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\Value_Reference.dll
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\refint\Value_Reference.dll
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\Value_Reference.pdb
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\Value_Reference.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY3\Value_Reference\obj\Debug\net7.0\ref\Value_Reference.dll

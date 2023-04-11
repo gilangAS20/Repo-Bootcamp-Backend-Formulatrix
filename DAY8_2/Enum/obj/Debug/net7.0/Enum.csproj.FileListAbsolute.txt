@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY8_2\Enum\bin\Debug\net7.0\Enum.exe
+D:\bootcamp_gilang2\DAY8_2\Enum\bin\Debug\net7.0\Enum.deps.json
+D:\bootcamp_gilang2\DAY8_2\Enum\bin\Debug\net7.0\Enum.runtimeconfig.json
+D:\bootcamp_gilang2\DAY8_2\Enum\bin\Debug\net7.0\Enum.dll
+D:\bootcamp_gilang2\DAY8_2\Enum\bin\Debug\net7.0\Enum.pdb
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\Enum.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\Enum.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\Enum.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\Enum.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\Enum.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\Enum.dll
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\refint\Enum.dll
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\Enum.pdb
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\Enum.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY8_2\Enum\obj\Debug\net7.0\ref\Enum.dll

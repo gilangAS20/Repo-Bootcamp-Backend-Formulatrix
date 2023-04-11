@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\bin\Debug\net7.0\Project_BoardGame.exe
+e:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\bin\Debug\net7.0\Project_BoardGame.deps.json
+e:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\bin\Debug\net7.0\Project_BoardGame.runtimeconfig.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\bin\Debug\net7.0\Project_BoardGame.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\bin\Debug\net7.0\Project_BoardGame.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\Project_BoardGame.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\Project_BoardGame.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\Project_BoardGame.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\Project_BoardGame.AssemblyInfo.cs
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\Project_BoardGame.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\Project_BoardGame.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\refint\Project_BoardGame.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\Project_BoardGame.pdb
+e:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\Project_BoardGame.genruntimeconfig.cache
+e:\bootcamp_formulatrix\bootcamp_gilang2\Project_BoardGame\Project_BoardGame\obj\Debug\net7.0\ref\Project_BoardGame.dll

@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\bin\Debug\net7.0\HashTableMasKin.exe
+d:\bootcamp_gilang2\DAY11\HashTableMasKin\bin\Debug\net7.0\HashTableMasKin.deps.json
+d:\bootcamp_gilang2\DAY11\HashTableMasKin\bin\Debug\net7.0\HashTableMasKin.runtimeconfig.json
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\bin\Debug\net7.0\HashTableMasKin.dll
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\bin\Debug\net7.0\HashTableMasKin.pdb
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\HashTableMasKin.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\HashTableMasKin.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\HashTableMasKin.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\HashTableMasKin.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\HashTableMasKin.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\HashTableMasKin.dll
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\refint\HashTableMasKin.dll
+D:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\HashTableMasKin.pdb
+d:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\HashTableMasKin.genruntimeconfig.cache
+d:\bootcamp_gilang2\DAY11\HashTableMasKin\obj\Debug\net7.0\ref\HashTableMasKin.dll

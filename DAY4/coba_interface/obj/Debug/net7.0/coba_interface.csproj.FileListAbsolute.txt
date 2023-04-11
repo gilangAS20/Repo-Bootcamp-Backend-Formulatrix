@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\bin\Debug\net7.0\coba_interface.exe
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\bin\Debug\net7.0\coba_interface.deps.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\bin\Debug\net7.0\coba_interface.runtimeconfig.json
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\bin\Debug\net7.0\coba_interface.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\bin\Debug\net7.0\coba_interface.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\coba_interface.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\coba_interface.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\coba_interface.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\coba_interface.AssemblyInfo.cs
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\coba_interface.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\coba_interface.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\refint\coba_interface.dll
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\coba_interface.pdb
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\coba_interface.genruntimeconfig.cache
+E:\bootcamp_formulatrix\bootcamp_gilang2\DAY4\coba_interface\obj\Debug\net7.0\ref\coba_interface.dll

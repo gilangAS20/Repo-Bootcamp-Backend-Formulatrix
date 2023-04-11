@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY3\prefix_postfix\bin\Debug\net7.0\prefix_postfix.exe
+D:\bootcamp_gilang2\DAY3\prefix_postfix\bin\Debug\net7.0\prefix_postfix.deps.json
+D:\bootcamp_gilang2\DAY3\prefix_postfix\bin\Debug\net7.0\prefix_postfix.runtimeconfig.json
+D:\bootcamp_gilang2\DAY3\prefix_postfix\bin\Debug\net7.0\prefix_postfix.dll
+D:\bootcamp_gilang2\DAY3\prefix_postfix\bin\Debug\net7.0\prefix_postfix.pdb
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\prefix_postfix.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\prefix_postfix.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\prefix_postfix.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\prefix_postfix.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\prefix_postfix.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\prefix_postfix.dll
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\refint\prefix_postfix.dll
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\prefix_postfix.pdb
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\prefix_postfix.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY3\prefix_postfix\obj\Debug\net7.0\ref\prefix_postfix.dll

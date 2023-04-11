@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\DAY 2\01Class\bin\Debug\net7.0\01Class.exe
+D:\bootcamp_gilang2\DAY 2\01Class\bin\Debug\net7.0\01Class.deps.json
+D:\bootcamp_gilang2\DAY 2\01Class\bin\Debug\net7.0\01Class.runtimeconfig.json
+D:\bootcamp_gilang2\DAY 2\01Class\bin\Debug\net7.0\01Class.dll
+D:\bootcamp_gilang2\DAY 2\01Class\bin\Debug\net7.0\01Class.pdb
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\01Class.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\01Class.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\01Class.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\01Class.AssemblyInfo.cs
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\01Class.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\01Class.dll
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\refint\01Class.dll
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\01Class.pdb
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\01Class.genruntimeconfig.cache
+D:\bootcamp_gilang2\DAY 2\01Class\obj\Debug\net7.0\ref\01Class.dll

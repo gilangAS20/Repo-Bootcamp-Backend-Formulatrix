@@ -1,0 +1,31 @@
+main.cs --> static void Main
+
+publisher.cs --> delegate
+
+subscriber.cs --> method
+
+
+// menggunakan delegate
+        publisher.MyEvent = subscriber1.MethodA1; --> ini bisa dijalankan dengan delegate, kalo pake event tidak
+        publisher.MyEvent += subscriber1.MethodA2;
+        publisher.MyEvent += subscriber2.MethodB1;
+        publisher.MyEvent = subscriber2.MethodB2;
+// inisiasi yang pertama bisa menggunakan "=", namun jika penambahan subscriber selanjutnya
+// dilakukan dengan "=" maka subscriber yang lain akan dihapus dan diganti subscriber terakhir dengan "="
+
+delegate diganti event
+
+// menggunakan event 
+        publisher.MyEvent += subscriber1.MethodA1; --> semuanya harus menggunakan += atau -=
+        publisher.MyEvent += subscriber1.MethodA2;
+        publisher.MyEvent += subscriber2.MethodB1;
+        publisher.MyEvent += subscriber2.MethodB2;
+// event tidak bisa dilakan return value, jadi harus void
+
+
+
+Dictionay<key, value> --> key bisa angka bebas, tapi kalo diurutkan akan urut berdasrkan no key
+list < value> --> key dfault dari index (0), kalo diurutkan akan ngurut berdasarkan value
+
+
+
