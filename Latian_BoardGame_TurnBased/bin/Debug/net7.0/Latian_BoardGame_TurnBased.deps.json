@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Latian_BoardGame_TurnBased/1.0.0": {
+        "runtime": {
+          "Latian_BoardGame_TurnBased.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Latian_BoardGame_TurnBased/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
