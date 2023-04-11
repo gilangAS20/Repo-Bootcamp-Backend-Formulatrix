@@ -1,0 +1,30 @@
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.exe
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.deps.json
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.dll
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.pdb
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.dll
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\refint\DestructorExplicit.dll
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.pdb
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\DestructorExplicit\obj\Debug\net7.0\ref\DestructorExplicit.dll
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.exe
+d:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.deps.json
+d:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.runtimeconfig.json
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.dll
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\bin\Debug\net7.0\DestructorExplicit.pdb
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.AssemblyInfo.cs
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.dll
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\refint\DestructorExplicit.dll
+D:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.pdb
+d:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\DestructorExplicit.genruntimeconfig.cache
+d:\bootcamp_gilang2\Day12-Maskin\DestructorExplicit\obj\Debug\net7.0\ref\DestructorExplicit.dll

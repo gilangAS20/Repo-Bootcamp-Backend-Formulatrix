@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\bin\Debug\net7.0\NestedLoop.exe
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\bin\Debug\net7.0\NestedLoop.deps.json
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\bin\Debug\net7.0\NestedLoop.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\bin\Debug\net7.0\NestedLoop.dll
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\bin\Debug\net7.0\NestedLoop.pdb
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\NestedLoop.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\NestedLoop.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\NestedLoop.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\NestedLoop.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\NestedLoop.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\NestedLoop.dll
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\refint\NestedLoop.dll
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\NestedLoop.pdb
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\NestedLoop.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\NestedLoop\obj\Debug\net7.0\ref\NestedLoop.dll

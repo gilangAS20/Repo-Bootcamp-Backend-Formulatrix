@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\bin\Debug\net7.0\StringBuilder.exe
+d:\bootcamp_gilang2\Day12-Maskin\StringBuilder\bin\Debug\net7.0\StringBuilder.deps.json
+d:\bootcamp_gilang2\Day12-Maskin\StringBuilder\bin\Debug\net7.0\StringBuilder.runtimeconfig.json
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\bin\Debug\net7.0\StringBuilder.dll
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\bin\Debug\net7.0\StringBuilder.pdb
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\StringBuilder.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\StringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\StringBuilder.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\StringBuilder.AssemblyInfo.cs
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\StringBuilder.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\StringBuilder.dll
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\refint\StringBuilder.dll
+D:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\StringBuilder.pdb
+d:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\StringBuilder.genruntimeconfig.cache
+d:\bootcamp_gilang2\Day12-Maskin\StringBuilder\obj\Debug\net7.0\ref\StringBuilder.dll

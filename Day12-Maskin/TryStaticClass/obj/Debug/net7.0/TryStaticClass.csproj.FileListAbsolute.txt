@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\bin\Debug\net7.0\TryStaticClass.exe
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\bin\Debug\net7.0\TryStaticClass.dll
+d:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\bin\Debug\net7.0\TryStaticClass.deps.json
+d:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\bin\Debug\net7.0\TryStaticClass.runtimeconfig.json
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\bin\Debug\net7.0\TryStaticClass.pdb
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\TryStaticClass.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\TryStaticClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\TryStaticClass.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\TryStaticClass.AssemblyInfo.cs
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\TryStaticClass.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\TryStaticClass.dll
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\refint\TryStaticClass.dll
+D:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\TryStaticClass.pdb
+d:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\TryStaticClass.genruntimeconfig.cache
+d:\bootcamp_gilang2\Day12-Maskin\TryStaticClass\obj\Debug\net7.0\ref\TryStaticClass.dll

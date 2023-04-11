@@ -1,0 +1,30 @@
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.exe
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.deps.json
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.dll
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.pdb
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.dll
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\refint\MultipleDestructor.dll
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.pdb
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\MultipleDestructor\obj\Debug\net7.0\ref\MultipleDestructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.exe
+d:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.deps.json
+d:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.runtimeconfig.json
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\bin\Debug\net7.0\MultipleDestructor.pdb
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.AssemblyInfo.cs
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\refint\MultipleDestructor.dll
+D:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.pdb
+d:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\MultipleDestructor.genruntimeconfig.cache
+d:\bootcamp_gilang2\Day12-Maskin\MultipleDestructor\obj\Debug\net7.0\ref\MultipleDestructor.dll

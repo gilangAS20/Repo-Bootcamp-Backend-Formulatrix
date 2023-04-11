@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\bin\Debug\net7.0\GenerationDisposePattern.exe
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\bin\Debug\net7.0\GenerationDisposePattern.deps.json
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\bin\Debug\net7.0\GenerationDisposePattern.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\bin\Debug\net7.0\GenerationDisposePattern.dll
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\bin\Debug\net7.0\GenerationDisposePattern.pdb
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\GenerationDisposePattern.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\GenerationDisposePattern.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\GenerationDisposePattern.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\GenerationDisposePattern.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\GenerationDisposePattern.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\GenerationDisposePattern.dll
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\refint\GenerationDisposePattern.dll
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\GenerationDisposePattern.pdb
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\GenerationDisposePattern.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 12\GenerationDisposePattern\obj\Debug\net7.0\ref\GenerationDisposePattern.dll
