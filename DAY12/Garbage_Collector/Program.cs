@@ -18,6 +18,7 @@ namespace Garbage_Collector
     {
         static void Main()
         {
+            System.Console.WriteLine("--TESTING GC--");
             DestructorDemo obj1 = new DestructorDemo();
             DestructorDemo obj2 = new DestructorDemo();
 
