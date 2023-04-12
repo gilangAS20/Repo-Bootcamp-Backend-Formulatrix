@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\Latian_BoardGame_TurnBased2.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\Latian_BoardGame_TurnBased2.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\Latian_BoardGame_TurnBased2.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\Latian_BoardGame_TurnBased2.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\Latian_BoardGame_TurnBased2.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\bin\Debug\net7.0\Latian_BoardGame_TurnBased2.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\bin\Debug\net7.0\Latian_BoardGame_TurnBased2.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\bin\Debug\net7.0\Latian_BoardGame_TurnBased2.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\bin\Debug\net7.0\Latian_BoardGame_TurnBased2.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\bin\Debug\net7.0\Latian_BoardGame_TurnBased2.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\Latian_BoardGame_TurnBased2.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\refint\Latian_BoardGame_TurnBased2.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\Latian_BoardGame_TurnBased2.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\Latian_BoardGame_TurnBased2.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Latian_BoardGame_TurnBased2\obj\Debug\net7.0\ref\Latian_BoardGame_TurnBased2.dll

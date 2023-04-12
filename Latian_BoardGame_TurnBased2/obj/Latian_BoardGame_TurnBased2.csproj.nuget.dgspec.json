@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj": {}
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased2\\Latian_BoardGame_TurnBased2.csproj": {}
   },
   "projects": {
-    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj": {
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased2\\Latian_BoardGame_TurnBased2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj",
-        "projectName": "Latian_BoardGame_TurnBased",
-        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj",
+        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased2\\Latian_BoardGame_TurnBased2.csproj",
+        "projectName": "Latian_BoardGame_TurnBased2",
+        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased2\\Latian_BoardGame_TurnBased2.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\obj\\",
+        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

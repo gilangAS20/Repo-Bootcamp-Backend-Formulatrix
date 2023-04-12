@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAY12_4", "DAY12_4\DAY12_4.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latian_BoardGame_TurnBased", "Latian_BoardGame_TurnBased\Latian_BoardGame_TurnBased.csproj", "{952C0F64-CC36-40C1-B914-34F032607749}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latian_BoardGame_TurnBased2", "Latian_BoardGame_TurnBased2\Latian_BoardGame_TurnBased2.csproj", "{777BC879-1BFE-4821-8E66-A139979CF207}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,10 @@ Global
 		{952C0F64-CC36-40C1-B914-34F032607749}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952C0F64-CC36-40C1-B914-34F032607749}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952C0F64-CC36-40C1-B914-34F032607749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777BC879-1BFE-4821-8E66-A139979CF207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777BC879-1BFE-4821-8E66-A139979CF207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777BC879-1BFE-4821-8E66-A139979CF207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777BC879-1BFE-4821-8E66-A139979CF207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BE9B9C78-3A78-4943-B140-4E64FE400242} = {051AFDBE-72F3-4832-AEF6-7F5ED4DE1E9A}
