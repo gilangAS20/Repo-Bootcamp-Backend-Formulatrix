@@ -45,7 +45,6 @@ namespace LatianBoardGame2
             // menambahkan hero ke dalam deck
             enemy.deck.heroes.Add(new Archer("Archer1(enemy)"));
             enemy.deck.heroes.Add(new Archer("Archer2(enemy)"));
-            enemy.deck.heroes.Add(new Archer("Archer3(enemy)"));
             enemy.deck.heroes.Add(new Mage());
 
             System.Console.WriteLine("Enemy's Deck: " );
@@ -75,12 +74,12 @@ namespace LatianBoardGame2
                 if(gilang1.deck.heroes[0].heroHealth <= 0)
                 {
                     gilang1.deck.heroes[0].heroHealth = 0;
-                    System.Console.WriteLine(gilang1.playerName + "'s"+ gilang1.deck.heroes[0].heroName + " is Dead");
+                    System.Console.WriteLine(gilang1.playerName + "'s " + gilang1.deck.heroes[0].heroName + " is Dead");
                     gilang1.deck.heroes.RemoveAt(0);
                     //break;
                 }
 
-                else if(enemy.deck.heroes[0].heroHealth <= 0)
+                if(enemy.deck.heroes[0].heroHealth <= 0)
                 {
                     enemy.deck.heroes[0].heroHealth = 0;
                     System.Console.WriteLine(enemy.playerName +"'s "+ enemy.deck.heroes[0].heroName +" is Dead");
@@ -91,11 +90,11 @@ namespace LatianBoardGame2
 
             if(gilang1.deck.heroes.Count > 0)
             {
-                System.Console.WriteLine("\nGilang Win because hero > 0");
+                System.Console.WriteLine("\n===Gilang Win because hero > 0===");
             }
             else if(enemy.deck.heroes.Count > 0)
             {
-                System.Console.WriteLine("\nEnemy Win because hero > 0");
+                System.Console.WriteLine("\n===Enemy Win because hero > 0===");
             }
             else
             {
@@ -106,7 +105,7 @@ namespace LatianBoardGame2
             System.Console.WriteLine("\nGilang's final Deck: " );
             if(gilang1.deck.heroes.Count <= 0)
             {
-                System.Console.WriteLine("Gilang's Hero is Dead, deck is empty");
+                System.Console.WriteLine("Gilang's Heroes is Dead, deck is empty");
             }
             else
             {
@@ -154,14 +153,14 @@ namespace LatianBoardGame2
         public int heroHealth { get; set; } 
         public int heroDamage { get; set; } 
 
-        //Random random = new Random();
+        Random random = new Random();
 
         public Archer(string name)
         {
             heroName = name;
             heroHealth = 100;
-            //heroDamage = random.Next(1, 10);
-            heroDamage = 10;
+            heroDamage = random.Next(1, 10);
+            //heroDamage = 10;
         }
     }
 
@@ -170,14 +169,14 @@ namespace LatianBoardGame2
         public string heroName{ get; set; }
         public int heroHealth{ get; set; }
         public int heroDamage{ get; set; }
-        //Random random = new Random();
+        Random random = new Random();
 
         public Mage()
         {
             heroName = "Mage";
             heroHealth = 100;
-            //heroDamage = random.Next(1, 10);
-            heroDamage = 5;
+            heroDamage = random.Next(1, 10);
+            //heroDamage = 5;
         }
     }
 }
