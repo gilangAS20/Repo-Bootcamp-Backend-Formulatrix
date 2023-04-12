@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\bin\Debug\net7.0\ConditionalCompilation.exe
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\bin\Debug\net7.0\ConditionalCompilation.deps.json
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\bin\Debug\net7.0\ConditionalCompilation.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\bin\Debug\net7.0\ConditionalCompilation.dll
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\bin\Debug\net7.0\ConditionalCompilation.pdb
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ConditionalCompilation.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ConditionalCompilation.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ConditionalCompilation.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ConditionalCompilation.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ConditionalCompilation.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ConditionalCompilation.dll
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\refint\ConditionalCompilation.dll
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ConditionalCompilation.pdb
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ConditionalCompilation.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 17\ConditionalCompilation\obj\Debug\net7.0\ref\ConditionalCompilation.dll

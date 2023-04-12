@@ -1,0 +1,15 @@
+C:\C#\Bootcamp\vscode\Day 17\Debug\bin\--help\net7.0\Debug.exe
+C:\C#\Bootcamp\vscode\Day 17\Debug\bin\--help\net7.0\Debug.deps.json
+C:\C#\Bootcamp\vscode\Day 17\Debug\bin\--help\net7.0\Debug.runtimeconfig.json
+C:\C#\Bootcamp\vscode\Day 17\Debug\bin\--help\net7.0\Debug.dll
+C:\C#\Bootcamp\vscode\Day 17\Debug\bin\--help\net7.0\Debug.pdb
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\Debug.csproj.AssemblyReference.cache
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\Debug.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\Debug.AssemblyInfoInputs.cache
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\Debug.AssemblyInfo.cs
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\Debug.csproj.CoreCompileInputs.cache
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\Debug.dll
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\refint\Debug.dll
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\Debug.pdb
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\Debug.genruntimeconfig.cache
+C:\C#\Bootcamp\vscode\Day 17\Debug\obj\--help\net7.0\ref\Debug.dll

@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\bin\Debug\net7.0\ConsoleTraceListeners.exe
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\bin\Debug\net7.0\ConsoleTraceListeners.deps.json
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\bin\Debug\net7.0\ConsoleTraceListeners.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\bin\Debug\net7.0\ConsoleTraceListeners.dll
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\bin\Debug\net7.0\ConsoleTraceListeners.pdb
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ConsoleTraceListeners.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ConsoleTraceListeners.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ConsoleTraceListeners.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ConsoleTraceListeners.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ConsoleTraceListeners.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ConsoleTraceListeners.dll
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\refint\ConsoleTraceListeners.dll
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ConsoleTraceListeners.pdb
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ConsoleTraceListeners.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 17\ConsoleTraceListeners\obj\Debug\net7.0\ref\ConsoleTraceListeners.dll

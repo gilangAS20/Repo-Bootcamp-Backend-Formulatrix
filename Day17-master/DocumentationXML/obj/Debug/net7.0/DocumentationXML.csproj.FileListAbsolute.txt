@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\DocumentationXML.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\DocumentationXML.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\DocumentationXML.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\DocumentationXML.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\DocumentationXML.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\bin\Debug\net7.0\DocumentationXML.exe
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\bin\Debug\net7.0\DocumentationXML.deps.json
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\bin\Debug\net7.0\DocumentationXML.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\bin\Debug\net7.0\DocumentationXML.dll
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\bin\Debug\net7.0\DocumentationXML.pdb
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\DocumentationXML.dll
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\refint\DocumentationXML.dll
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\DocumentationXML.pdb
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\DocumentationXML.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 17\DocumentationXML\obj\Debug\net7.0\ref\DocumentationXML.dll

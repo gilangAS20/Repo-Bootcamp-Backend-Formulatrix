@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 17\HotReload\bin\Debug\net7.0\HotReload.exe
+c:\C#\Bootcamp\vscode\Day 17\HotReload\bin\Debug\net7.0\HotReload.deps.json
+c:\C#\Bootcamp\vscode\Day 17\HotReload\bin\Debug\net7.0\HotReload.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 17\HotReload\bin\Debug\net7.0\HotReload.dll
+c:\C#\Bootcamp\vscode\Day 17\HotReload\bin\Debug\net7.0\HotReload.pdb
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\HotReload.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\HotReload.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\HotReload.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\HotReload.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\HotReload.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\HotReload.dll
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\refint\HotReload.dll
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\HotReload.pdb
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\HotReload.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 17\HotReload\obj\Debug\net7.0\ref\HotReload.dll
