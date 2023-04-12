@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj": {}
+    "d:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj": {}
   },
   "projects": {
-    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj": {
+    "d:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj",
+        "projectUniqueName": "d:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj",
         "projectName": "Latian_BoardGame_TurnBased",
-        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\obj\\",
+        "projectPath": "d:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\Latian_BoardGame_TurnBased.csproj",
+        "packagesPath": "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\",
+        "outputPath": "d:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\Latian_BoardGame_TurnBased\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FORMULATRIX.SE-105\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,8 +48,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -56,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
         }
       }
     }

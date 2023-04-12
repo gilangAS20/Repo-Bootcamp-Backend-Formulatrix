@@ -30,7 +30,7 @@ namespace Latian_BoardGame_TurnBased
             Console.WriteLine(gilang.DisplayPlayerInfo());
             Console.WriteLine(myEnemy.DisplayEnemyInfo());
             System.Console.WriteLine("\n are you ready? \n");
-            Console.ReadKey();
+            //Console.ReadKey();
             Thread.Sleep(1000);
 
             while(gilang.health > 0 && myEnemy.health > 0)
@@ -48,7 +48,7 @@ namespace Latian_BoardGame_TurnBased
                 Thread.Sleep(2000);
 
                 System.Console.WriteLine("Enter to continue\n\n");
-                Console.ReadKey();
+                //Console.ReadKey();
                 Thread.Sleep(2000);
 
                 if(gilang.health <= 0)
