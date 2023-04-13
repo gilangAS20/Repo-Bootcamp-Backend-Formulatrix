@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\DAY18_8_ContinueWith.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\DAY18_8_ContinueWith.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\DAY18_8_ContinueWith.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\DAY18_8_ContinueWith.AssemblyInfo.cs
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\DAY18_8_ContinueWith.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\bin\Debug\net7.0\DAY18_8_ContinueWith.exe
+d:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\bin\Debug\net7.0\DAY18_8_ContinueWith.deps.json
+d:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\bin\Debug\net7.0\DAY18_8_ContinueWith.runtimeconfig.json
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\bin\Debug\net7.0\DAY18_8_ContinueWith.dll
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\bin\Debug\net7.0\DAY18_8_ContinueWith.pdb
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\DAY18_8_ContinueWith.dll
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\refint\DAY18_8_ContinueWith.dll
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\DAY18_8_ContinueWith.pdb
+d:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\DAY18_8_ContinueWith.genruntimeconfig.cache
+d:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_8_ContinueWith\obj\Debug\net7.0\ref\DAY18_8_ContinueWith.dll

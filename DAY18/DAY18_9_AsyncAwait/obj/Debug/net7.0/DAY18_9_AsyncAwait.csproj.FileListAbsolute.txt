@@ -1,0 +1,15 @@
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\bin\Debug\net7.0\DAY18_9_AsyncAwait.exe
+d:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\bin\Debug\net7.0\DAY18_9_AsyncAwait.deps.json
+d:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\bin\Debug\net7.0\DAY18_9_AsyncAwait.runtimeconfig.json
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\bin\Debug\net7.0\DAY18_9_AsyncAwait.dll
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\bin\Debug\net7.0\DAY18_9_AsyncAwait.pdb
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\DAY18_9_AsyncAwait.csproj.AssemblyReference.cache
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\DAY18_9_AsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\DAY18_9_AsyncAwait.AssemblyInfoInputs.cache
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\DAY18_9_AsyncAwait.AssemblyInfo.cs
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\DAY18_9_AsyncAwait.csproj.CoreCompileInputs.cache
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\DAY18_9_AsyncAwait.dll
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\refint\DAY18_9_AsyncAwait.dll
+D:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\DAY18_9_AsyncAwait.pdb
+d:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\DAY18_9_AsyncAwait.genruntimeconfig.cache
+d:\bootcamp_gilang2\Repo-Bootcamp-Backend-Formulatrix\DAY18\DAY18_9_AsyncAwait\obj\Debug\net7.0\ref\DAY18_9_AsyncAwait.dll
