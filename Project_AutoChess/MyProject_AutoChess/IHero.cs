@@ -3,10 +3,10 @@ namespace MyProject_AutoChess
     public interface IHero
     {
         // properties
-        public int LocationHero {get; set;}
-        public string HeroName {get;set;}
+        public int locationHero {get; set;}
+        public string heroName {get;set;}
         public int HP {get;set;} // HP = Health Points
-        public int DamageHero {get;set;}
+        public int damageHero {get;set;}
 
 
         // methods
@@ -16,52 +16,6 @@ namespace MyProject_AutoChess
         public int GetDamageHero();
     }
 
-    
-
-    /*
-    public class IGoblin : IHero
-    {
-        // properties
-        public int LocationHero {get;set;}
-        public string HeroName {get;set;}
-        public int HP {get;set;} // HP = Health Points
-        public int DamageHero {get;set;}
-        public int Armor {get;set;}
-        public int HPRegeneration {get;set;}
-    
-
-        // method
-        public int GetLocationHero()
-        {
-            return 0; // smeentara dulu
-        }
-
-        public string GetHeroName()
-        {
-            return "IGoblin";
-        }
-
-        public int GetHP()
-        {
-            return 100;
-        }
-
-        public int GetDamageHero()
-        {
-            return 3;
-        }
-
-        public int GetArmor()
-        {
-            return 2; // jika ada yang nge-attack, maka damage yang diterima akan dikurangi armor
-        }
-
-        public int GetHPRegeneration()
-        {
-            return 1; // setiap 1 detik, HP akan bertambah 1
-        }
-    } // end of class IGoblin
-    */
     
     /*
     public class IMech : IHero

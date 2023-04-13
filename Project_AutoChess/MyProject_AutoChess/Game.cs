@@ -6,7 +6,12 @@ namespace MyProject_AutoChess
         public List<Players> listPlayer = new List<Players>();
         public Board board = new Board();
         public Deck deck = new Deck();
-        public Assassin assassin = new Assassin();
+        //public Assassin assassin = new Assassin();
+
+        // membuat instance hero
+        public Freya freya = new Freya();
+        
+        // membuat instance player1 dan player2
         Players player1 = new Players();
         Players player2 = new Players();
         public string AddPlayer(string PlayerName1, string PlayerName2)
@@ -38,16 +43,16 @@ namespace MyProject_AutoChess
         {
             if(playerName == player1.PlayerName)
             {
-                if(heroName.ToLower() == "assassin")
+                if(heroName.ToLower() == "freya")
                 {
-                    player1.deck.listHero.Add(assassin);
+                    player1.deck.listHero.Add(freya);
                 }
             }
             else if(playerName == player2.PlayerName)
             {
-                if(heroName.ToLower() == "assassin")
+                if(heroName.ToLower() == "freya")
                 {
-                    player2.deck.listHero.Add(assassin);
+                    player2.deck.listHero.Add(freya);
                 }
             }
         }
@@ -58,14 +63,14 @@ namespace MyProject_AutoChess
             {
                 foreach (var item in player1.deck.listHero)
                 {
-                    Console.WriteLine("Hero: " + item.HeroName);
+                    Console.WriteLine("Hero: " + item.heroName);
                 }
             }
             else if(playerName == player2.PlayerName)
             {
                 foreach (var item in player2.deck.listHero)
                 {
-                    Console.WriteLine("Hero: " + item.HeroName);
+                    Console.WriteLine("Hero: " + item.heroName);
                 }
             }
         }

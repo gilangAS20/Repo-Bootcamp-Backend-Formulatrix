@@ -23,23 +23,23 @@ class Program
         game.AddPlayer("yuki", "Enemiii"); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
 
         // menampilkan jumlah isi dari game.listPlayer
-        System.Console.WriteLine("Jumlah player dalam listPlayer: ");
+        System.Console.WriteLine("\nJumlah player dalam listPlayer: ");
         System.Console.WriteLine(game.listPlayer.Count);
         
         // menampilkan isi dari game.listPlayer
-        System.Console.WriteLine("Isi dari listPlayer: ");
+        System.Console.WriteLine("\nIsi dari listPlayer: ");
         game.ShowListPlayer();
 
-        System.Console.WriteLine("\n");
         // menambahkan hero ke dalam deck
-        game.AddHeroToDeck("Gilang", "assassin");
+        game.AddHeroToDeck("Gilang", "freya");
         // menampilkan deck Gilang
-        System.Console.WriteLine("Deck Gilang: ");
+        System.Console.WriteLine("\nDeck Gilang: ");
         game.ShowDeck("Gilang");
 
-        game.AddHeroToDeck("Enemy", "assassin");
+        // menambahkan hero ke dalam deck
+        game.AddHeroToDeck("Enemy", "freya");
         // menampilkan deck Enemy
-        System.Console.WriteLine("Deck Enemy: ");
+        System.Console.WriteLine("\nDeck Enemy: ");
         game.ShowDeck("Enemy");
 
     }
