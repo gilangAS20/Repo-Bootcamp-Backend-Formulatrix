@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\bootcamp_formulatrix\\bootcamp_gilang2\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj",
+      "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj",
       "projectName": "MyProject_AutoChess",
-      "projectPath": "E:\\bootcamp_formulatrix\\bootcamp_gilang2\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj",
+      "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "E:\\bootcamp_formulatrix\\bootcamp_gilang2\\Project_AutoChess\\MyProject_AutoChess\\obj\\",
+      "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

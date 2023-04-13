@@ -1,15 +1,9 @@
 namespace MyProject_AutoChess
 {
 
-    public class Player
+    public class Players
     {
         public string PlayerName {get;set;}
-        Deck deck = new Deck();
-
-        public string GetPlayerName(string PlayerName)
-        {
-            this.PlayerName = PlayerName;
-            return PlayerName;
-        }
+        public Deck deck = new Deck();
     }
 }

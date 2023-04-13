@@ -11,16 +11,32 @@ class Program
 {
     static void Main()
     {
-        Game game = new Game();
-        game.AddPlayer("Player 1");
-        game.AddPlayer("Player 2");
-        //game.showListPlayer();
+        System.Console.WriteLine("=== SELAMAT DATANG DI AUTOCHESS ===\n");
 
-        foreach (var item in game.listPlayer)
-        {
-            System.Console.WriteLine("halo");
-            Console.WriteLine(item.PlayerName);
-        }
+
+        // membuat instance untuk class Game
+        Game game = new Game();
+        
+
+        // menambahkan player
+        game.AddPlayer("Gilang", "Enemy");
+        game.AddPlayer("yuki", "Enemiii"); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
+
+        // menampilkan jumlah isi dari game.listPlayer
+        System.Console.WriteLine("Jumlah player dalam listPlayer: ");
+        System.Console.WriteLine(game.listPlayer.Count);
+        
+        // menampilkan isi dari game.listPlayer
+        System.Console.WriteLine("Isi dari listPlayer: ");
+        game.ShowListPlayer();
+
+        System.Console.WriteLine("\n");
+        // menambahkan hero ke dalam deck
+        game.AddHeroToDeck("Gilang", "assassin");
+        // menampilkan deck Gilang
+        System.Console.WriteLine("Deck Gilang: ");
+        game.ShowDeck("Gilang");
+
     }
 }
 
