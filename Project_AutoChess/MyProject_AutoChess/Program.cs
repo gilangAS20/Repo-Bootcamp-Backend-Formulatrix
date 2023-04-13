@@ -37,6 +37,11 @@ class Program
         System.Console.WriteLine("Deck Gilang: ");
         game.ShowDeck("Gilang");
 
+        game.AddHeroToDeck("Enemy", "assassin");
+        // menampilkan deck Enemy
+        System.Console.WriteLine("Deck Enemy: ");
+        game.ShowDeck("Enemy");
+
     }
 }
 
