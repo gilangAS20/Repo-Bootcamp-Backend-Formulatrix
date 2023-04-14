@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY18\\DAY19_6\\DAY19_6.csproj": {}
+    "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY19\\DAY19_1\\DAY19_1.csproj": {}
   },
   "projects": {
-    "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY18\\DAY19_6\\DAY19_6.csproj": {
+    "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY19\\DAY19_1\\DAY19_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY18\\DAY19_6\\DAY19_6.csproj",
-        "projectName": "DAY19_6",
-        "projectPath": "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY18\\DAY19_6\\DAY19_6.csproj",
+        "projectUniqueName": "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY19\\DAY19_1\\DAY19_1.csproj",
+        "projectName": "DAY19_1",
+        "projectPath": "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY19\\DAY19_1\\DAY19_1.csproj",
         "packagesPath": "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\",
-        "outputPath": "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY18\\DAY19_6\\obj\\",
+        "outputPath": "D:\\bootcamp_gilang2\\Repo-Bootcamp-Backend-Formulatrix\\DAY19\\DAY19_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
