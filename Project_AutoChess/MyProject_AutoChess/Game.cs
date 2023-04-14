@@ -10,6 +10,8 @@ namespace MyProject_AutoChess
 
         // membuat instance hero
         public Freya freya = new Freya();
+        public Garo garo = new Garo();
+        public Stella stella = new Stella();
         
         // membuat instance player1 dan player2
         Players player1 = new Players();
@@ -47,12 +49,28 @@ namespace MyProject_AutoChess
                 {
                     player1.deck.listHero.Add(freya);
                 }
+                else if(heroName.ToLower() == "garo")
+                {
+                    player1.deck.listHero.Add(garo);
+                }
+                else if(heroName.ToLower() == "stella")
+                {
+                    player1.deck.listHero.Add(stella);
+                }
             }
             else if(playerName == player2.PlayerName)
             {
                 if(heroName.ToLower() == "freya")
                 {
                     player2.deck.listHero.Add(freya);
+                }
+                else if(heroName.ToLower() == "garo")
+                {
+                    player2.deck.listHero.Add(garo);
+                }
+                else if(heroName.ToLower() == "stella")
+                {
+                    player2.deck.listHero.Add(stella);
                 }
             }
         }
@@ -72,6 +90,44 @@ namespace MyProject_AutoChess
                 {
                     Console.WriteLine("Hero: " + item.heroName);
                 }
+            }
+        }
+
+        public void RemoveHeroFromDeck(string playerName, string heroName)
+        {
+            bool heroFound = false;
+
+            if(playerName == player1.PlayerName)
+            {
+                // jika heroName sesuai dengan heroName yang ada di dalam listHero, hapus melalui index
+                for(int i = 0; i < player1.deck.listHero.Count; i++)
+                {
+                    if(heroName.ToLower() == player1.deck.listHero[i].heroName.ToLower())
+                    {
+                        player1.deck.listHero.RemoveAt(i);
+                        heroFound = true;
+                        break;
+                    }
+                }
+            }
+
+            else if(playerName == player2.PlayerName)
+            {
+                for(int i = 0; i < player2.deck.listHero.Count; i++)
+                {
+                    if(heroName.ToLower() == player2.deck.listHero[i].heroName.ToLower())
+                    {
+                        player2.deck.listHero.RemoveAt(i);
+                        heroFound = true;
+                        break;
+                    }
+                }
+
+            }
+
+            if(!heroFound)
+            {
+                System.Console.WriteLine($"Hero '{heroName}' not found");
             }
         }
     }

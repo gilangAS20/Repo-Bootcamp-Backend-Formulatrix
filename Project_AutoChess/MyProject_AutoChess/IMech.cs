@@ -1,12 +1,14 @@
 namespace MyProject_AutoChess
 {
-    public interface IHero
+    public interface IMech : IHero
     {
-        // properties
+        //properties
         public int locationHero {get; set;}
         public string heroName {get;set;}
         public int HP {get;set;} // HP = Health Points
         public int damageHero {get;set;}
+        public int heart {get;set;} // “Aturan sendiri”, jika heart bertambah maka, HP nya akan bertambah 10
+        public int golden {get;set;} // “Aturan sendiri”, jika golden bertambah maka, Damage nya akan bertambah 1
 
 
         // methods
@@ -14,5 +16,7 @@ namespace MyProject_AutoChess
         public string GetHeroName();
         public int GetHP();
         public int GetDamageHero();
-    } // end of class IHero
+        public int GetHeartOfMech();
+        public int GetGoldenHeartOfMech();
+    }
 }

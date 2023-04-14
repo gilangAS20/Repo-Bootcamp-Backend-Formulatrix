@@ -32,14 +32,33 @@ class Program
 
         // menambahkan hero ke dalam deck
         game.AddHeroToDeck("Gilang", "freya");
+        game.AddHeroToDeck("Gilang", "garo");
+        game.AddHeroToDeck("Gilang", "stella");
         // menampilkan deck Gilang
         System.Console.WriteLine("\nDeck Gilang: ");
         game.ShowDeck("Gilang");
 
+        // tes delete hero dari dalam deck
+        System.Console.WriteLine("Delete hero from Gilang's deck: ");
+        game.RemoveHeroFromDeck("Gilang", "garo");
+        game.RemoveHeroFromDeck("Gilang", "anjay");
+        System.Console.WriteLine("\nDeck Gilang(after remove): ");
+        game.ShowDeck("Gilang");
+
         // menambahkan hero ke dalam deck
+        game.AddHeroToDeck("Enemy", "garo");
         game.AddHeroToDeck("Enemy", "freya");
+        game.AddHeroToDeck("Enemy", "stella");
         // menampilkan deck Enemy
         System.Console.WriteLine("\nDeck Enemy: ");
+        game.ShowDeck("Enemy");
+
+        // tes delete hero dari dalam deck
+        System.Console.WriteLine("Delete hero from Enemy's deck: ");
+        game.RemoveHeroFromDeck("Enemy", "stella");
+        game.RemoveHeroFromDeck("Enemy", "garo");
+        game.RemoveHeroFromDeck("Enemy", "yuzu");
+        System.Console.WriteLine("\nDeck Enemy(after remove): ");
         game.ShowDeck("Enemy");
 
     }
