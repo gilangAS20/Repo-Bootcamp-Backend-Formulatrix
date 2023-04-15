@@ -10,13 +10,13 @@ namespace MyProject_AutoChess
         public double chance {get;set;}
         public int armor {get;set;}
         public int HPRegeneration {get;set;}
-
+        Random random = new Random();
         public Freya()
         {
             locationHero = 0;
             heroName = "freya";
-            HP = 130;
-            damageHero = 10;
+            HP = random.Next(80, 120);
+            damageHero = random.Next(7, 10);
             chance = 0.3;
             armor = 3;
             HPRegeneration = 1;
