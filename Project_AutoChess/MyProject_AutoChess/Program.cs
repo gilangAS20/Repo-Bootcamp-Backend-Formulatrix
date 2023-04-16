@@ -18,8 +18,8 @@ class Program
         Game game = new Game();
 
         // menambahkan player
-        Console.WriteLine(game.AddPlayer("Gilang", "Enemy"));
-        Console.WriteLine(game.AddPlayer("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
+        Console.WriteLine(game.AddPlayers("Gilang", "Enemy"));
+        Console.WriteLine(game.AddPlayers("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
 
         // menampilkan jumlah isi dari game.listPlayer
         System.Console.WriteLine("\nJumlah player dalam listPlayer: ");

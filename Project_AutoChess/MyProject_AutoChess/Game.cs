@@ -15,7 +15,7 @@ namespace MyProject_AutoChess
         // membuat instance player1 dan player2
         Players playerOne = new Players();
         Players playerTwo = new Players();
-        public string AddPlayer(string PlayerName1, string PlayerName2)
+        public string AddPlayers(string PlayerName1, string PlayerName2)
         {
             if(listPlayer.Count >= 2)
             {
@@ -56,26 +56,26 @@ namespace MyProject_AutoChess
         } // end of method AddHeroToDeck
 
         public void AddHeroPlayerOne(string heroName)
-        {       
-                if(heroName.ToLower() == "freya")
-                {
-                    Freya freya = new Freya();
-                    playerOne.deck.listHero.Add(freya);
-                }
-                else if(heroName.ToLower() == "garo")
-                {
-                    Garo garo = new Garo();
-                    playerOne.deck.listHero.Add(garo);
-                }
-                else if(heroName.ToLower() == "stella")
-                {   
-                    Stella stella = new Stella();
-                    playerOne.deck.listHero.Add(stella);
-                }
-                else
-                {
-                    System.Console.WriteLine("Hero "+ heroName +" not found");
-                }
+        {
+            if(heroName.ToLower() == "freya")
+            {
+                Freya freya = new Freya();
+                playerOne.deck.listHero.Add(freya);
+            }
+            else if(heroName.ToLower() == "garo")
+            {
+                Garo garo = new Garo();
+                playerOne.deck.listHero.Add(garo);
+            }
+            else if(heroName.ToLower() == "stella")
+            {   
+                Stella stella = new Stella();
+                playerOne.deck.listHero.Add(stella);
+            }
+            else
+            {
+                System.Console.WriteLine("Hero "+ heroName +" not found");
+            }
         } // end of method AddHeroPlayerOne
 
         public void AddHeroPlayerTwo(string heroName)
@@ -246,36 +246,44 @@ namespace MyProject_AutoChess
             if(randomPlayer == 0)
             {
                 // player1 turn
-                System.Console.WriteLine("--" + playerOne.playerName + " turn--");
-                playerTwo.deck.listHero[0].HP -= playerOne.deck.listHero[0].damageHero;
-                System.Console.WriteLine(playerOne.deck.listHero[0].heroName + " is attacking " + playerTwo.deck.listHero[0].heroName);
-                System.Console.WriteLine(playerTwo.playerName + "'s " + playerTwo.deck.listHero[0].heroName + " HP: " + playerTwo.deck.listHero[0].HP);
+                PlayerOneTurn();
 
                 // player2 turn
-                System.Console.WriteLine("--" + playerTwo.playerName + " turn--");
-                playerOne.deck.listHero[0].HP -= playerTwo.deck.listHero[0].damageHero;
-                System.Console.WriteLine(playerTwo.deck.listHero[0].heroName + " is attacking " + playerOne.deck.listHero[0].heroName);
-                System.Console.WriteLine(playerOne.playerName + "'s " + playerOne.deck.listHero[0].heroName + " HP: " + playerOne.deck.listHero[0].HP);
+                PlayerTwoTurn();
+
                 //DeleteHeroDead();
             }
             else
             {
                 // player2 turn
-                System.Console.WriteLine("--" + playerTwo.playerName + " turn--");
-                playerOne.deck.listHero[0].HP -= playerTwo.deck.listHero[0].damageHero;
-                System.Console.WriteLine(playerTwo.deck.listHero[0].heroName + " is attacking " + playerOne.deck.listHero[0].heroName);
-                System.Console.WriteLine(playerOne.playerName + "'s " + playerOne.deck.listHero[0].heroName + " HP: " + playerOne.deck.listHero[0].HP);
+                PlayerTwoTurn();
 
                 // player1 turn
-                System.Console.WriteLine("--" + playerOne.playerName + " turn--");
-                playerTwo.deck.listHero[0].HP -= playerOne.deck.listHero[0].damageHero;
-                System.Console.WriteLine(playerOne.deck.listHero[0].heroName + " is attacking " + playerTwo.deck.listHero[0].heroName);
-                System.Console.WriteLine(playerTwo.playerName + "'s " + playerTwo.deck.listHero[0].heroName + " HP: " + playerTwo.deck.listHero[0].HP);
+                PlayerOneTurn();
+
                 //DeleteHeroDead();
             }
             DeleteHeroDead();
             System.Console.WriteLine("==========================================================");
             Thread.Sleep(500);
+        }
+
+        public void PlayerOneTurn()
+        {
+            // playerOne attack to playerTwo
+                System.Console.WriteLine("--" + playerOne.playerName + " turn--");
+                playerTwo.deck.listHero[0].HP -= playerOne.deck.listHero[0].damageHero;
+                System.Console.WriteLine(playerOne.deck.listHero[0].heroName + " is attacking " + playerTwo.deck.listHero[0].heroName);
+                System.Console.WriteLine(playerTwo.playerName + "'s " + playerTwo.deck.listHero[0].heroName + " HP: " + playerTwo.deck.listHero[0].HP);
+        }
+
+        public void PlayerTwoTurn()
+        {
+            // playerTwo attack to playerOne
+                System.Console.WriteLine("--" + playerTwo.playerName + " turn--");
+                playerOne.deck.listHero[0].HP -= playerTwo.deck.listHero[0].damageHero;
+                System.Console.WriteLine(playerTwo.deck.listHero[0].heroName + " is attacking " + playerOne.deck.listHero[0].heroName);
+                System.Console.WriteLine(playerOne.playerName + "'s " + playerOne.deck.listHero[0].heroName + " HP: " + playerOne.deck.listHero[0].HP);
         }
 
         public void DeleteHeroDead()
