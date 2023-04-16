@@ -18,8 +18,8 @@ class Program
         Game game = new Game();
 
         // menambahkan player
-        game.AddPlayer("Gilang", "Enemy");
-        game.AddPlayer("yuki", "Enemiii"); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
+        Console.WriteLine(game.AddPlayer("Gilang", "Enemy"));
+        Console.WriteLine(game.AddPlayer("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
 
         // menampilkan jumlah isi dari game.listPlayer
         System.Console.WriteLine("\nJumlah player dalam listPlayer: ");
@@ -34,15 +34,17 @@ class Program
         game.AddHeroToDeck("Gilang", "freya");
         game.AddHeroToDeck("Gilang", "garo");
         game.AddHeroToDeck("Gilang", "stella");
+        game.AddHeroToDeck("Gilang", "slebew");
+
+        // menampilkan deck Gilang
+        game.ShowDeck("Gilang");
+        System.Console.WriteLine("\n");
 
         // menambahkan hero player2 ke dalam deck
         game.AddHeroToDeck("Enemy", "garo");
         game.AddHeroToDeck("Enemy", "stella");
         game.AddHeroToDeck("Enemy", "freya");
-
-        // menampilkan deck Gilang
-        game.ShowDeck("Gilang");
-        System.Console.WriteLine("\n");
+        game.AddHeroToDeck("Enemy", "plankton");
 
         // menampilkan deck Enemy
         game.ShowDeck("Enemy");
@@ -58,9 +60,23 @@ class Program
 
         // tes delete hero player2 dari dalam deck
         System.Console.WriteLine("\nDelete hero from Enemy's deck: ");
-        //game.RemoveHeroFromDeck("Enemy", "garo");
+        game.RemoveHeroFromDeck("Enemy", "garo");
         game.RemoveHeroFromDeck("Enemy", "yuzu");
         System.Console.WriteLine("\nDeck Enemy(after remove): ");
+        game.ShowDeck("Enemy");
+
+        System.Console.WriteLine("\n");
+
+        // menambahkan kembali hero player1 ke dalam deck
+        System.Console.WriteLine("Add hero to gilang's deck ");
+        game.AddHeroToDeck("Gilang", "freya");
+        game.ShowDeck("Gilang");
+        
+        System.Console.WriteLine("\n");
+
+        // menambahkan kembali hero player2 ke dalam deck
+        System.Console.WriteLine("Add hero to enemy's deck ");
+        game.AddHeroToDeck("Enemy", "garo");
         game.ShowDeck("Enemy");
         Console.WriteLine("=========================================================");
 
