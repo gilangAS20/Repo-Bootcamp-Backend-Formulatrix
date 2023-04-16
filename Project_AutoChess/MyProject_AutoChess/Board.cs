@@ -3,7 +3,6 @@ namespace MyProject_AutoChess
     public class Board
     {
         List<Tile> listTiles = new List<Tile>();
-
         public bool CheckAvailabilityMoveTile(List<Tile> listTiles)
         {
             // jika tile yang dipilih belum ada hero, maka return true
@@ -12,8 +11,10 @@ namespace MyProject_AutoChess
         }
     }
 
+    /*
     public class Tile
     {
         List<int> tile = new List<int>();
     }
+    */
 }
