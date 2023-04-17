@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\DAY20_1.csproj": {}
+    "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\DAY20_1.csproj": {}
   },
   "projects": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\DAY20_1.csproj": {
+    "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\DAY20_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\DAY20_1.csproj",
+        "projectUniqueName": "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\DAY20_1.csproj",
         "projectName": "DAY20_1",
-        "projectPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\DAY20_1.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\obj\\",
+        "projectPath": "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\DAY20_1.csproj",
+        "packagesPath": "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\",
+        "outputPath": "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY20\\DAY20_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FORMULATRIX.SE-105\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,8 +48,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -56,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
         }
       }
     }

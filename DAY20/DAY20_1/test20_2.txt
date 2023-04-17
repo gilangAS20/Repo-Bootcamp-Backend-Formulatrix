@@ -1,0 +1,1 @@
+test akses file diluar folder program.cs

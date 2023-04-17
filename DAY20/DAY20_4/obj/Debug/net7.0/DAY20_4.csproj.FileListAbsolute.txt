@@ -1,0 +1,15 @@
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\bin\Debug\net7.0\DAY20_4.exe
+d:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\bin\Debug\net7.0\DAY20_4.deps.json
+d:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\bin\Debug\net7.0\DAY20_4.runtimeconfig.json
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\bin\Debug\net7.0\DAY20_4.dll
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\bin\Debug\net7.0\DAY20_4.pdb
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\DAY20_4.csproj.AssemblyReference.cache
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\DAY20_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\DAY20_4.AssemblyInfoInputs.cache
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\DAY20_4.AssemblyInfo.cs
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\DAY20_4.csproj.CoreCompileInputs.cache
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\DAY20_4.dll
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\refint\DAY20_4.dll
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\DAY20_4.pdb
+d:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\DAY20_4.genruntimeconfig.cache
+d:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_4\obj\Debug\net7.0\ref\DAY20_4.dll

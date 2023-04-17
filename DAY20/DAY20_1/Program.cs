@@ -6,9 +6,9 @@ class Test
 {
     static void Main()
     {
-        string path = @"E:\bootcamp_formulatrix\bootcamp_gilang2\TryFileStream\testFileStream.txt";
+        string path = @"D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY20\DAY20_1\testFileStream.txt";
         if(!File.Exists(path))
-        {   
+        {
             //create file and write on it
             using (StreamWriter sw = File.CreateText(path))
             {
@@ -17,11 +17,11 @@ class Test
                 sw.WriteLine("yuhuww");
             }
         }
+
         // read text in file
         using(StreamReader sr = File.OpenText(path))
         {
             string text;
-                
             while((text = sr.ReadLine()) != null)
             {
                 System.Console.WriteLine(text);
