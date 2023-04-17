@@ -4,8 +4,9 @@ namespace MyProject_AutoChess
     public class Game
     {
         public List<Players> listPlayer = new List<Players>();
-        public Board board = new Board();
-        public Deck deck = new Deck();
+        public Board boardPlayerOne = new Board();
+        public Board boardPlayerTwo = new Board();
+        //public Deck deck = new Deck();
 
         // membuat instance hero
         //public Freya freya = new Freya();
@@ -40,23 +41,60 @@ namespace MyProject_AutoChess
             }
         } // end of method ShowListPlayer
 
-        public void AddHeroToDeck(string playerName, string heroName)
+        public void AddHeroToDeck(string playerName, string heroName, int location)
         {
-            // menambahkan hero ke dalam deck player1
-            if(playerName == playerOne.playerName)
+            if(location < 1 || location > 24)
             {
-                AddHeroPlayerOne(heroName);
+                System.Console.WriteLine("Location must be between 1 and 24");
             }
-
-            // menambahkan hero ke dalam deck player2
-            else if(playerName == playerTwo.playerName)
+            else
             {
-                AddHeroPlayerTwo(heroName);
+                // menambahkan hero ke dalam deck player1
+                if(playerName == playerOne.playerName)
+                {
+                    AddHeroPlayerOne(heroName, location);
+                }
+
+                // menambahkan hero ke dalam deck player2
+                else if(playerName == playerTwo.playerName)
+                {
+                    AddHeroPlayerTwo(heroName, location);
+                }
             }
         } // end of method AddHeroToDeck
 
-        public void AddHeroPlayerOne(string heroName)
+        public void AddHeroPlayerOne(string heroName, int location)
         {
+            if(boardPlayerOne.CheckAvailabilityMoveTile(location) == true)
+            {
+                if(heroName.ToLower() == "freya")
+                {
+                    Freya freya = new Freya();
+                    playerOne.deck.listHero.Add(freya);
+                    boardPlayerOne.tiles.tile.Add(location, "freya");
+                }
+                else if(heroName.ToLower() == "garo")
+                {
+                    Garo garo = new Garo();
+                    playerOne.deck.listHero.Add(garo);
+                    boardPlayerOne.tiles.tile.Add(location, "garo");
+                }
+                else if(heroName.ToLower() == "stella")
+                {   
+                    Stella stella = new Stella();
+                    playerOne.deck.listHero.Add(stella);
+                    boardPlayerOne.tiles.tile.Add(location, "stella");
+                }
+                else
+                {
+                    System.Console.WriteLine("Hero "+ heroName +" not found");
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Tile " + location + " is not available");
+            }
+            /*
             if(heroName.ToLower() == "freya")
             {
                 Freya freya = new Freya();
@@ -76,10 +114,41 @@ namespace MyProject_AutoChess
             {
                 System.Console.WriteLine("Hero "+ heroName +" not found");
             }
+            */
         } // end of method AddHeroPlayerOne
 
-        public void AddHeroPlayerTwo(string heroName)
+        public void AddHeroPlayerTwo(string heroName, int location)
         {
+            if(boardPlayerTwo.CheckAvailabilityMoveTile(location) == true)
+            {
+                if(heroName.ToLower() == "freya")
+                {
+                    Freya freya = new Freya();
+                    playerTwo.deck.listHero.Add(freya);
+                    boardPlayerTwo.tiles.tile.Add(location, "freya");
+                }
+                else if(heroName.ToLower() == "garo")
+                {
+                    Garo garo = new Garo();
+                    playerTwo.deck.listHero.Add(garo);
+                    boardPlayerTwo.tiles.tile.Add(location, "garo");
+                }
+                else if(heroName.ToLower() == "stella")
+                {   
+                    Stella stella = new Stella();
+                    playerTwo.deck.listHero.Add(stella);
+                    boardPlayerTwo.tiles.tile.Add(location, "stella");
+                }
+                else
+                {
+                    System.Console.WriteLine("Hero "+ heroName +" not found");
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Tile " + location + " is not available");
+            }
+            /*
             if(heroName.ToLower() == "freya")
             {
                 Freya freya = new Freya();
@@ -99,6 +168,7 @@ namespace MyProject_AutoChess
             {
                 System.Console.WriteLine("Hero "+ heroName +" not found");
             }
+            */
         } // end of method AddHeroPlayerTwo
 
         public void ShowDeck(string playerName)
@@ -175,6 +245,16 @@ namespace MyProject_AutoChess
                     break;
                 }
             }
+
+            // menghapus isi dari boardPlayerOne.tiles.tile sesuai dengan heroName
+            foreach(var item in boardPlayerOne.tiles.tile)
+            {
+                if(heroName.ToLower() == item.Value)
+                {
+                    boardPlayerOne.tiles.tile.Remove(item.Key);
+                    break;
+                }
+            }
             if(!heroFound)
             {
                 System.Console.WriteLine($"Hero '{heroName}' not found");
@@ -193,6 +273,15 @@ namespace MyProject_AutoChess
                     System.Console.WriteLine($"Hero '{heroName}' removed from deck");
                     playerTwo.deck.listHero.RemoveAt(i);
                     heroFound = true;
+                    break;
+                }
+            }
+            // menghapus isi dari boardPlayerOne.tiles.tile sesuai dengan heroName
+            foreach(var item in boardPlayerTwo.tiles.tile)
+            {
+                if(heroName.ToLower() == item.Value)
+                {
+                    boardPlayerTwo.tiles.tile.Remove(item.Key);
                     break;
                 }
             }

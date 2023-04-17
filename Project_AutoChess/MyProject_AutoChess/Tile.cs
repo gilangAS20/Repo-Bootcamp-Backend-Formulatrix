@@ -2,6 +2,6 @@ namespace MyProject_AutoChess
 {
     public class Tile
     {
-        List<int> tile = new List<int>();
+        public Dictionary<int, string> tile = new Dictionary<int, string>();
     }
 }

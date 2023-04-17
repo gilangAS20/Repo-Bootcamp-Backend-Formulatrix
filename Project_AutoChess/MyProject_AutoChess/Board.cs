@@ -2,12 +2,22 @@ namespace MyProject_AutoChess
 {
     public class Board
     {
-        List<Tile> listTiles = new List<Tile>();
-        public bool CheckAvailabilityMoveTile(List<Tile> listTiles)
+        // properties
+        public Tile tiles = new Tile();
+        public bool CheckAvailabilityMoveTile(int tile)
         {
             // jika tile yang dipilih belum ada hero, maka return true
             // jika tile yang dipilih sudah ada hero, maka return false
-            return true;
+            // cek apakah listTiles sudah diisi lokasi
+            if (tiles.tile.ContainsKey(tile) == true)
+            {
+                // CheckAvailabilityMoveTile(tile) akan bernilai false, artinya sudah ada hero di tile tersebut
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 
