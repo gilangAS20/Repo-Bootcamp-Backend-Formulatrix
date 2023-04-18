@@ -13,7 +13,7 @@ class Program
     {
         System.Console.WriteLine("=== SELAMAT DATANG DI AUTOCHESS ===");
 
-        // ========================================================================================
+        // ==================================Make Game Instance===========================================
         // membuat instance untuk class Game
         Game game = new Game();
         // menambahkan player

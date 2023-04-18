@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HOKED7631az5Xuz1aTbrCEJl9pbncXv1qRbEH97OZNdL/misj5XzOjEf8vq/eeOWfEZCB8eK8sCrDS2uPG+J9A==",
+  "success": true,
+  "projectFilePath": "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY21\\DAY21_5_BinarySer_Protobuf-net\\DAY21_5_BinarySer_Protobuf-net.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\protobuf-net\\3.2.16\\protobuf-net.3.2.16.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\protobuf-net.core\\3.2.16\\protobuf-net.core.3.2.16.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

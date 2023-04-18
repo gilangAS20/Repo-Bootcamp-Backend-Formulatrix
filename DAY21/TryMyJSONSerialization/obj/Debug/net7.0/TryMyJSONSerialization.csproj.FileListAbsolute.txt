@@ -1,0 +1,15 @@
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\bin\Debug\net7.0\TryMyJSONSerialization.exe
+d:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\bin\Debug\net7.0\TryMyJSONSerialization.deps.json
+d:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\bin\Debug\net7.0\TryMyJSONSerialization.runtimeconfig.json
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\bin\Debug\net7.0\TryMyJSONSerialization.dll
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\bin\Debug\net7.0\TryMyJSONSerialization.pdb
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\TryMyJSONSerialization.csproj.AssemblyReference.cache
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\TryMyJSONSerialization.GeneratedMSBuildEditorConfig.editorconfig
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\TryMyJSONSerialization.AssemblyInfoInputs.cache
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\TryMyJSONSerialization.AssemblyInfo.cs
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\TryMyJSONSerialization.csproj.CoreCompileInputs.cache
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\TryMyJSONSerialization.dll
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\refint\TryMyJSONSerialization.dll
+D:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\TryMyJSONSerialization.pdb
+d:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\TryMyJSONSerialization.genruntimeconfig.cache
+d:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\DAY21\TryMyJSONSerialization\obj\Debug\net7.0\ref\TryMyJSONSerialization.dll

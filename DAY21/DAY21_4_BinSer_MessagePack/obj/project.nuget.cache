@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "/8PpKPFtAA+1qPUhRfFe5rymAFSTSwtT9mC8Gj21bObbSWjK6QE3fEh8gqURVOcXaAXM1MgyDUL3mP9YHMh84w==",
+  "success": true,
+  "projectFilePath": "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY21\\DAY21_4_BinSer_MessagePack\\DAY21_4_BinSer_MessagePack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\messagepack\\2.5.108\\messagepack.2.5.108.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\messagepack.annotations\\2.5.108\\messagepack.annotations.2.5.108.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\microsoft.net.stringtools\\17.4.0\\microsoft.net.stringtools.17.4.0.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

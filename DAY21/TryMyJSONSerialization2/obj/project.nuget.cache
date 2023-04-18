@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dnf8nnKeMW7NZbhuiGqg/l2eFxv8LVyb5p27EoOFOIlSs6xRodKLIYuguRqEvSTyKIx9eDtl7mF+FFhWpUncpA==",
+  "success": true,
+  "projectFilePath": "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY21\\TryMyJSONSerialization2\\TryMyJSONSerialization2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

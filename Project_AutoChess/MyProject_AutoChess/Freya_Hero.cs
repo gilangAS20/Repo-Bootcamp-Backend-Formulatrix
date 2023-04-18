@@ -11,9 +11,9 @@ namespace MyProject_AutoChess
         public int armor {get;set;}
         public int HPRegeneration {get;set;}
         Random random = new Random();
-        public Freya()
+        public Freya(int locationInput)
         {
-            locationHero = 0;
+            locationHero = locationInput;
             heroName = "freya";
             HP = random.Next(80, 120);
             damageHero = random.Next(7, 10);

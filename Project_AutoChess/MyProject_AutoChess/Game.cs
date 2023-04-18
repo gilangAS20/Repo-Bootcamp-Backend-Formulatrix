@@ -69,19 +69,22 @@ namespace MyProject_AutoChess
             {
                 if(heroName.ToLower() == "freya")
                 {
-                    Freya freya = new Freya();
+                    Freya freya = new Freya(location);
+                    System.Console.WriteLine("Freya added to location " + freya.GetLocationHero());
                     playerOne.deck.listHero.Add(freya);
                     boardPlayerOne.tiles.tile.Add(location, "freya");
                 }
                 else if(heroName.ToLower() == "garo")
                 {
-                    Garo garo = new Garo();
+                    Garo garo = new Garo(location);
+                    System.Console.WriteLine("Garo added to location " + garo.GetLocationHero());
                     playerOne.deck.listHero.Add(garo);
                     boardPlayerOne.tiles.tile.Add(location, "garo");
                 }
                 else if(heroName.ToLower() == "stella")
                 {   
-                    Stella stella = new Stella();
+                    Stella stella = new Stella(location);
+                    System.Console.WriteLine("Stella added to location " + stella.GetLocationHero());
                     playerOne.deck.listHero.Add(stella);
                     boardPlayerOne.tiles.tile.Add(location, "stella");
                 }
@@ -123,19 +126,22 @@ namespace MyProject_AutoChess
             {
                 if(heroName.ToLower() == "freya")
                 {
-                    Freya freya = new Freya();
+                    Freya freya = new Freya(location);
+                    System.Console.WriteLine("Freya added to location " + freya.GetLocationHero());
                     playerTwo.deck.listHero.Add(freya);
                     boardPlayerTwo.tiles.tile.Add(location, "freya");
                 }
                 else if(heroName.ToLower() == "garo")
                 {
-                    Garo garo = new Garo();
+                    Garo garo = new Garo(location);
+                    System.Console.WriteLine("Garo added to location " + garo.GetLocationHero());
                     playerTwo.deck.listHero.Add(garo);
                     boardPlayerTwo.tiles.tile.Add(location, "garo");
                 }
                 else if(heroName.ToLower() == "stella")
                 {   
-                    Stella stella = new Stella();
+                    Stella stella = new Stella(location);
+                    System.Console.WriteLine("Stella added to location " + stella.GetLocationHero());
                     playerTwo.deck.listHero.Add(stella);
                     boardPlayerTwo.tiles.tile.Add(location, "stella");
                 }
@@ -197,6 +203,7 @@ namespace MyProject_AutoChess
                 {
                     System.Console.WriteLine("Hero name: " + item.heroName);
                     System.Console.WriteLine("HP: " + item.HP);
+                    System.Console.WriteLine("Location: " + item.GetLocationHero());
                 }
             }
         } // end of method ShowDeckPlayerOne
@@ -214,6 +221,7 @@ namespace MyProject_AutoChess
                 {
                     System.Console.WriteLine("Hero name: " + item.heroName);
                     System.Console.WriteLine("HP: " + item.HP);
+                    System.Console.WriteLine("Location: " + item.GetLocationHero());
                 }
             }
         } // end of method ShowDeckPlayerTwo
@@ -293,7 +301,7 @@ namespace MyProject_AutoChess
 
         public void StartGame()
         {
-            System.Console.WriteLine("\n---Game Start---\n ");
+            System.Console.WriteLine("\n    ---Game Start---\n ");
             System.Console.WriteLine("--Press any key to play---\n ");
             Console.ReadKey();
             int cicle = 1;
@@ -301,7 +309,7 @@ namespace MyProject_AutoChess
 
             while(playerOne.deck.listHero.Count() > 0 && playerTwo.deck.listHero.Count() > 0)
             {
-                System.Console.WriteLine("\n---Game Cicle: " + cicle + "---");
+                System.Console.WriteLine("\n\t\t---Game Cicle: " + cicle + "---");
                 cicle++;
                 Random random = new Random();
                 randomPlayer = random.Next(0,2);
@@ -360,7 +368,7 @@ namespace MyProject_AutoChess
         public void PlayerOneTurn()
         {
             // playerOne attack to playerTwo
-                System.Console.WriteLine("--" + playerOne.playerName + " turn--");
+                System.Console.WriteLine("--" + playerOne.playerName + " turn--\n");
                 playerTwo.deck.listHero[0].HP -= playerOne.deck.listHero[0].damageHero;
                 System.Console.WriteLine(playerOne.deck.listHero[0].heroName + " is attacking " + playerTwo.deck.listHero[0].heroName);
                 System.Console.WriteLine(playerTwo.playerName + "'s " + playerTwo.deck.listHero[0].heroName + " HP: " + playerTwo.deck.listHero[0].HP);
@@ -369,7 +377,7 @@ namespace MyProject_AutoChess
         public void PlayerTwoTurn()
         {
             // playerTwo attack to playerOne
-                System.Console.WriteLine("--" + playerTwo.playerName + " turn--");
+                System.Console.WriteLine("--" + playerTwo.playerName + " turn--\n");
                 playerOne.deck.listHero[0].HP -= playerTwo.deck.listHero[0].damageHero;
                 System.Console.WriteLine(playerTwo.deck.listHero[0].heroName + " is attacking " + playerOne.deck.listHero[0].heroName);
                 System.Console.WriteLine(playerOne.playerName + "'s " + playerOne.deck.listHero[0].heroName + " HP: " + playerOne.deck.listHero[0].HP);
@@ -383,6 +391,8 @@ namespace MyProject_AutoChess
                 playerOne.deck.listHero[0].HP = 0;
                 System.Console.WriteLine(playerOne.playerName + "'s " + playerOne.deck.listHero[0].heroName + " is dead");
                 playerOne.deck.listHero.RemoveAt(0);
+                System.Console.WriteLine("\nPress any key to continue");
+                Console.ReadKey();
             }
 
             if(playerTwo.deck.listHero[0].HP <= 0)
@@ -390,6 +400,8 @@ namespace MyProject_AutoChess
                 playerTwo.deck.listHero[0].HP = 0;
                 System.Console.WriteLine(playerTwo.playerName + "'s " + playerTwo.deck.listHero[0].heroName + " is dead");
                 playerTwo.deck.listHero.RemoveAt(0);
+                System.Console.WriteLine("\nPress any key to continue");
+                Console.ReadKey();
             }
         }
     } // end of class Game

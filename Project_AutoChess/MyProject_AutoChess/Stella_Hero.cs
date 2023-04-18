@@ -12,9 +12,9 @@ namespace MyProject_AutoChess
         public int heart {get;set;} // “Aturan sendiri”, jika heart bertambah maka, HP nya akan bertambah 10
         public int golden {get;set;} // “Aturan sendiri”, jika golden bertambah maka, Damage nya akan bertambah 1
         Random random = new Random();
-        public Stella()
+        public Stella(int locationInput)
         {
-            locationHero = 0;
+            locationHero = locationInput;
             heroName = "stella";
             HP = random.Next(80, 120);
             damageHero = random.Next(7, 10);
