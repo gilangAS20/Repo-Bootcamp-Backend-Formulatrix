@@ -1,3 +1,4 @@
+using System.Text;
 namespace MyProject_AutoChess
 {
     public class Garo : IMech
@@ -10,6 +11,7 @@ namespace MyProject_AutoChess
         public int heart {get;set;} // “Aturan sendiri”, jika heart bertambah maka, HP nya akan bertambah 10
         public int golden {get;set;} // “Aturan sendiri”, jika golden bertambah maka, Damage nya akan bertambah 1
         Random random = new Random();
+        
         public Garo(int locationInput)
         {
             locationHero = locationInput;
@@ -18,6 +20,19 @@ namespace MyProject_AutoChess
             damageHero = random.Next(2, 5);
             heart = 2;
             golden = 3;
+        }
+
+        public string ShowHeroInfo()
+        {   
+            StringBuilder heroInfo = new StringBuilder();
+            heroInfo.Append("\nHero: " + heroName);
+            heroInfo.Append("\nHP: " + HP);
+            heroInfo.Append("\nDamage: " + damageHero);
+            heroInfo.Append("\nHeart of Mech: " + heart);
+            heroInfo.Append("\nGolden Heart of Mech: " + golden);
+            heroInfo.Append("\nLocation: " + locationHero);
+            heroInfo.Append("\n");
+            return heroInfo.ToString();
         }
 
         // methods

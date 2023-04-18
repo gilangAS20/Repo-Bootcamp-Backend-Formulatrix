@@ -1,3 +1,4 @@
+using System.Text;
 namespace MyProject_AutoChess
 {
     public interface IHero
@@ -10,6 +11,7 @@ namespace MyProject_AutoChess
 
 
         // methods
+        public string ShowHeroInfo();
         public int GetLocationHero();
         public string GetHeroName();
         public int GetHP();

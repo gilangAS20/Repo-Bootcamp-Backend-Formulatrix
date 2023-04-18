@@ -10,6 +10,7 @@ namespace MyProject_AutoChess
         public double chance {get;set;}
 
         // method
+        public string ShowHeroInfo();
         public int GetLocationHero();
         public string GetHeroName();
         public int GetHP();

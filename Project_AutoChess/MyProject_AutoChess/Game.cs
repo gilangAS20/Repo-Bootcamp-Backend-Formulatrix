@@ -1,3 +1,4 @@
+using System.Text;
 namespace MyProject_AutoChess
 {
 
@@ -33,70 +34,80 @@ namespace MyProject_AutoChess
             return "Player 1: " + PlayerName1 + " dan Player 2: " + PlayerName2 + " telah ditambahkan";
         } // end of method AddPlayer
 
-        public void ShowListPlayer()
+        public string ShowListPlayer()
         {
+            StringBuilder returnListPlayer = new StringBuilder();
             foreach (var item in listPlayer)
             {
-                Console.WriteLine("Player: " + item.playerName);
+                returnListPlayer.Append("\nPlayer: " + item.playerName);
             }
+            return returnListPlayer.ToString();
         } // end of method ShowListPlayer
 
-        public void AddHeroToDeck(string playerName, string heroName, int location)
+        public string AddHeroToDeck(string playerName, string heroName, int location)
         {
+            StringBuilder returnAddHero = new StringBuilder();
             if(location < 1 || location > 24)
             {
-                System.Console.WriteLine("Location must be between 1 and 24");
+                returnAddHero.Append("Location must be between 1 and 24");
             }
             else
             {
                 // menambahkan hero ke dalam deck player1
                 if(playerName == playerOne.playerName)
                 {
-                    AddHeroPlayerOne(heroName, location);
+                    string returnHero = AddHeroPlayerOne(heroName, location);
+                    returnAddHero.Append(returnHero);
+
                 }
 
                 // menambahkan hero ke dalam deck player2
                 else if(playerName == playerTwo.playerName)
                 {
-                    AddHeroPlayerTwo(heroName, location);
+                    string returnHero = AddHeroPlayerTwo(heroName, location);
+                    returnAddHero.Append(returnHero);
                 }
             }
+            return returnAddHero.ToString();
         } // end of method AddHeroToDeck
 
-        public void AddHeroPlayerOne(string heroName, int location)
+        public string AddHeroPlayerOne(string heroName, int location)
         {
+            StringBuilder returnAddHero = new StringBuilder();
             if(boardPlayerOne.CheckAvailabilityMoveTile(location) == true)
             {
                 if(heroName.ToLower() == "freya")
                 {
                     Freya freya = new Freya(location);
-                    System.Console.WriteLine("Freya added to location " + freya.GetLocationHero());
+                    returnAddHero.Append("Freya added to location " + freya.GetLocationHero());
                     playerOne.deck.listHero.Add(freya);
                     boardPlayerOne.tiles.tile.Add(location, "freya");
                 }
                 else if(heroName.ToLower() == "garo")
                 {
                     Garo garo = new Garo(location);
-                    System.Console.WriteLine("Garo added to location " + garo.GetLocationHero());
+                    returnAddHero.Append("Garo added to location " + garo.GetLocationHero());
                     playerOne.deck.listHero.Add(garo);
                     boardPlayerOne.tiles.tile.Add(location, "garo");
                 }
                 else if(heroName.ToLower() == "stella")
                 {   
                     Stella stella = new Stella(location);
-                    System.Console.WriteLine("Stella added to location " + stella.GetLocationHero());
+                    returnAddHero.Append("Stella added to location " + stella.GetLocationHero());
                     playerOne.deck.listHero.Add(stella);
                     boardPlayerOne.tiles.tile.Add(location, "stella");
                 }
                 else
                 {
-                    System.Console.WriteLine("Hero "+ heroName +" not found");
+                    returnAddHero.Append("Hero "+ heroName +" not found");
                 }
             }
             else
             {
-                System.Console.WriteLine("Tile " + location + " is not available");
+                returnAddHero.Append("Tile " + location + " is not available");
             }
+
+            return returnAddHero.ToString();
             /*
             if(heroName.ToLower() == "freya")
             {
@@ -120,40 +131,42 @@ namespace MyProject_AutoChess
             */
         } // end of method AddHeroPlayerOne
 
-        public void AddHeroPlayerTwo(string heroName, int location)
-        {
+        public string AddHeroPlayerTwo(string heroName, int location)
+        {   StringBuilder returnAddHero = new StringBuilder();
             if(boardPlayerTwo.CheckAvailabilityMoveTile(location) == true)
             {
                 if(heroName.ToLower() == "freya")
                 {
                     Freya freya = new Freya(location);
-                    System.Console.WriteLine("Freya added to location " + freya.GetLocationHero());
+                    returnAddHero.Append("Freya added to location " + freya.GetLocationHero());
                     playerTwo.deck.listHero.Add(freya);
                     boardPlayerTwo.tiles.tile.Add(location, "freya");
                 }
                 else if(heroName.ToLower() == "garo")
                 {
                     Garo garo = new Garo(location);
-                    System.Console.WriteLine("Garo added to location " + garo.GetLocationHero());
+                    returnAddHero.Append("Garo added to location " + garo.GetLocationHero());
                     playerTwo.deck.listHero.Add(garo);
                     boardPlayerTwo.tiles.tile.Add(location, "garo");
                 }
                 else if(heroName.ToLower() == "stella")
                 {   
                     Stella stella = new Stella(location);
-                    System.Console.WriteLine("Stella added to location " + stella.GetLocationHero());
+                    returnAddHero.Append("Stella added to location " + stella.GetLocationHero());
                     playerTwo.deck.listHero.Add(stella);
                     boardPlayerTwo.tiles.tile.Add(location, "stella");
                 }
                 else
                 {
-                    System.Console.WriteLine("Hero "+ heroName +" not found");
+                    returnAddHero.Append("Hero "+ heroName +" not found");
                 }
             }
             else
             {
-                System.Console.WriteLine("Tile " + location + " is not available");
+                returnAddHero.Append("Tile " + location + " is not available");
             }
+
+            return returnAddHero.ToString();
             /*
             if(heroName.ToLower() == "freya")
             {
@@ -200,10 +213,13 @@ namespace MyProject_AutoChess
             else
             {
                 foreach(var item in playerOne.deck.listHero)
-                {
+                {   
+                    /*
                     System.Console.WriteLine("Hero name: " + item.heroName);
                     System.Console.WriteLine("HP: " + item.HP);
                     System.Console.WriteLine("Location: " + item.GetLocationHero());
+                    */
+                    System.Console.WriteLine(item.ShowHeroInfo());
                 }
             }
         } // end of method ShowDeckPlayerOne
@@ -219,9 +235,12 @@ namespace MyProject_AutoChess
             {
                 foreach(var item in playerTwo.deck.listHero)
                 {
+                    /*
                     System.Console.WriteLine("Hero name: " + item.heroName);
                     System.Console.WriteLine("HP: " + item.HP);
                     System.Console.WriteLine("Location: " + item.GetLocationHero());
+                    */
+                    System.Console.WriteLine(item.ShowHeroInfo());
                 }
             }
         } // end of method ShowDeckPlayerTwo

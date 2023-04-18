@@ -20,6 +20,10 @@ namespace MyProject_AutoChess
             HPRegeneration = 1;
         }
 
+        public string ShowHeroInfo()
+        {
+            return default;
+        }
         // method
         public int GetLocationHero()
         {

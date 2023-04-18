@@ -12,34 +12,32 @@ class Program
     static void Main()
     {
         System.Console.WriteLine("=== SELAMAT DATANG DI AUTOCHESS ===");
-
+        
         // ==================================Make Game Instance================================
         // membuat instance untuk class Game
         Game game = new Game();
 
-        // menambahkan player
+        // menambahkan player --> return value console sudah diganti string
         Console.WriteLine(game.AddPlayers("Gilang", "Enemy"));
         Console.WriteLine(game.AddPlayers("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
-
-        // menampilkan jumlah isi dari game.listPlayer
-        System.Console.WriteLine("\nJumlah player dalam listPlayer: ");
-        System.Console.WriteLine(game.listPlayer.Count);
         
-        // menampilkan isi dari game.listPlayer
+        // menampilkan isi dari game.listPlayer --> return value console sudah diganti string
         System.Console.WriteLine("\nIsi dari listPlayer: ");
-        game.ShowListPlayer();
-        System.Console.WriteLine("\n");
+        System.Console.WriteLine(game.ShowListPlayer());
+        System.Console.Write("\n");
         // ====================================================================================
 
 
         // ==================================player1===========================================
         System.Console.WriteLine("==================================================");
-        // menambahkan hero player1 ke dalam deck
+
+        // menambahkan hero player1 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("--add hero to Gilang's deck--");
-        game.AddHeroToDeck("Gilang", "freya", 1);
-        game.AddHeroToDeck("Gilang", "garo", 2);
-        game.AddHeroToDeck("Gilang", "stella", 2);
-        game.AddHeroToDeck("Gilang", "slebew", 4);
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 24));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 2));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 2)); // fail karena lokasi sudah digunakan
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 30)); // fail karena lokasi harus antara 1-24
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "slebew", 4)); // fail karena hero tidak ada
 
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
@@ -54,10 +52,10 @@ class Program
         System.Console.WriteLine("\nDeck Gilang(after remove): ");
         game.ShowDeck("Gilang");
 
-        // menambahkan kembali hero player1 ke dalam deck
+        // menambahkan kembali hero player1 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("\n--add hero to Gilang's deck--");
-        game.AddHeroToDeck("Gilang", "freya", 1);
-        game.AddHeroToDeck("Gilang", "stella", 7);
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 1));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 7));
 
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
@@ -67,13 +65,15 @@ class Program
 
 
         // ==================================player2===========================================
-        System.Console.WriteLine("\n================================================");
-        // menambahkan hero player2 ke dalam deck
+        System.Console.WriteLine("\n==================================================");
+
+        // menambahkan hero player2 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("--add hero to Enemy's deck--");
-        game.AddHeroToDeck("Enemy", "garo", 1);
-        game.AddHeroToDeck("Enemy", "stella", 3);
-        game.AddHeroToDeck("Enemy", "freya", 3);
-        game.AddHeroToDeck("Enemy", "plankton", 4);
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "garo", 1));
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "stella", 3));
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "freya", 3)); // fail karena lokasi sudah digunakan
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "freya", 0)); // fail karena lokasi harus antara 1 dan 24
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "plankton", 4)); // fail karena nama hero tidak ada
 
         // menampilkan deck Enemy (player2)
         System.Console.WriteLine("\n--show Enemy's deck--");
@@ -88,10 +88,10 @@ class Program
         System.Console.WriteLine("\nDeck Enemy(after remove): ");
         game.ShowDeck("Enemy");
 
-        // menambahkan kembali hero player2 ke dalam deck
-        System.Console.WriteLine("\n--add hero to Gilang's deck--");
-        game.AddHeroToDeck("Enemy", "garo", 1);
-        game.AddHeroToDeck("Enemy", "freya", 6);
+        // menambahkan kembali hero player2 ke dalam deck --> return value console sudah diganti string
+        System.Console.WriteLine("\n--add hero to Enemy's deck--");
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "garo", 1));
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "freya", 6));
 
         // menampilkan deck Enemy (player2)
         System.Console.WriteLine("\n--show Enemy's deck--");

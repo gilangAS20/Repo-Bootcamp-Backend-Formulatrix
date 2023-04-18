@@ -12,6 +12,7 @@ namespace MyProject_AutoChess
     
 
         // method
+        public string ShowHeroInfo();
         public int GetLocationHero();
 
         public string GetHeroName();
