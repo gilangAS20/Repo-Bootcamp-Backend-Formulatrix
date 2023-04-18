@@ -368,18 +368,18 @@ namespace MyProject_AutoChess
         public void PlayerOneTurn()
         {
             // playerOne attack to playerTwo
-                System.Console.WriteLine("--" + playerOne.playerName + " turn--\n");
-                playerTwo.deck.listHero[0].HP -= playerOne.deck.listHero[0].damageHero;
+                System.Console.WriteLine("\n--" + playerOne.playerName + " turn--");
                 System.Console.WriteLine(playerOne.deck.listHero[0].heroName + " is attacking " + playerTwo.deck.listHero[0].heroName);
+                playerTwo.deck.listHero[0].HP -= playerOne.deck.listHero[0].damageHero;
                 System.Console.WriteLine(playerTwo.playerName + "'s " + playerTwo.deck.listHero[0].heroName + " HP: " + playerTwo.deck.listHero[0].HP);
         }
 
         public void PlayerTwoTurn()
         {
             // playerTwo attack to playerOne
-                System.Console.WriteLine("--" + playerTwo.playerName + " turn--\n");
-                playerOne.deck.listHero[0].HP -= playerTwo.deck.listHero[0].damageHero;
+                System.Console.WriteLine("\n--" + playerTwo.playerName + " turn--");
                 System.Console.WriteLine(playerTwo.deck.listHero[0].heroName + " is attacking " + playerOne.deck.listHero[0].heroName);
+                playerOne.deck.listHero[0].HP -= playerTwo.deck.listHero[0].damageHero;
                 System.Console.WriteLine(playerOne.playerName + "'s " + playerOne.deck.listHero[0].heroName + " HP: " + playerOne.deck.listHero[0].HP);
         }
 
