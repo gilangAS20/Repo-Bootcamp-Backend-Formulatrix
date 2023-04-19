@@ -44,7 +44,7 @@ class Program
         System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
         //System.Console.WriteLine("\n");
 
-        // tes delete hero player1 dari dalam deck
+        // tes delete hero player1 dari dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("\nDelete hero from Gilang's deck: ");
         System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "freya"));
         System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "anjay"));
