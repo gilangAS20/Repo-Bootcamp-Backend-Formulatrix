@@ -103,8 +103,10 @@ class Program
         // =====================================Game Dimulai===================================
         System.Console.WriteLine("==================================================");
 
-        // memulai pertarungan
-        game.StartGame();
+        // memulai pertarungan [SEDANG MENCOBA MENGUBAH CONSOLE WRITE KE STRINGBUILDER]
+        System.Console.WriteLine("\n    ---Game Start---\n ");
+        System.Console.WriteLine("--Press any key to play---\n ");
+        System.Console.WriteLine(game.StartGame()); // masih belum 
 
         // melihat siapa yang menang --> return value console sudah diganti string
         System.Console.WriteLine(game.IsLoseOrWin());

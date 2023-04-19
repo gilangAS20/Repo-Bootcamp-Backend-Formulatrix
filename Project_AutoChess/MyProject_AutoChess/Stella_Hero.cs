@@ -10,20 +10,21 @@ namespace MyProject_AutoChess
         public int damageHero {get;set;}
         public int armor {get;set;}
         public int HPRegeneration {get;set;}
-        public int heart {get;set;} // “Aturan sendiri”, jika heart bertambah maka, HP nya akan bertambah 10
-        public int golden {get;set;} // “Aturan sendiri”, jika golden bertambah maka, Damage nya akan bertambah 1
+        public int heart {get;set;} 
+        public int golden {get;set;} 
         Random random = new Random();
         
         public Stella(int locationInput)
         {
+            armor = random.Next(0, 4);
+            HPRegeneration = 1;
+            heart = random.Next(0, 5);
+            golden = random.Next(1, 4);
+
             locationHero = locationInput;
             heroName = "stella";
-            HP = random.Next(80, 120);
-            damageHero = random.Next(7, 10);
-            armor = 3;
-            HPRegeneration = 1;
-            heart = 1;
-            golden = 1;
+            HP = random.Next(90, 140) + heart;
+            damageHero = random.Next(7, 10) + golden;
         }
 
         public string ShowHeroInfo()

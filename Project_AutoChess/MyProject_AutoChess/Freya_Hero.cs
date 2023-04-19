@@ -8,24 +8,25 @@ namespace MyProject_AutoChess
         public string heroName {get;set;}
         public int HP {get;set;} // HP = Health Points
         public int damageHero {get;set;}
-        public double chance {get;set;}
+        public int chance {get;set;}
         public int armor {get;set;}
         public int HPRegeneration {get;set;}
         Random random = new Random();
         
         public Freya(int locationInput)
         {
+            chance = random.Next(0, 5);
+            armor = random.Next(0, 3);
+            HPRegeneration = 1;
+
             locationHero = locationInput;
             heroName = "freya";
-            HP = random.Next(80, 120);
-            damageHero = random.Next(7, 10);
-            chance = 0.3;
-            armor = 3;
-            HPRegeneration = 1;
+            HP = random.Next(80, 120) + armor + HPRegeneration;
+            damageHero = random.Next(15, 20) + chance;
         }
 
         public string ShowHeroInfo()
-        {   
+        {
             StringBuilder heroInfo = new StringBuilder();
             heroInfo.Append("\nHero: " + heroName);
             heroInfo.Append("\nHP: " + HP);
@@ -59,7 +60,7 @@ namespace MyProject_AutoChess
             return damageHero;
         }
 
-        public double GetChance()
+        public int GetChance()
         {
             return chance;
         }

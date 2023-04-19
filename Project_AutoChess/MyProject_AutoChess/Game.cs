@@ -108,27 +108,6 @@ namespace MyProject_AutoChess
             }
 
             return returnAddHero.ToString();
-            /*
-            if(heroName.ToLower() == "freya")
-            {
-                Freya freya = new Freya();
-                playerOne.deck.listHero.Add(freya);
-            }
-            else if(heroName.ToLower() == "garo")
-            {
-                Garo garo = new Garo();
-                playerOne.deck.listHero.Add(garo);
-            }
-            else if(heroName.ToLower() == "stella")
-            {   
-                Stella stella = new Stella();
-                playerOne.deck.listHero.Add(stella);
-            }
-            else
-            {
-                System.Console.WriteLine("Hero "+ heroName +" not found");
-            }
-            */
         } // end of method AddHeroPlayerOne
 
         public string AddHeroPlayerTwo(string heroName, int location)
@@ -167,27 +146,6 @@ namespace MyProject_AutoChess
             }
 
             return returnAddHero.ToString();
-            /*
-            if(heroName.ToLower() == "freya")
-            {
-                Freya freya = new Freya();
-                playerTwo.deck.listHero.Add(freya);
-            }
-            else if(heroName.ToLower() == "garo")
-            {
-                Garo garo = new Garo();
-                playerTwo.deck.listHero.Add(garo);
-            }
-            else if(heroName.ToLower() == "stella")
-            {
-                Stella stella = new Stella();
-                playerTwo.deck.listHero.Add(stella);
-            }
-            else
-            {
-                System.Console.WriteLine("Hero "+ heroName +" not found");
-            }
-            */
         } // end of method AddHeroPlayerTwo
 
         public string ShowDeck(string playerName)
@@ -220,11 +178,6 @@ namespace MyProject_AutoChess
             {
                 foreach(var item in playerOne.deck.listHero)
                 {   
-                    /*
-                    System.Console.WriteLine("Hero name: " + item.heroName);
-                    System.Console.WriteLine("HP: " + item.HP);
-                    System.Console.WriteLine("Location: " + item.GetLocationHero());
-                    */
                     showDeckPlayerOne.Append(item.ShowHeroInfo());
                 }
             }
@@ -244,11 +197,6 @@ namespace MyProject_AutoChess
             {
                 foreach(var item in playerTwo.deck.listHero)
                 {
-                    /*
-                    System.Console.WriteLine("Hero name: " + item.heroName);
-                    System.Console.WriteLine("HP: " + item.HP);
-                    System.Console.WriteLine("Location: " + item.GetLocationHero());
-                    */
                     showDeckPlayerTwo.Append(item.ShowHeroInfo());
                 }
             }
@@ -339,10 +287,9 @@ namespace MyProject_AutoChess
             return removeHeroPlayerTwo.ToString();
         } // end of method RemoveHeroPlayerTwo
 
-        public void StartGame()
+        public string StartGame()
         {
-            System.Console.WriteLine("\n    ---Game Start---\n ");
-            System.Console.WriteLine("--Press any key to play---\n ");
+            StringBuilder startGame = new StringBuilder();
             Console.ReadKey();
             int cicle = 1;
             int randomPlayer;
@@ -354,10 +301,12 @@ namespace MyProject_AutoChess
                 Random random = new Random();
                 randomPlayer = random.Next(0,2);
                 //System.Console.WriteLine("Random player: " + randomPlayer);
-                
+
                 // memanggil method PlayerTurn(randomPlayer) untuk pergantian menyerang
                 PlayerTurn(randomPlayer);
             } // end of while
+
+            return startGame.ToString();
         } // end of method StartGame
 
         public string IsLoseOrWin()

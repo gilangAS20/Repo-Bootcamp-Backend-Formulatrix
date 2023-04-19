@@ -7,7 +7,7 @@ namespace MyProject_AutoChess
         public string heroName {get;set;}
         public int HP {get;set;} // HP = Health Points
         public int damageHero {get;set;}
-        public double chance {get;set;}
+        public int chance {get;set;}
 
         // method
         public string ShowHeroInfo();
@@ -15,6 +15,6 @@ namespace MyProject_AutoChess
         public string GetHeroName();
         public int GetHP();
         public int GetDamageHero();
-        public double GetChance();
+        public int GetChance();
     } // end of class IAssassin
 }
