@@ -190,25 +190,31 @@ namespace MyProject_AutoChess
             */
         } // end of method AddHeroPlayerTwo
 
-        public void ShowDeck(string playerName)
+        public string ShowDeck(string playerName)
         {
+            StringBuilder showDeck = new StringBuilder();
             if(playerOne.playerName == playerName)
             {
-                ShowDeckPlayerOne();
+                string deckPlayerOne = ShowDeckPlayerOne();
+                showDeck.Append(deckPlayerOne);
             }
             
             else if(playerTwo.playerName == playerName)
             {
-                ShowDeckPlayerTwo();
+                string deckPlayerTwo = ShowDeckPlayerTwo();
+                showDeck.Append(deckPlayerTwo);
             }
+
+            return showDeck.ToString();
         } // end of method ShowDeck
 
-        public void ShowDeckPlayerOne()
+        public string ShowDeckPlayerOne()
         {
-            System.Console.WriteLine( playerOne.playerName + "'s deck: ");
+            StringBuilder showDeckPlayerOne = new StringBuilder();
+            showDeckPlayerOne.Append(playerOne.playerName + "'s deck: \n");
             if(playerOne.deck.listHero.Count() <= 0)
             {
-                System.Console.WriteLine("--empty--");
+                showDeckPlayerOne.Append("--empty--");
             }
             else
             {
@@ -219,17 +225,20 @@ namespace MyProject_AutoChess
                     System.Console.WriteLine("HP: " + item.HP);
                     System.Console.WriteLine("Location: " + item.GetLocationHero());
                     */
-                    System.Console.WriteLine(item.ShowHeroInfo());
+                    showDeckPlayerOne.Append(item.ShowHeroInfo());
                 }
             }
+
+            return showDeckPlayerOne.ToString();
         } // end of method ShowDeckPlayerOne
 
-        public void ShowDeckPlayerTwo()
-        {
-            System.Console.WriteLine( playerTwo.playerName + "'s deck: ");
+        public string ShowDeckPlayerTwo()
+        {   
+            StringBuilder showDeckPlayerTwo = new StringBuilder();
+            showDeckPlayerTwo.Append( playerTwo.playerName + "'s deck: ");
             if(playerTwo.deck.listHero.Count() <= 0)
             {
-                System.Console.WriteLine("--empty--");
+                showDeckPlayerTwo.Append("--empty--");
             }
             else
             {
@@ -240,33 +249,41 @@ namespace MyProject_AutoChess
                     System.Console.WriteLine("HP: " + item.HP);
                     System.Console.WriteLine("Location: " + item.GetLocationHero());
                     */
-                    System.Console.WriteLine(item.ShowHeroInfo());
+                    showDeckPlayerTwo.Append(item.ShowHeroInfo());
                 }
             }
+
+            return showDeckPlayerTwo.ToString();
         } // end of method ShowDeckPlayerTwo
 
-        public void RemoveHeroFromDeck(string playerName, string heroName)
+        public string RemoveHeroFromDeck(string playerName, string heroName)
         {
+            StringBuilder removeHeroFromDeck = new StringBuilder();
             if(playerOne.playerName == playerName)
             {
-                RemoveHeroPlayerOne(playerName, heroName);
+                string removeHeroPlayerOne = RemoveHeroPlayerOne(playerName, heroName);
+                removeHeroFromDeck.Append(removeHeroPlayerOne);
             }
 
             else if(playerTwo.playerName == playerName)
             {
-                RemoveHeroPlayerTwo(playerName, heroName);
+                string removeHeroPlayerTwo = RemoveHeroPlayerTwo(playerName, heroName);
+                removeHeroFromDeck.Append(removeHeroPlayerTwo);
             }
+
+            return removeHeroFromDeck.ToString();
         } // end of method RemoveHeroFromDeck
         
-        public void RemoveHeroPlayerOne(string playerName, string heroName)
+        public string RemoveHeroPlayerOne(string playerName, string heroName)
         {   
             bool heroFound = false;
+            StringBuilder removeHeroPlayerOne = new StringBuilder();
             // jika heroName sesuai dengan heroName yang ada di dalam listHero, hapus melalui index
             for(int i = 0; i < playerOne.deck.listHero.Count; i++)
             {
                 if(heroName.ToLower() == playerOne.deck.listHero[i].heroName.ToLower())
                 {
-                    System.Console.WriteLine($"Hero '{heroName}' removed from deck");
+                    removeHeroPlayerOne.Append($"Hero '{heroName}' removed from deck");
                     playerOne.deck.listHero.RemoveAt(i);
                     heroFound = true;
                     break;
@@ -284,20 +301,22 @@ namespace MyProject_AutoChess
             }
             if(!heroFound)
             {
-                System.Console.WriteLine($"Hero '{heroName}' not found");
+                removeHeroPlayerOne.Append($"Hero '{heroName}' not found");
             }
+
+            return removeHeroPlayerOne.ToString();
         } // end of method RemoveHeroPlayerOne
 
-        public void RemoveHeroPlayerTwo(string playerName, string heroName)
+        public string RemoveHeroPlayerTwo(string playerName, string heroName)
         {
             bool heroFound = false;
-  
+            StringBuilder removeHeroPlayerTwo = new StringBuilder();
             // jika heroName sesuai dengan heroName yang ada di dalam listHero, hapus melalui index
             for(int i = 0; i < playerTwo.deck.listHero.Count; i++)
             {
                 if(heroName.ToLower() == playerTwo.deck.listHero[i].heroName.ToLower())
                 {   
-                    System.Console.WriteLine($"Hero '{heroName}' removed from deck");
+                    removeHeroPlayerTwo.Append($"Hero '{heroName}' removed from deck");
                     playerTwo.deck.listHero.RemoveAt(i);
                     heroFound = true;
                     break;
@@ -314,8 +333,10 @@ namespace MyProject_AutoChess
             }
             if(!heroFound)
             {
-                System.Console.WriteLine($"Hero '{heroName}' not found");
+                removeHeroPlayerTwo.Append($"Hero '{heroName}' not found");
             }
+
+            return removeHeroPlayerTwo.ToString();
         } // end of method RemoveHeroPlayerTwo
 
         public void StartGame()
@@ -339,20 +360,24 @@ namespace MyProject_AutoChess
             } // end of while
         } // end of method StartGame
 
-        public void IsLoseOrWin()
-        {
+        public string IsLoseOrWin()
+        {   
+            StringBuilder isLoseOrWin = new StringBuilder();
+
             if(playerOne.deck.listHero.Count() > 0)
             {
-                System.Console.WriteLine("\n===" + playerOne.playerName + " win! " + playerTwo.playerName + " lose!===");
+                isLoseOrWin.Append("\n===" + playerOne.playerName + " win! " + playerTwo.playerName + " lose!===");
             }
             else if(playerTwo.deck.listHero.Count() > 0)
             {
-                System.Console.WriteLine("\n===" + playerTwo.playerName + " win! " + playerOne.playerName + " lose!===");
+                isLoseOrWin.Append("\n===" + playerTwo.playerName + " win! " + playerOne.playerName + " lose!===");
             }
             else
             {
-                System.Console.WriteLine("\nDraw!");
+                isLoseOrWin.Append("\nDraw!");
             }
+
+            return isLoseOrWin.ToString();
         } // end of method IsLoseOrWin
 
         public void PlayerTurn(int randomPlayer)

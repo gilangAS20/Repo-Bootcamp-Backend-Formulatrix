@@ -41,16 +41,16 @@ class Program
 
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
-        game.ShowDeck("Gilang");
+        System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
         //System.Console.WriteLine("\n");
 
         // tes delete hero player1 dari dalam deck
         System.Console.WriteLine("\nDelete hero from Gilang's deck: ");
-        game.RemoveHeroFromDeck("Gilang", "freya");
-        game.RemoveHeroFromDeck("Gilang", "anjay");
+        System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "freya"));
+        System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "anjay"));
 
         System.Console.WriteLine("\nDeck Gilang(after remove): ");
-        game.ShowDeck("Gilang");
+        System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
 
         // menambahkan kembali hero player1 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("\n--add hero to Gilang's deck--");
@@ -59,7 +59,7 @@ class Program
 
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
-        game.ShowDeck("Gilang");
+        System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
         System.Console.WriteLine("==================================================");
         // ====================================================================================
 
@@ -77,16 +77,16 @@ class Program
 
         // menampilkan deck Enemy (player2)
         System.Console.WriteLine("\n--show Enemy's deck--");
-        game.ShowDeck("Enemy");
+        System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
         //System.Console.WriteLine("\n");
 
-        // tes delete hero player2 dari dalam deck
+        // tes delete hero player2 dari dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("\nDelete hero from Enemy's deck: ");
-        game.RemoveHeroFromDeck("Enemy", "garo");
-        game.RemoveHeroFromDeck("Enemy", "yuzu");
+        System.Console.WriteLine(game.RemoveHeroFromDeck("Enemy", "garo"));
+        System.Console.WriteLine(game.RemoveHeroFromDeck("Enemy", "yuzu"));
 
         System.Console.WriteLine("\nDeck Enemy(after remove): ");
-        game.ShowDeck("Enemy");
+        System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
 
         // menambahkan kembali hero player2 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("\n--add hero to Enemy's deck--");
@@ -95,7 +95,7 @@ class Program
 
         // menampilkan deck Enemy (player2)
         System.Console.WriteLine("\n--show Enemy's deck--");
-        game.ShowDeck("Enemy");
+        System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
         System.Console.WriteLine("==================================================");
         // ====================================================================================
 
@@ -106,14 +106,14 @@ class Program
         // memulai pertarungan
         game.StartGame();
 
-        // melihat siapa yang menang
-        game.IsLoseOrWin();
+        // melihat siapa yang menang --> return value console sudah diganti string
+        System.Console.WriteLine(game.IsLoseOrWin());
 
         // menampilkan deck akhir setelah pertarungan
         System.Console.WriteLine("\nGilang's Deck (after game): ");
-        game.ShowDeck("Gilang");
+        System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
         System.Console.WriteLine("\nEnemy's Deck (after game): ");
-        game.ShowDeck("Enemy");
+        System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
         // ====================================================================================
     }
 }
