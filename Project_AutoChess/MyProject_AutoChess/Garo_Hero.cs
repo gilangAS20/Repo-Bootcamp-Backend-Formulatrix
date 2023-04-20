@@ -10,7 +10,7 @@ namespace MyProject_AutoChess
         public int damageHero {get;set;}
         public int heart {get;set;} 
         public int golden {get;set;} 
-        Random random = new Random();
+        private Random random = new Random();
 
         public Garo(int locationInput)
         {

@@ -12,7 +12,7 @@ namespace MyProject_AutoChess
         public int HPRegeneration {get;set;}
         public int heart {get;set;} 
         public int golden {get;set;} 
-        Random random = new Random();
+        private Random random = new Random();
         
         public Stella(int locationInput)
         {

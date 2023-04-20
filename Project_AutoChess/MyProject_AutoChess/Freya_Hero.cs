@@ -11,7 +11,7 @@ namespace MyProject_AutoChess
         public int chance {get;set;}
         public int armor {get;set;}
         public int HPRegeneration {get;set;}
-        Random random = new Random();
+        private Random random = new Random();
 
         public Freya(int locationInput)
         {
