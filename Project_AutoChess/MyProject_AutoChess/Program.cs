@@ -4,15 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Collections;
+using System.Threading.Tasks;
 
 namespace MyProject_AutoChess;
 
-class Program
+static class Program
 {
-    static void Main()
+    static async Task Main()
     {
         System.Console.WriteLine("=== SELAMAT DATANG DI AUTOCHESS ===");
-        
+
         // ==================================Make Game Instance================================
         // membuat instance untuk class Game
         Game game = new Game();
@@ -20,7 +21,7 @@ class Program
         // menambahkan player --> return value console sudah diganti string
         Console.WriteLine(game.AddPlayers("Gilang", "Enemy"));
         Console.WriteLine(game.AddPlayers("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
-        
+
         // menampilkan isi dari game.listPlayer --> return value console sudah diganti string
         System.Console.WriteLine("\nIsi dari listPlayer: ");
         System.Console.WriteLine(game.ShowListPlayer());
@@ -106,7 +107,24 @@ class Program
         // memulai pertarungan [SEDANG MENCOBA MENGUBAH CONSOLE WRITE KE STRINGBUILDER]
         System.Console.WriteLine("\n    ---Game Start---\n ");
         System.Console.WriteLine("--Press any key to play---\n ");
-        System.Console.WriteLine(game.StartGame()); // masih belum 
+        Console.ReadKey();
+
+        // looping untuk menampilkan proses serang
+        System.Console.WriteLine(game.TimerGameStart());
+        while(game.isPlayingMode == true)
+        {
+            string startMyGame = game.StartGame();
+            System.Console.WriteLine(startMyGame);
+            //Thread.Sleep(500);
+            await Task.Delay(500);
+            if(startMyGame.Contains("is dead"))
+            {   
+                System.Console.WriteLine("---Press any key to continue---\n ");
+                Console.ReadKey();
+            }
+        }
+        System.Console.WriteLine("\n ===Game Over===\n");
+        System.Console.WriteLine(game.TimerGameStop());
 
         // melihat siapa yang menang --> return value console sudah diganti string
         System.Console.WriteLine(game.IsLoseOrWin());

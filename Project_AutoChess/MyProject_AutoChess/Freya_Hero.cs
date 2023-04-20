@@ -12,7 +12,7 @@ namespace MyProject_AutoChess
         public int armor {get;set;}
         public int HPRegeneration {get;set;}
         Random random = new Random();
-        
+
         public Freya(int locationInput)
         {
             chance = random.Next(0, 5);
@@ -74,6 +74,5 @@ namespace MyProject_AutoChess
         {
             return HPRegeneration;
         }
-    }
-
+    } // end of class Freya
 }

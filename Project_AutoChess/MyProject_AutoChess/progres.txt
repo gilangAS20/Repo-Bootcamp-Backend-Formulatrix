@@ -1,0 +1,13 @@
+yang dikerjakan selama di kelas:
+
+- Mengubah return value void menjadi string (ada yang belum)
+- Mengatur spesifikasi hero
+- Mengubah access modifier variabel(public ke private), menambah method
+  SetPlayerName(string name) dan GetPlayerName()
+
+belum dicoba:
+- atur access modifier dari sebuah properties / variabel dari interface
+- utak atik isPlayingMode
+- atur time preparation
+- atur time battle
+  

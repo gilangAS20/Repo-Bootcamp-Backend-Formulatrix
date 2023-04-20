@@ -1,3 +1,4 @@
+/*
 namespace MyProject_AutoChess
 {
     public class Goblin : IGoblin
@@ -57,3 +58,4 @@ namespace MyProject_AutoChess
     }
 
 }
+*/
