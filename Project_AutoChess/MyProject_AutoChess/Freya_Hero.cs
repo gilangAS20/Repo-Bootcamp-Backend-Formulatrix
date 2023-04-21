@@ -11,18 +11,18 @@ namespace MyProject_AutoChess
         public int chance {get;set;}
         public int armor {get;set;}
         public int HPRegeneration {get;set;}
-        private Random random = new Random();
+        private Random _random = new Random();
 
         public Freya(int locationInput)
         {
-            chance = random.Next(0, 5);
-            armor = random.Next(0, 3);
+            chance = _random.Next(0, 5);
+            armor = _random.Next(0, 3);
             HPRegeneration = 1;
 
             locationHero = locationInput;
             heroName = "freya";
-            HP = random.Next(80, 120) + armor + HPRegeneration;
-            damageHero = random.Next(15, 20) + chance;
+            HP = _random.Next(80, 120) + armor + HPRegeneration;
+            damageHero = _random.Next(15, 20) + chance;
         }
 
         public string ShowHeroInfo()

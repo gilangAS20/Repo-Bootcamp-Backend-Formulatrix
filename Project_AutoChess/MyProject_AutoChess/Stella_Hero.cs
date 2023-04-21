@@ -12,19 +12,19 @@ namespace MyProject_AutoChess
         public int HPRegeneration {get;set;}
         public int heart {get;set;} 
         public int golden {get;set;} 
-        private Random random = new Random();
+        private Random _random = new Random();
         
         public Stella(int locationInput)
         {
-            armor = random.Next(0, 4);
+            armor = _random.Next(0, 4);
             HPRegeneration = 1;
-            heart = random.Next(0, 5);
-            golden = random.Next(1, 4);
+            heart = _random.Next(0, 5);
+            golden = _random.Next(1, 4);
 
             locationHero = locationInput;
             heroName = "stella";
-            HP = random.Next(90, 140) + heart;
-            damageHero = random.Next(7, 10) + golden;
+            HP = _random.Next(90, 140) + heart;
+            damageHero = _random.Next(7, 10) + golden;
         }
 
         public string ShowHeroInfo()

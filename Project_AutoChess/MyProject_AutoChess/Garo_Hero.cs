@@ -10,17 +10,17 @@ namespace MyProject_AutoChess
         public int damageHero {get;set;}
         public int heart {get;set;} 
         public int golden {get;set;} 
-        private Random random = new Random();
+        private Random _random = new Random();
 
         public Garo(int locationInput)
         {
-            heart = random.Next(0, 5);
-            golden = random.Next(1, 4);
+            heart = _random.Next(0, 5);
+            golden = _random.Next(1, 4);
 
             locationHero = locationInput;
             heroName = "garo";
-            HP = random.Next(150, 200) + (heart*2);
-            damageHero = random.Next(2, 5) + golden;
+            HP = _random.Next(150, 200) + (heart*2);
+            damageHero = _random.Next(2, 5) + golden;
         }
 
         public string ShowHeroInfo()
