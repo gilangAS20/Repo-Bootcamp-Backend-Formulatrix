@@ -4,7 +4,7 @@ namespace MyProject_AutoChess
 {
     public class Game
     {
-        private List<Players> _listPlayer = new List<Players>();
+        private List<Players> _listPlayers = new List<Players>();
         private Board _boardPlayerOne = new Board();
         private Board _boardPlayerTwo = new Board();
         private Stopwatch _stopWatch = new Stopwatch();
@@ -31,17 +31,17 @@ namespace MyProject_AutoChess
         }
         public string AddPlayers(string PlayerName1, string PlayerName2)
         {
-            if(_listPlayer.Count >= 2)
+            if(_listPlayers.Count >= 2)
             {
                 return "Player sudah penuh";
             }
             else
             {
                 _playerOne.SetPlayerName(PlayerName1);
-                _listPlayer.Add(_playerOne);
+                _listPlayers.Add(_playerOne);
 
                 _playerTwo.SetPlayerName(PlayerName2);
-                _listPlayer.Add(_playerTwo);
+                _listPlayers.Add(_playerTwo);
             }
             return "Player 1: " + PlayerName1 + " dan Player 2: " + PlayerName2 + " telah ditambahkan";
         } // end of method AddPlayer
@@ -49,7 +49,7 @@ namespace MyProject_AutoChess
         public string ShowListPlayer()
         {   int number = 1;
             StringBuilder returnListPlayer = new StringBuilder();
-            foreach (var item in _listPlayer)
+            foreach (var item in _listPlayers)
             {
                 returnListPlayer.Append("\nPlayer "+ number + ": " + item.GetPlayerName());
                 number++;
@@ -57,6 +57,7 @@ namespace MyProject_AutoChess
             return returnListPlayer.ToString();
         } // end of method ShowListPlayer
 
+        //public string AddHeroToDeck(string playerName, string heroName, int location)
         public string AddHeroToDeck(string playerName, string heroName, int location)
         {
             StringBuilder returnAddHero = new StringBuilder();
