@@ -35,7 +35,8 @@ static class Program
         // menambahkan hero player1 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("--add hero to Gilang's deck--");
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 24));
-        System.Console.WriteLine(game.AddHeroToDeck(heroName: "garo", location: 2, playerName: "Gilang")); // tes input tidak urut
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 2));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 12));
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 2)); // fail karena lokasi sudah digunakan
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 30)); // fail karena lokasi harus antara 1-24
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "slebew", 4)); // fail karena hero tidak ada
@@ -117,7 +118,7 @@ static class Program
             string startMyGame = game.StartGame();
             System.Console.WriteLine(startMyGame);
             //Thread.Sleep(500);
-            await Task.Delay(500);
+            await Task.Delay(500); // dia mempengaruhi nilai dari timer
             if(startMyGame.Contains("is dead"))
             {   
                 System.Console.WriteLine("---Press any key to continue---\n ");

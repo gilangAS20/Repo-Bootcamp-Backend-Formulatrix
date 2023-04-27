@@ -194,7 +194,8 @@ namespace MyProject_AutoChess
                     showDeckPlayerOne.Append(item.ShowHeroInfo());
                 }
             }
-
+            // show total of HP in deck using lambda expression
+            //showDeckPlayerOne.Append("\nTotal HP player1 : " + _playerOne.deck.listHero.Sum(x => x.GetHP()));
             return showDeckPlayerOne.ToString();
         } // end of method ShowDeckPlayerOne
 
@@ -216,6 +217,25 @@ namespace MyProject_AutoChess
 
             return showDeckPlayerTwo.ToString();
         } // end of method ShowDeckPlayerTwo
+
+        public int ShowTotalHP(string playerName)
+        {
+            int totalHP = 0;
+            //int totalHPPlayerTwo = 0;
+            if(_playerOne.GetPlayerName() == playerName)
+            {
+                totalHP = _playerOne.deck.listHero.Sum(x => x.GetHP());
+                
+            }
+
+            else if(_playerTwo.GetPlayerName() == playerName)
+            {
+                totalHP = _playerTwo.deck.listHero.Sum(x => x.GetHP());
+                
+            }
+
+            return totalHP;
+        }
 
         public string RemoveHeroFromDeck(string playerName, string heroName)
         {
@@ -325,6 +345,11 @@ namespace MyProject_AutoChess
                 {
                     isPlayingMode = false;
                 }
+
+                else if(_stopWatch.Elapsed.TotalSeconds >= 30)
+                {
+                    isPlayingMode = false;
+                }
             return startGame.ToString();
         } // end of method StartGame
 
@@ -411,18 +436,24 @@ namespace MyProject_AutoChess
         {   
             StringBuilder isLoseOrWin = new StringBuilder();
 
-            if(_playerOne.deck.listHero.Count() > 0)
+            //if(_playerOne.deck.listHero.Count() > 0 && _playerOne.deck.listHero.Sum(x => x.GetHP()) > _playerTwo.deck.listHero.Sum(x => x.GetHP()))
+            if(_playerOne.deck.listHero.Count() > 0 && ShowTotalHP(_playerOne.GetPlayerName()) > ShowTotalHP(_playerTwo.GetPlayerName()))
             {
-                isLoseOrWin.Append("\n===" + _playerOne.GetPlayerName() + " win! " + _playerTwo.GetPlayerName() + " lose!===");
+                isLoseOrWin.AppendLine("\n===" + _playerOne.GetPlayerName() + " win! " + _playerTwo.GetPlayerName() + " lose!===");
+                // isLoseOrWin.AppendLine(_playerOne.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerOne.GetPlayerName()));
             }
-            else if(_playerTwo.deck.listHero.Count() > 0)
+            else if(_playerTwo.deck.listHero.Count() > 0 && _playerOne.deck.listHero.Sum(x => x.GetHP()) < _playerTwo.deck.listHero.Sum(x => x.GetHP()))
             {
-                isLoseOrWin.Append("\n===" + _playerTwo.GetPlayerName() + " win! " + _playerOne.GetPlayerName() + " lose!===");
+                isLoseOrWin.AppendLine("\n===" + _playerTwo.GetPlayerName() + " win! " + _playerOne.GetPlayerName() + " lose!===");
+                // isLoseOrWin.AppendLine(_playerTwo.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerTwo.GetPlayerName()));
             }
             else
             {
-                isLoseOrWin.Append("\nDraw!");
+                isLoseOrWin.AppendLine("\nDraw!");
             }
+
+            isLoseOrWin.AppendLine(_playerOne.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerOne.GetPlayerName()));
+            isLoseOrWin.AppendLine(_playerTwo.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerTwo.GetPlayerName()));
 
             return isLoseOrWin.ToString();
         } // end of method IsLoseOrWin
