@@ -246,12 +246,12 @@ namespace MyProject_AutoChess
             return totalHP;
         }
 
-        public string RemoveHeroFromDeck(string playerName, string heroName)
+        public string RemoveHeroFromDeck(string playerName, string heroName, int heroLocation = 0)
         {
             StringBuilder removeHeroFromDeck = new StringBuilder();
             if(_playerOne.GetPlayerName() == playerName)
             {
-                string removeHeroPlayerOne = RemoveHeroPlayerOne(playerName, heroName);
+                string removeHeroPlayerOne = RemoveHeroPlayerOne(playerName, heroName, heroLocation);
                 removeHeroFromDeck.Append(removeHeroPlayerOne);
             }
 
@@ -264,35 +264,53 @@ namespace MyProject_AutoChess
             return removeHeroFromDeck.ToString();
         } // end of method RemoveHeroFromDeck
 
-        private string RemoveHeroPlayerOne(string playerName, string heroName)
+        private string RemoveHeroPlayerOne(string playerName, string heroName, int heroLocation)
         {   
             bool heroFound = false;
             StringBuilder removeHeroPlayerOne = new StringBuilder();
             // jika heroName sesuai dengan heroName yang ada di dalam listHero, hapus melalui index
-            for(int i = 0; i < _playerOne.deck.listHero.Count; i++)
+            if(heroLocation == 0)
             {
-                if(heroName.ToLower() == _playerOne.deck.listHero[i].heroName.ToLower())
+                for(int i = 0; i < _playerOne.deck.listHero.Count; i++)
                 {
-                    removeHeroPlayerOne.Append($"Hero '{heroName}' removed from deck");
-                    _playerOne.deck.listHero.RemoveAt(i);
-                    heroFound = true;
-                    break;
+                    if(heroName.ToLower() == _playerOne.deck.listHero[i].heroName.ToLower())
+                    {
+                        removeHeroPlayerOne.Append($"Hero '{heroName}' removed from deck");
+                        _playerOne.deck.listHero.RemoveAt(i);
+                        heroFound = true;
+                        break;
+                    }
                 }
+
+                // menghapus isi dari boardPlayerOne.tiles.tile sesuai dengan heroName
+                foreach(var item in _boardPlayerOne.tiles.tile)
+                {
+                    if(heroName.ToLower() == item.Value)
+                    {
+                        _boardPlayerOne.tiles.tile.Remove(item.Key);
+                        break;
+                    }
+                }
+                if(!heroFound)
+                {
+                    removeHeroPlayerOne.Append($"Hero '{heroName}' not found");
+                }
+            }
+            else
+            {
+                for(int i = 0; i < _playerOne.deck.listHero.Count; i++)
+                {
+                    if(heroName.ToLower() == _playerOne.deck.listHero[i].heroName.ToLower() && heroLocation == _playerOne.deck.listHero[i].GetLocationHero())
+                    {
+                        removeHeroPlayerOne.Append($"Hero '{heroName}' with location {heroLocation} removed from deck");
+                        _playerOne.deck.listHero.RemoveAt(i);
+                        heroFound = true;
+                        break;
+                    }
+                }
+                _boardPlayerOne.tiles.tile.Remove(heroLocation);
             }
 
-            // menghapus isi dari boardPlayerOne.tiles.tile sesuai dengan heroName
-            foreach(var item in _boardPlayerOne.tiles.tile)
-            {
-                if(heroName.ToLower() == item.Value)
-                {
-                    _boardPlayerOne.tiles.tile.Remove(item.Key);
-                    break;
-                }
-            }
-            if(!heroFound)
-            {
-                removeHeroPlayerOne.Append($"Hero '{heroName}' not found");
-            }
 
             return removeHeroPlayerOne.ToString();
         } // end of method RemoveHeroPlayerOne

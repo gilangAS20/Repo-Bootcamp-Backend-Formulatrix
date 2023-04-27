@@ -50,8 +50,9 @@ static class Program
 
         // tes delete hero player1 dari dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("\nDelete hero from Gilang's deck: ");
-        //System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "freya"));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(heroName: "freya", playerName: "Gilang"));
+        System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "garo"));
+        System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "stella", 19));
+        System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "freya", 23));
         System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "anjay"));
 
         System.Console.WriteLine("\nDeck Gilang(after remove): ");
@@ -61,7 +62,7 @@ static class Program
         System.Console.WriteLine("\n--add hero to Gilang's deck--");
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 1));
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 7));
-        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 8));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 23));
 
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
