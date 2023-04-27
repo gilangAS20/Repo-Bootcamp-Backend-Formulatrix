@@ -35,7 +35,10 @@ static class Program
         // menambahkan hero player1 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("--add hero to Gilang's deck--");
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 24));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 23));
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 2));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 22));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 19));
         //System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 12)); // hilangkan command code jika mau cek winner dengan totalHP tertinggi
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 2)); // fail karena lokasi sudah digunakan
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 30)); // fail karena lokasi harus antara 1-24
@@ -58,6 +61,7 @@ static class Program
         System.Console.WriteLine("\n--add hero to Gilang's deck--");
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 1));
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 7));
+        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 8));
 
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
@@ -72,10 +76,14 @@ static class Program
         // menambahkan hero player2 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("--add hero to Enemy's deck--");
         System.Console.WriteLine(game.AddHeroToDeck("Enemy", "garo", 1));
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "garo", 2));
         System.Console.WriteLine(game.AddHeroToDeck("Enemy", "stella", 3));
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "stella", 17));
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "plankton", 4)); // fail karena nama hero tidak ada
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "freya", 21));
+        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "freya", 24));
         System.Console.WriteLine(game.AddHeroToDeck("Enemy", "freya", 3)); // fail karena lokasi sudah digunakan
         System.Console.WriteLine(game.AddHeroToDeck("Enemy", "freya", 0)); // fail karena lokasi harus antara 1 dan 24
-        System.Console.WriteLine(game.AddHeroToDeck("Enemy", "plankton", 4)); // fail karena nama hero tidak ada
 
         // menampilkan deck Enemy (player2)
         System.Console.WriteLine("\n--show Enemy's deck--");
