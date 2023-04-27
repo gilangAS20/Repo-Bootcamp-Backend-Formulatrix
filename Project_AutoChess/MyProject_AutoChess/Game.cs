@@ -296,6 +296,8 @@ namespace MyProject_AutoChess
                     removeHeroPlayerOne.Append($"Hero '{heroName}' not found");
                 }
             }
+
+            // delete dengan location tidak 0
             else
             {
                 for(int i = 0; i < _playerOne.deck.listHero.Count; i++)
