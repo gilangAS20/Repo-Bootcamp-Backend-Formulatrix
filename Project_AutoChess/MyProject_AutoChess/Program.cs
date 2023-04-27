@@ -36,7 +36,7 @@ static class Program
         System.Console.WriteLine("--add hero to Gilang's deck--");
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 24));
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 2));
-        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 12));
+        //System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 12)); // hilangkan command code jika mau cek winner dengan totalHP tertinggi
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 2)); // fail karena lokasi sudah digunakan
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 30)); // fail karena lokasi harus antara 1-24
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "slebew", 4)); // fail karena hero tidak ada
