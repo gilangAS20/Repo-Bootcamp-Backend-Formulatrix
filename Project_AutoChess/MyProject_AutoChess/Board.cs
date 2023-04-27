@@ -4,10 +4,10 @@ namespace MyProject_AutoChess
     {
         // properties
         public Tile tiles = new Tile();
-        public bool CheckAvailabilityMoveTile(int tile)
+        public bool CheckAvailabilityMoveTile(int tileInput)
         {
             // cek apakah listTiles sudah diisi lokasi
-            if (tiles.tile.ContainsKey(tile) == true)
+            if (tiles.tile.ContainsKey(tileInput) == true)
             {
                 // CheckAvailabilityMoveTile(tile) akan bernilai false, artinya sudah ada hero di tile tersebut
                 return false;

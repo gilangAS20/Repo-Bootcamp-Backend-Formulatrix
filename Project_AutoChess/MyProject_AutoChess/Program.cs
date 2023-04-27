@@ -35,7 +35,7 @@ static class Program
         // menambahkan hero player1 ke dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("--add hero to Gilang's deck--");
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "freya", 24));
-        System.Console.WriteLine(game.AddHeroToDeck("Gilang", "garo", 2));
+        System.Console.WriteLine(game.AddHeroToDeck(heroName: "garo", location: 2, playerName: "Gilang")); // tes input tidak urut
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 2)); // fail karena lokasi sudah digunakan
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "stella", 30)); // fail karena lokasi harus antara 1-24
         System.Console.WriteLine(game.AddHeroToDeck("Gilang", "slebew", 4)); // fail karena hero tidak ada
@@ -43,11 +43,11 @@ static class Program
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
         System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
-        //System.Console.WriteLine("\n");
 
         // tes delete hero player1 dari dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("\nDelete hero from Gilang's deck: ");
-        System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "freya"));
+        //System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "freya"));
+        System.Console.WriteLine(game.RemoveHeroFromDeck(heroName: "freya", playerName: "Gilang"));
         System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "anjay"));
 
         System.Console.WriteLine("\nDeck Gilang(after remove): ");
@@ -79,7 +79,6 @@ static class Program
         // menampilkan deck Enemy (player2)
         System.Console.WriteLine("\n--show Enemy's deck--");
         System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
-        //System.Console.WriteLine("\n");
 
         // tes delete hero player2 dari dalam deck --> return value console sudah diganti string
         System.Console.WriteLine("\nDelete hero from Enemy's deck: ");
@@ -104,9 +103,11 @@ static class Program
         // =====================================Game Dimulai===================================
         System.Console.WriteLine("==================================================");
 
-        // memulai pertarungan [SEDANG MENCOBA MENGUBAH CONSOLE WRITE KE STRINGBUILDER]
+        // memulai pertarungan
+        System.Console.ForegroundColor = ConsoleColor.Yellow;
         System.Console.WriteLine("\n    ---Game Start---\n ");
         System.Console.WriteLine("--Press any key to play---\n ");
+        System.Console.ResetColor();
         Console.ReadKey();
 
         // looping untuk menampilkan proses serang
