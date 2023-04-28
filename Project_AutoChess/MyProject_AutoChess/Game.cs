@@ -79,7 +79,7 @@ namespace MyProject_AutoChess
                 }
             }
             return returnAddHero.ToString();
-        }
+        } // end of method AddHeroToDeck
 
         private string AddHeroPlayer(Players playerInstance, Board boardInstance, string heroName, int heroLocation)
         {
@@ -117,7 +117,7 @@ namespace MyProject_AutoChess
                 }
             }
             return returnAddHero.ToString();
-        }
+        } // end of method AddHeroPlayer
 
         private string AddHeroFreya(Players playerInstance, int heroLocation)
         {   
@@ -127,7 +127,7 @@ namespace MyProject_AutoChess
             playerInstance.deck.listHero.Add(freya);
 
             return returnAddHeroFreya.ToString();
-        }
+        } // end of method AddHeroFreya
 
         private string AddHeroGaro(Players playerInstance, int heroLocation)
         {
@@ -137,7 +137,7 @@ namespace MyProject_AutoChess
             playerInstance.deck.listHero.Add(garo);
 
             return returnAddHeroGaro.ToString();
-        }
+        } // end of method AddHeroGaro
 
         private string AddHeroStella(Players playerInstance, int heroLocation)
         {
@@ -147,7 +147,7 @@ namespace MyProject_AutoChess
             playerInstance.deck.listHero.Add(stella);
 
             return returnAddHeroStella.ToString();
-        }
+        } // end of method AddHeroStella
 
 
         public string ShowDeck(string playerName)
