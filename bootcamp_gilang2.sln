@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latian_BoardGame_TurnBased", "Latian_BoardGame_TurnBased\Latian_BoardGame_TurnBased.csproj", "{952C0F64-CC36-40C1-B914-34F032607749}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latian_BoardGame_TurnBased2", "Latian_BoardGame_TurnBased2\Latian_BoardGame_TurnBased2.csproj", "{777BC879-1BFE-4821-8E66-A139979CF207}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Latian_Membuat_Folder", "Latian_Membuat_Folder", "{9CD0601B-FD14-4541-9F70-8CAE47826410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

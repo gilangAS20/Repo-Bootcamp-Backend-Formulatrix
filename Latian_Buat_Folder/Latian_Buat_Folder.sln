@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Project1.csproj", "{E26C5DD4-3DF2-45A1-81B7-B6C58D7B5F60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoldeProjectOne", "FoldeProjectOne", "{4B3F3B7B-AC23-4703-8454-5FBE9993BAA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FolderPlayer", "FolderPlayer", "{0929951E-1D80-472D-8431-0690BB8C17FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E26C5DD4-3DF2-45A1-81B7-B6C58D7B5F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26C5DD4-3DF2-45A1-81B7-B6C58D7B5F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26C5DD4-3DF2-45A1-81B7-B6C58D7B5F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26C5DD4-3DF2-45A1-81B7-B6C58D7B5F60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E26C5DD4-3DF2-45A1-81B7-B6C58D7B5F60} = {4B3F3B7B-AC23-4703-8454-5FBE9993BAA9}
+	EndGlobalSection
+EndGlobal
