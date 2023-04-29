@@ -18,11 +18,11 @@ static class Program
         // membuat instance untuk class Game
         Game game = new Game();
 
-        // menambahkan player --> return value console sudah diganti string
+        // menambahkan player
         Console.WriteLine(game.AddPlayers("Gilang", "Enemy"));
         Console.WriteLine(game.AddPlayers("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
 
-        // menampilkan isi dari game.listPlayer --> return value console sudah diganti string
+        // menampilkan isi dari game.listPlayer
         System.Console.WriteLine("\nIsi dari listPlayer: ");
         System.Console.WriteLine(game.ShowListPlayer());
         System.Console.Write("\n");
@@ -32,10 +32,9 @@ static class Program
         // ==================================player1===========================================
         System.Console.WriteLine("==================================================");
 
-        // menambahkan hero player1 ke dalam deck --> return value console sudah diganti string
+        // menambahkan hero player1 ke dalam deck
         System.Console.WriteLine("--add hero to Gilang's deck--");
         System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "freya", 24));
-        //System.Console.WriteLine(game.NewAddHeroToDeck(game._playerOne, "freya", 23));
         System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "garo", 2));
         System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 22));
         System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 19));
@@ -46,9 +45,9 @@ static class Program
 
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
-        System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
+        System.Console.WriteLine(game.ShowDeck(game._playerOne));
 
-        // tes delete hero player1 dari dalam deck --> return value console sudah diganti string
+        // tes delete hero player1 dari dalam deck
         System.Console.WriteLine("\nDelete hero from Gilang's deck: ");
         System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "garo"));
         System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "stella", 19));
@@ -56,9 +55,9 @@ static class Program
         System.Console.WriteLine(game.RemoveHeroFromDeck("Gilang", "anjay"));
 
         System.Console.WriteLine("\nDeck Gilang(after remove): ");
-        System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
+        System.Console.WriteLine(game.ShowDeck(game._playerOne));
 
-        // menambahkan kembali hero player1 ke dalam deck --> return value console sudah diganti string
+        // menambahkan kembali hero player1 ke dalam deck
         System.Console.WriteLine("\n--add hero to Gilang's deck--");
         System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "freya", 1));
         System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 2));
@@ -66,7 +65,8 @@ static class Program
 
         // menampilkan deck Gilang (player1)
         System.Console.WriteLine("\n--show Gilang's deck--");
-        System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
+        System.Console.WriteLine(game.ShowDeck(game._playerOne));
+
         System.Console.WriteLine("==================================================");
         // ====================================================================================
 
@@ -74,7 +74,7 @@ static class Program
         // ==================================player2===========================================
         System.Console.WriteLine("\n==================================================");
 
-        // menambahkan hero player2 ke dalam deck --> return value console sudah diganti string
+        // menambahkan hero player2 ke dalam deck
         System.Console.WriteLine("--add hero to Enemy's deck--");
         System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "garo", 1));
         System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "garo", 2));
@@ -88,24 +88,26 @@ static class Program
 
         // menampilkan deck Enemy (player2)
         System.Console.WriteLine("\n--show Enemy's deck--");
-        System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
+        System.Console.WriteLine(game.ShowDeck(game._playerTwo));
 
-        // tes delete hero player2 dari dalam deck --> return value console sudah diganti string
+        // tes delete hero player2 dari dalam deck
         System.Console.WriteLine("\nDelete hero from Enemy's deck: ");
         System.Console.WriteLine(game.RemoveHeroFromDeck("Enemy", "garo"));
         System.Console.WriteLine(game.RemoveHeroFromDeck("Enemy", "yuzu"));
 
         System.Console.WriteLine("\nDeck Enemy(after remove): ");
-        System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
+        System.Console.WriteLine(game.ShowDeck(game._playerTwo));
 
-        // menambahkan kembali hero player2 ke dalam deck --> return value console sudah diganti string
+
+        // menambahkan kembali hero player2 ke dalam deck
         System.Console.WriteLine("\n--add hero to Enemy's deck--");
         System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "garo", 1));
         System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "freya", 6));
 
         // menampilkan deck Enemy (player2)
         System.Console.WriteLine("\n--show Enemy's deck--");
-        System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
+        System.Console.WriteLine(game.ShowDeck(game._playerTwo));
+
         System.Console.WriteLine("==================================================");
         // ====================================================================================
 
@@ -137,14 +139,15 @@ static class Program
         System.Console.WriteLine("\n ===Game Over===\n");
         System.Console.WriteLine(game.TimerGameStop());
 
-        // melihat siapa yang menang --> return value console sudah diganti string
+        // melihat siapa yang menang
         System.Console.WriteLine(game.IsLoseOrWin());
 
         // menampilkan deck akhir setelah pertarungan
         System.Console.WriteLine("\nGilang's Deck (after game): ");
-        System.Console.WriteLine(game.ShowDeck("Gilang")); // return value console sudah diganti string
+        System.Console.WriteLine(game.ShowDeck(game._playerOne));
+
         System.Console.WriteLine("\nEnemy's Deck (after game): ");
-        System.Console.WriteLine(game.ShowDeck("Enemy")); // return value console sudah diganti string
+        System.Console.WriteLine(game.ShowDeck(game._playerTwo));
         // ====================================================================================
     }
 }

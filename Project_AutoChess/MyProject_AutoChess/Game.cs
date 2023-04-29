@@ -58,10 +58,10 @@ namespace MyProject_AutoChess
         } // end of method ShowListPlayer
 
 
-        public string AddHeroToDeck(Players playerInstance, string heroname, int herolocation)
+        public string AddHeroToDeck(Players playerInstance, string heroName, int heroLocation)
         {
             StringBuilder returnAddHero = new StringBuilder();
-            if(herolocation < 1 || herolocation > 24)
+            if(heroLocation < 1 || heroLocation > 24)
             {
                 returnAddHero.Append("Location must be between 1 and 24");
             }
@@ -69,12 +69,12 @@ namespace MyProject_AutoChess
             {
                 if(playerInstance == _playerOne)
                 {
-                    string returnHero = AddHeroPlayer(playerInstance, _boardPlayerOne, heroname, herolocation);
+                    string returnHero = AddHeroPlayer(playerInstance, _boardPlayerOne, heroName, heroLocation);
                     returnAddHero.Append(returnHero);
                 }
                 else if(playerInstance == _playerTwo)
                 {
-                    string returnHero = AddHeroPlayer(playerInstance, _boardPlayerTwo, heroname, herolocation);
+                    string returnHero = AddHeroPlayer(playerInstance, _boardPlayerTwo, heroName, heroLocation);
                     returnAddHero.Append(returnHero);
                 }
             }
@@ -149,77 +149,31 @@ namespace MyProject_AutoChess
             return returnAddHeroStella.ToString();
         } // end of method AddHeroStella
 
-
-        public string ShowDeck(string playerName)
+        public string ShowDeck(Players playerInstance)
         {
-            StringBuilder showDeck = new StringBuilder();
-            if(_playerOne.GetPlayerName() == playerName)
-            {
-                string deckPlayerOne = ShowDeckPlayerOne();
-                showDeck.Append(deckPlayerOne);
-            }
-
-            else if(_playerTwo.GetPlayerName() == playerName)
-            {
-                string deckPlayerTwo = ShowDeckPlayerTwo();
-                showDeck.Append(deckPlayerTwo);
-            }
-
-            return showDeck.ToString();
-        } // end of method ShowDeck
-
-        private string ShowDeckPlayerOne()
-        {
-            StringBuilder showDeckPlayerOne = new StringBuilder();
-            showDeckPlayerOne.Append(_playerOne.GetPlayerName() + "'s deck: \n");
-            if(_playerOne.deck.listHero.Count() <= 0)
-            {
-                showDeckPlayerOne.Append("--empty--");
-            }
-            else
-            {
-                foreach(var item in _playerOne.deck.listHero)
-                {   
-                    showDeckPlayerOne.Append(item.ShowHeroInfo());
-                }
-            }
-            // show total of HP in deck using lambda expression
-            //showDeckPlayerOne.Append("\nTotal HP player1 : " + _playerOne.deck.listHero.Sum(x => x.GetHP()));
-            return showDeckPlayerOne.ToString();
-        } // end of method ShowDeckPlayerOne
-
-        private string ShowDeckPlayerTwo()
-        {   
-            StringBuilder showDeckPlayerTwo = new StringBuilder();
-            showDeckPlayerTwo.Append( _playerTwo.GetPlayerName() + "'s deck: \n");
-            if(_playerTwo.deck.listHero.Count() <= 0)
-            {
-                showDeckPlayerTwo.Append("--empty--");
-            }
-            else
-            {
-                foreach(var item in _playerTwo.deck.listHero)
+            StringBuilder returnShowDeck = new StringBuilder();
+           
+                returnShowDeck.Append(playerInstance.GetPlayerName() + "'s deck: \n");
+                if(playerInstance.deck.listHero.Count() <= 0)
                 {
-                    showDeckPlayerTwo.Append(item.ShowHeroInfo());
+                    returnShowDeck.Append("--empty--");
                 }
-            }
+                else
+                {
+                    foreach(var item in playerInstance.deck.listHero)
+                    {   
+                        returnShowDeck.Append(item.ShowHeroInfo());
+                    }
+                }
 
-            return showDeckPlayerTwo.ToString();
-        } // end of method ShowDeckPlayerTwo
+            return returnShowDeck.ToString();
+        } // end of method NewShowDeck
 
-        public int ShowTotalHP(string playerName)
+        public int ShowTotalHP(Players playerInstance)
         {
             int totalHP = 0;
-            if(_playerOne.GetPlayerName() == playerName)
-            {
-                totalHP = _playerOne.deck.listHero.Sum(x => x.GetHP());
-            }
+            totalHP = playerInstance.deck.listHero.Sum(x => x.GetHP());
 
-            else if(_playerTwo.GetPlayerName() == playerName)
-            {
-                totalHP = _playerTwo.deck.listHero.Sum(x => x.GetHP());
-            }
-            
             return totalHP;
         }
 
@@ -337,15 +291,8 @@ namespace MyProject_AutoChess
                 Random random = new Random();
                 randomPlayer = random.Next(0,2);
 
-                string test = PlayerTurn(randomPlayer);
-                if(test.Contains("is dead"))
-                {
-                    startGame.Append(test);
-                }
-                else
-                {
-                    startGame.Append(test);
-                }
+                string playerTurnResult = PlayerTurn(randomPlayer);
+                startGame.Append(playerTurnResult);
 
                 if(_playerOne.deck.listHero.Count() <= 0 || _playerTwo.deck.listHero.Count() <= 0)
                 {
@@ -442,26 +389,24 @@ namespace MyProject_AutoChess
         {   
             StringBuilder isLoseOrWin = new StringBuilder();
 
-            //if(_playerOne.deck.listHero.Count() > 0 && _playerOne.deck.listHero.Sum(x => x.GetHP()) > _playerTwo.deck.listHero.Sum(x => x.GetHP()))
-            if(_playerOne.deck.listHero.Count() > 0 && ShowTotalHP(_playerOne.GetPlayerName()) > ShowTotalHP(_playerTwo.GetPlayerName()))
+            if(_playerOne.deck.listHero.Count() > 0 && ShowTotalHP(_playerOne) > ShowTotalHP(_playerTwo))
             {
                 isLoseOrWin.AppendLine("\n===" + _playerOne.GetPlayerName() + " win! " + _playerTwo.GetPlayerName() + " lose!===");
-                // isLoseOrWin.AppendLine(_playerOne.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerOne.GetPlayerName()));
             }
-            else if(_playerTwo.deck.listHero.Count() > 0 && _playerOne.deck.listHero.Sum(x => x.GetHP()) < _playerTwo.deck.listHero.Sum(x => x.GetHP()))
+            else if(_playerTwo.deck.listHero.Count() > 0 && ShowTotalHP(_playerTwo) > ShowTotalHP(_playerOne))
             {
                 isLoseOrWin.AppendLine("\n===" + _playerTwo.GetPlayerName() + " win! " + _playerOne.GetPlayerName() + " lose!===");
-                // isLoseOrWin.AppendLine(_playerTwo.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerTwo.GetPlayerName()));
             }
             else
             {
                 isLoseOrWin.AppendLine("\nDraw!");
             }
 
-            isLoseOrWin.AppendLine(_playerOne.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerOne.GetPlayerName()));
-            isLoseOrWin.AppendLine(_playerTwo.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerTwo.GetPlayerName()));
+            isLoseOrWin.AppendLine(_playerOne.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerOne));
+            isLoseOrWin.AppendLine(_playerTwo.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerTwo));
 
             return isLoseOrWin.ToString();
         } // end of method IsLoseOrWin
+
     } // end of class Game
 } // end of namespace MyProject_AutoChess
