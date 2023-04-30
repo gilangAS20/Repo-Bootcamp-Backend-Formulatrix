@@ -29,6 +29,7 @@ namespace MyProject_AutoChess
             _stopWatch.Stop();
             return String.Format("Battle Time: {0:0.00} seconds", _stopWatch.Elapsed.TotalSeconds);
         }
+        
         public string AddPlayers(string PlayerName1, string PlayerName2)
         {
             if(_listPlayers.Count >= 2)
@@ -47,7 +48,8 @@ namespace MyProject_AutoChess
         } // end of method AddPlayer
 
         public string ShowListPlayer()
-        {   int number = 1;
+        {   
+            int number = 1;
             StringBuilder returnListPlayer = new StringBuilder();
             foreach (var item in _listPlayers)
             {
@@ -88,6 +90,10 @@ namespace MyProject_AutoChess
             {
                 returnAddHero.Append(playerInstance.GetPlayerName() + "'s deck is full");
             }
+            else if(boardInstance.tiles.tile.ContainsKey(heroLocation))
+            {
+                returnAddHero.Append("Location " + heroLocation + " is already used by other hero");
+            }
             else
             {
                 if(boardInstance.CheckAvailabilityMoveTile(heroLocation) == true)
@@ -116,6 +122,7 @@ namespace MyProject_AutoChess
                     }
                 }
             }
+
             return returnAddHero.ToString();
         } // end of method AddHeroPlayer
 
@@ -177,110 +184,65 @@ namespace MyProject_AutoChess
             return totalHP;
         }
 
-        public string RemoveHeroFromDeck(string playerName, string heroName, int heroLocation = 0)
+        public string RemoveHeroFromDeck(Players playerInstance, string heroName, int heroLocation = 0)
         {
             StringBuilder removeHeroFromDeck = new StringBuilder();
-            if(_playerOne.GetPlayerName() == playerName)
+
+            if(heroLocation == 0)
             {
-                string removeHeroPlayerOne = RemoveHeroPlayerOne(playerName, heroName, heroLocation);
-                removeHeroFromDeck.Append(removeHeroPlayerOne);
+                removeHeroFromDeck.Append("Location must be filled");
+            }
+            
+            else if(heroLocation < 0 || heroLocation > 24)
+            {
+                removeHeroFromDeck.Append("Location must be between 1 and 24");
             }
 
-            else if(_playerTwo.GetPlayerName() == playerName)
+            else if(playerInstance == _playerOne)
             {
-                string removeHeroPlayerTwo = RemoveHeroPlayerTwo(playerName, heroName);
-                removeHeroFromDeck.Append(removeHeroPlayerTwo);
+                string deleteHeroResult = RemoveHeroDeckPlayers(playerInstance, _boardPlayerOne, heroName, heroLocation);
+                removeHeroFromDeck.Append(deleteHeroResult);
+            }
+
+            else if(playerInstance == _playerTwo)
+            {
+                string deleteHeroResult = RemoveHeroDeckPlayers(playerInstance, _boardPlayerTwo, heroName, heroLocation);
+                removeHeroFromDeck.Append(deleteHeroResult);
             }
 
             return removeHeroFromDeck.ToString();
-        } // end of method RemoveHeroFromDeck
+        }
 
-        private string RemoveHeroPlayerOne(string playerName, string heroName, int heroLocation)
-        {   
-            bool heroFound = false;
-            StringBuilder removeHeroPlayerOne = new StringBuilder();
-            // jika heroName sesuai dengan heroName yang ada di dalam listHero, hapus melalui index
-            if(heroLocation == 0)
-            {
-                for(int i = 0; i < _playerOne.deck.listHero.Count; i++)
-                {
-                    if(heroName.ToLower() == _playerOne.deck.listHero[i].heroName.ToLower())
-                    {
-                        removeHeroPlayerOne.Append($"Hero '{heroName}' removed from deck");
-                        _playerOne.deck.listHero.RemoveAt(i);
-                        heroFound = true;
-                        break;
-                    }
-                }
-
-                // menghapus isi dari boardPlayerOne.tiles.tile sesuai dengan heroName
-                foreach(var item in _boardPlayerOne.tiles.tile)
-                {
-                    if(heroName.ToLower() == item.Value)
-                    {
-                        _boardPlayerOne.tiles.tile.Remove(item.Key);
-                        break;
-                    }
-                }
-                if(!heroFound)
-                {
-                    removeHeroPlayerOne.Append($"Hero '{heroName}' not found");
-                }
-            }
-
-            // delete dengan location tidak 0
-            else
-            {
-                for(int i = 0; i < _playerOne.deck.listHero.Count; i++)
-                {
-                    if(heroName.ToLower() == _playerOne.deck.listHero[i].heroName.ToLower() && heroLocation == _playerOne.deck.listHero[i].GetLocationHero())
-                    {
-                        removeHeroPlayerOne.Append($"Hero '{heroName}' with location {heroLocation} removed from deck");
-                        _playerOne.deck.listHero.RemoveAt(i);
-                        heroFound = true;
-                        break;
-                    }
-                }
-                _boardPlayerOne.tiles.tile.Remove(heroLocation); // perlu dibenahi, bisa delete meskipun hero dan lokasi tidak sesuai
-            }
-
-
-            return removeHeroPlayerOne.ToString();
-        } // end of method RemoveHeroPlayerOne
-
-        private string RemoveHeroPlayerTwo(string playerName, string heroName)
+        private string RemoveHeroDeckPlayers(Players playerInstance, Board boardInstance, string heroName, int heroLocation)
         {
             bool heroFound = false;
-            StringBuilder removeHeroPlayerTwo = new StringBuilder();
-            // jika heroName sesuai dengan heroName yang ada di dalam listHero, hapus melalui index
-            for(int i = 0; i < _playerTwo.deck.listHero.Count; i++)
+            StringBuilder removeHeroPlayer = new StringBuilder();
+
+            // hapus hero di board(di tile Board.cs)
+            if(boardInstance.tiles.tile.ContainsKey(heroLocation) && boardInstance.tiles.tile[heroLocation] == heroName)
             {
-                if(heroName.ToLower() == _playerTwo.deck.listHero[i].heroName.ToLower())
-                {   
-                    removeHeroPlayerTwo.Append($"Hero '{heroName}' removed from deck");
-                    _playerTwo.deck.listHero.RemoveAt(i);
-                    heroFound = true;
-                    break;
-                }
-            }
-            // menghapus isi dari boardPlayerOne.tiles.tile sesuai dengan heroName
-            foreach(var item in _boardPlayerTwo.tiles.tile)
-            {
-                if(heroName.ToLower() == item.Value)
+                removeHeroPlayer.Append($"Hero '{heroName}' with location {heroLocation} removed from deck");
+                boardInstance.tiles.tile.Remove(heroLocation);
+
+                // hapus hero di deck (di listHero Players.cs)  
+                for(int i = 0; i < playerInstance.deck.listHero.Count; i++)
                 {
-                    _boardPlayerTwo.tiles.tile.Remove(item.Key);
-                    break;
+                    if(heroName.ToLower() == playerInstance.deck.listHero[i].heroName.ToLower() && heroLocation == playerInstance.deck.listHero[i].GetLocationHero())
+                    {
+                        playerInstance.deck.listHero.RemoveAt(i);
+                        heroFound = true;
+                        break;
+                    }
                 }
             }
-            if(!heroFound)
+
+            else
             {
-                removeHeroPlayerTwo.Append($"Hero '{heroName}' not found");
+                removeHeroPlayer.Append($"Hero '{heroName}' with location {heroLocation} not found");
             }
 
-            return removeHeroPlayerTwo.ToString();
-        } // end of method RemoveHeroPlayerTwo
-
-
+            return removeHeroPlayer.ToString();
+        }
 
         public string StartGame()
         {   
