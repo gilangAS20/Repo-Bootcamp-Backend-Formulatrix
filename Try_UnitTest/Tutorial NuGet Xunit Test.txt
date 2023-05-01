@@ -1,0 +1,34 @@
+https://www.youtube.com/watch?v=HQmbAdjuB88
+
+langkah pakai nuget
+- install extension NuGet Package Manager
+
+1. buka file .csproj
+2. ctrl + shift + P
+3. ketik "NuGet Package Manager: Add Package"
+4. ketik "Microsoft.NET.Test.Sdk", lalu pilih semua yang paling atas
+5. pilih file .csproj nya
+
+6. ketik "NuGet Package Manager: Add Package"
+7. ketik "xunit", pilih xunit, lalu pilih versi paling atas
+8. pilih file .csproj nya
+
+9. ketik "NuGet Package Manager: Add Package"
+10. ketik "xunit.runner.visualstudio", pilih paling atas
+11. pilih file .csproj nya
+
+ketika dijalankan akan muncul error: 
+"Program has more than one entry point defined. 
+ Compile with /main to specify the
+ type that contains the entry point"
+
+solusi:
+1. buka file .csproj, di bawah "<TargetFramework>net7.0</TargetFramework>"
+   tambahkan "<GenerateProgramFile>false</GenerateProgramFile>"
+
+follow langkah untuk membuat unit test dari link ytb tsb
+
+untuk menjalankan unit test, di console ketik "dotnet test"
+
+[Fact] hanya dapat dijalankan 1x
+[Theory] dapat dijalankan beberapa kali langsung
