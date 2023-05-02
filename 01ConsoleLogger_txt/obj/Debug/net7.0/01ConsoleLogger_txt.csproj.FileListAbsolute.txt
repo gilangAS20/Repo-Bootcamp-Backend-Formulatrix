@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\01ConsoleLogger_txt.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\01ConsoleLogger_txt.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\01ConsoleLogger_txt.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\01ConsoleLogger_txt.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\01ConsoleLogger_txt.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\bin\Debug\net7.0\01ConsoleLogger_txt.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\bin\Debug\net7.0\01ConsoleLogger_txt.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\bin\Debug\net7.0\01ConsoleLogger_txt.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\bin\Debug\net7.0\01ConsoleLogger_txt.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\bin\Debug\net7.0\01ConsoleLogger_txt.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\01ConsoleLogger_txt.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\refint\01ConsoleLogger_txt.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\01ConsoleLogger_txt.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\01ConsoleLogger_txt.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\01ConsoleLogger_txt\obj\Debug\net7.0\ref\01ConsoleLogger_txt.dll

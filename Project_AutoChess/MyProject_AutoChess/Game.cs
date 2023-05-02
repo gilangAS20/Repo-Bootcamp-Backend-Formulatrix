@@ -1,3 +1,6 @@
+using log4net;
+using log4net.Config;
+
 using System.Text;
 using System.Diagnostics;
 namespace MyProject_AutoChess
@@ -18,15 +21,26 @@ namespace MyProject_AutoChess
         public bool isPlayingMode = true;
         public int randomPlayer; // kalo diubah ke private maka tidak akan random
 
-        public string TimerGameStart()
+        // untuk log4net
+        private static readonly ILog logger = LogManager.GetLogger(typeof(Game));
+        //XmlConfigurator.Configure(new FileInfo("AutoChessLog4Net.config"));
+        
+        // make constructor
+        public Game()
         {
+            XmlConfigurator.Configure(new FileInfo("AutoChessLog4Net.config"));
+        }
+        public string TimerGameStart()
+        {   
             _stopWatch.Start();
+            logger.Info("Battle timer started(log message)");
             return "Battle timer started";
         }
 
         public string TimerGameStop()
         {
             _stopWatch.Stop();
+            logger.Info("Battle timer stopped(log message)");
             return String.Format("Battle Time: {0:0.00} seconds", _stopWatch.Elapsed.TotalSeconds);
         }
         
@@ -44,6 +58,8 @@ namespace MyProject_AutoChess
                 _playerTwo.SetPlayerName(PlayerName2);
                 _listPlayers.Add(_playerTwo);
             }
+
+            logger.Info($"Add Player 1 {PlayerName1} and Player 2 {PlayerName2} (log message)");
             return "Player 1: " + PlayerName1 + " dan Player 2: " + PlayerName2 + " telah ditambahkan";
         } // end of method AddPlayer
 
@@ -56,6 +72,8 @@ namespace MyProject_AutoChess
                 returnListPlayer.Append("\nPlayer "+ number + ": " + item.GetPlayerName());
                 number++;
             }
+
+            logger.Info("Show list player (log message)");
             return returnListPlayer.ToString();
         } // end of method ShowListPlayer
 
@@ -80,6 +98,7 @@ namespace MyProject_AutoChess
                     returnAddHero.Append(returnHero);
                 }
             }
+
             return returnAddHero.ToString();
         } // end of method AddHeroToDeck
 
@@ -123,6 +142,7 @@ namespace MyProject_AutoChess
                 }
             }
 
+            logger.Info($"Add hero to {playerInstance.GetPlayerName()}'s board (log message)");
             return returnAddHero.ToString();
         } // end of method AddHeroPlayer
 
@@ -132,7 +152,8 @@ namespace MyProject_AutoChess
             Freya freya = new Freya(heroLocation);
             returnAddHeroFreya.Append("Freya added to location " + freya.GetLocationHero());
             playerInstance.deck.listHero.Add(freya);
-
+            
+            //logger.Info($"Add hero Freya to {playerInstance.GetPlayerName()}'s deck (log message)");
             return returnAddHeroFreya.ToString();
         } // end of method AddHeroFreya
 
@@ -173,6 +194,7 @@ namespace MyProject_AutoChess
                     }
                 }
 
+            logger.Info($"Show {playerInstance.GetPlayerName()}'s deck (log message)");
             return returnShowDeck.ToString();
         } // end of method NewShowDeck
 
@@ -181,6 +203,7 @@ namespace MyProject_AutoChess
             int totalHP = 0;
             totalHP = playerInstance.deck.listHero.Sum(x => x.GetHP());
 
+            logger.Info($"Show {playerInstance.GetPlayerName()}'s total HP (log message)");
             return totalHP;
         }
 
@@ -209,7 +232,7 @@ namespace MyProject_AutoChess
                 string deleteHeroResult = RemoveHeroDeckPlayers(playerInstance, _boardPlayerTwo, heroName, heroLocation);
                 removeHeroFromDeck.Append(deleteHeroResult);
             }
-
+            logger.Info($"Remove hero from {playerInstance.GetPlayerName()}'s deck (log message)");
             return removeHeroFromDeck.ToString();
         }
 
@@ -248,23 +271,25 @@ namespace MyProject_AutoChess
         {   
             StringBuilder startGame = new StringBuilder();
 
-                startGame.Append("\n\t\t---Game Cicle: " + _cicle + "---\n");
-                _cicle++;
-                Random random = new Random();
-                randomPlayer = random.Next(0,2);
+            startGame.Append("\n\t\t---Game Cicle: " + _cicle + "---\n");
+            _cicle++;
+            Random random = new Random();
+            randomPlayer = random.Next(0,2);
 
-                string playerTurnResult = PlayerTurn(randomPlayer);
-                startGame.Append(playerTurnResult);
+            string playerTurnResult = PlayerTurn(randomPlayer);
+            startGame.Append(playerTurnResult);
 
-                if(_playerOne.deck.listHero.Count() <= 0 || _playerTwo.deck.listHero.Count() <= 0)
-                {
-                    isPlayingMode = false;
-                }
+            if(_playerOne.deck.listHero.Count() <= 0 || _playerTwo.deck.listHero.Count() <= 0)
+            {
+                isPlayingMode = false;
+            }
 
-                else if(_stopWatch.Elapsed.TotalSeconds >= 30)
-                {
-                    isPlayingMode = false;
-                }
+            else if(_stopWatch.Elapsed.TotalSeconds >= 30)
+            {
+                isPlayingMode = false;
+            }
+            
+            //logger.Info($"Start game (log message)");
             return startGame.ToString();
         } // end of method StartGame
 
@@ -298,6 +323,8 @@ namespace MyProject_AutoChess
             playerTurn.Append(deleteHeroDead);
 
             playerTurn.Append("=========================--===============================");
+            
+            logger.Info($"Player turn (log message)");
             return playerTurn.ToString();
         }
 
@@ -332,12 +359,14 @@ namespace MyProject_AutoChess
             {
                 AlldeleteHeroDead.AppendLine(_playerOne.GetPlayerName() + "'s " + _playerOne.deck.listHero[0].heroName + " is dead");
                 _playerOne.deck.listHero.RemoveAt(0);
+                logger.Info($"Delete hero dead (log message)");
             }
 
             if(_playerTwo.deck.listHero[0].HP <= 0)
             {
                 AlldeleteHeroDead.AppendLine(_playerTwo.GetPlayerName() + "'s " + _playerTwo.deck.listHero[0].heroName + " is dead");
                 _playerTwo.deck.listHero.RemoveAt(0);
+                logger.Info($"Delete hero dead (log message)");
             }
             else
             {
@@ -354,14 +383,17 @@ namespace MyProject_AutoChess
             if(_playerOne.deck.listHero.Count() > 0 && ShowTotalHP(_playerOne) > ShowTotalHP(_playerTwo))
             {
                 isLoseOrWin.AppendLine("\n===" + _playerOne.GetPlayerName() + " win! " + _playerTwo.GetPlayerName() + " lose!===");
+                logger.Info($"{_playerOne.GetPlayerName()} win (log message)");
             }
             else if(_playerTwo.deck.listHero.Count() > 0 && ShowTotalHP(_playerTwo) > ShowTotalHP(_playerOne))
             {
                 isLoseOrWin.AppendLine("\n===" + _playerTwo.GetPlayerName() + " win! " + _playerOne.GetPlayerName() + " lose!===");
+                logger.Info($"{_playerTwo.GetPlayerName()} win (log message)");
             }
             else
             {
                 isLoseOrWin.AppendLine("\nDraw!");
+                logger.Info($"Draw (log message)");
             }
 
             isLoseOrWin.AppendLine(_playerOne.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerOne));

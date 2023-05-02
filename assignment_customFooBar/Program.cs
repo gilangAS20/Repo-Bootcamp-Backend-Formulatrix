@@ -35,6 +35,8 @@ namespace CustomFooBar;
 
             Console.WriteLine(coba1.DisplayChange(35)); //input angka 35 (0 s/d 35)
 
+            Console.WriteLine(coba1.Exit());
+
             stopwatch.Stop();
             Console.WriteLine($"Time: {stopwatch.Elapsed.TotalMilliseconds} ms");
         }
