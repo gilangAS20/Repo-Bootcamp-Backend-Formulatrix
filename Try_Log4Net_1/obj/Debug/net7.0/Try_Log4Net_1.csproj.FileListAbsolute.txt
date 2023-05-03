@@ -1,0 +1,15 @@
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\bin\Debug\net7.0\Try_Log4Net_1.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\bin\Debug\net7.0\Try_Log4Net_1.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\bin\Debug\net7.0\Try_Log4Net_1.runtimeconfig.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\bin\Debug\net7.0\Try_Log4Net_1.dll
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\bin\Debug\net7.0\Try_Log4Net_1.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\Try_Log4Net_1.csproj.AssemblyReference.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\Try_Log4Net_1.GeneratedMSBuildEditorConfig.editorconfig
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\Try_Log4Net_1.AssemblyInfoInputs.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\Try_Log4Net_1.AssemblyInfo.cs
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\Try_Log4Net_1.csproj.CoreCompileInputs.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\Try_Log4Net_1.dll
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\refint\Try_Log4Net_1.dll
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\Try_Log4Net_1.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\Try_Log4Net_1.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Try_Log4Net_1\obj\Debug\net7.0\ref\Try_Log4Net_1.dll

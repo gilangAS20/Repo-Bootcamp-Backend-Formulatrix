@@ -20,7 +20,7 @@ static class Program
 
         // menambahkan player
         Console.WriteLine(game.AddPlayers("Gilang", "Enemy"));
-        Console.WriteLine(game.AddPlayers("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
+        //Console.WriteLine(game.AddPlayers("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
 
         // menampilkan isi dari game.listPlayer
         System.Console.WriteLine("\nIsi dari listPlayer: ");
@@ -98,7 +98,7 @@ static class Program
         System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "garo", 1));
         System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "garo", 12));
         System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "stella", 25));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "suhu"));
+        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "suhu", 17));
 
         // menampilkan deck Enemy (player2) setelah remove
         System.Console.WriteLine("\nDeck Enemy(after remove): ");

@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\MyProject_AutoChess.Test\\MyProject_AutoChess.Test.csproj": {}
+  },
+  "projects": {
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\MyProject_AutoChess.Test\\MyProject_AutoChess.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\MyProject_AutoChess.Test\\MyProject_AutoChess.Test.csproj",
+        "projectName": "MyProject_AutoChess.Test",
+        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\MyProject_AutoChess.Test\\MyProject_AutoChess.Test.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\MyProject_AutoChess.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj": {
+                "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj",
+        "projectName": "MyProject_AutoChess",
+        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

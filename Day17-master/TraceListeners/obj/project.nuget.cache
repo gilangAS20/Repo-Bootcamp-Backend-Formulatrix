@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5PwgNW+QWllB8JFAPvNnUQx5WzOGC6iaKNPPc8+Hzrjp9tpj/8S0x3P4SxkbU32qV6otLUvp9tcZI3FSCzIYNQ==",
+  "dgSpecHash": "M8ZWZrA0HUR+8XezibWp5xEng1+6w5A7eYcK42A7EWjY36FTYazUwpgs8EAYoxvg4mNKP6Vq2d3guuSNl3AnQA==",
   "success": true,
-  "projectFilePath": "c:\\C#\\Bootcamp\\vscode\\Day 17\\TraceListeners\\TraceListeners.csproj",
+  "projectFilePath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day17-master\\TraceListeners\\TraceListeners.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#\\Bootcamp\\vscode\\Day 12\\NestedLoop\\NestedLoop.csproj": {}
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\NestedLoop\\NestedLoop.csproj": {}
   },
   "projects": {
-    "c:\\C#\\Bootcamp\\vscode\\Day 12\\NestedLoop\\NestedLoop.csproj": {
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\NestedLoop\\NestedLoop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#\\Bootcamp\\vscode\\Day 12\\NestedLoop\\NestedLoop.csproj",
+        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\NestedLoop\\NestedLoop.csproj",
         "projectName": "NestedLoop",
-        "projectPath": "c:\\C#\\Bootcamp\\vscode\\Day 12\\NestedLoop\\NestedLoop.csproj",
-        "packagesPath": "C:\\Users\\kinar\\.nuget\\packages\\",
-        "outputPath": "c:\\C#\\Bootcamp\\vscode\\Day 12\\NestedLoop\\obj\\",
+        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\NestedLoop\\NestedLoop.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\NestedLoop\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kinar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rxkod95WFh+yUlZq/48Q/oSGrCXtcJ3fSJKyr9RkZT8oCUd58RNgco2agq11i/Xswgyp4Sx7eA0zXHsgaLZWIg==",
+  "dgSpecHash": "I9MbJY7WoxP8pcWl2CF2xRsqTeXAhJvBbdmOpnygXZR3UufMOqOQ6CO7A7EMrEk+5U3ta0b54mFd8qOOYjsyiA==",
   "success": true,
-  "projectFilePath": "c:\\C#\\Bootcamp\\vscode\\Day 12\\GenerationDisposePattern\\GenerationDisposePattern.csproj",
+  "projectFilePath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\GenerationDisposePattern\\GenerationDisposePattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

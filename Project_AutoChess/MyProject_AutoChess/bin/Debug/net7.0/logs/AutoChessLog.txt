@@ -1,0 +1,107 @@
+2023-05-03 23:38:05,360 [1] INFO  MyProject_AutoChess.Game.AddPlayers - Add Player 1 Gilang and Player 2 Enemy
+2023-05-03 23:38:05,428 [1] INFO  MyProject_AutoChess.Game.ShowListPlayer - Show list player
+2023-05-03 23:38:05,438 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,443 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,446 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,447 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,447 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,448 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,449 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,457 [1] INFO  MyProject_AutoChess.Game.ShowDeck - Show Gilang's deck
+2023-05-03 23:38:05,469 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Gilang's deck
+2023-05-03 23:38:05,470 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Gilang's deck
+2023-05-03 23:38:05,476 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Gilang's deck
+2023-05-03 23:38:05,477 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Gilang's deck
+2023-05-03 23:38:05,478 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Gilang's deck
+2023-05-03 23:38:05,479 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Gilang's deck
+2023-05-03 23:38:05,481 [1] INFO  MyProject_AutoChess.Game.ShowDeck - Show Gilang's deck
+2023-05-03 23:38:05,488 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,489 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,490 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Gilang's board
+2023-05-03 23:38:05,493 [1] INFO  MyProject_AutoChess.Game.ShowDeck - Show Gilang's deck
+2023-05-03 23:38:05,507 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,508 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,509 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,510 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,512 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,513 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,514 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,515 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,517 [1] INFO  MyProject_AutoChess.Game.ShowDeck - Show Enemy's deck
+2023-05-03 23:38:05,528 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Enemy's deck
+2023-05-03 23:38:05,529 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Enemy's deck
+2023-05-03 23:38:05,530 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Enemy's deck
+2023-05-03 23:38:05,531 [1] INFO  MyProject_AutoChess.Game.RemoveHeroFromDeck - Remove hero from Enemy's deck
+2023-05-03 23:38:05,532 [1] INFO  MyProject_AutoChess.Game.ShowDeck - Show Enemy's deck
+2023-05-03 23:38:05,541 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,542 [1] INFO  MyProject_AutoChess.Game.AddHeroPlayer - Add hero to Enemy's board
+2023-05-03 23:38:05,544 [1] INFO  MyProject_AutoChess.Game.ShowDeck - Show Enemy's deck
+2023-05-03 23:38:13,199 [1] INFO  MyProject_AutoChess.Game.TimerGameStart - Battle timer started
+2023-05-03 23:38:13,207 [1] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:13,726 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:14,232 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:14,731 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:15,240 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:15,750 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:16,263 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:16,769 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:17,270 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:17,802 [5] INFO  MyProject_AutoChess.Game.DeleteHeroDead - Delete hero dead
+2023-05-03 23:38:17,802 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:18,686 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:19,191 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:19,692 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:20,202 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:20,731 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:21,242 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:21,743 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:22,249 [5] INFO  MyProject_AutoChess.Game.DeleteHeroDead - Delete hero dead
+2023-05-03 23:38:22,250 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:23,308 [5] INFO  MyProject_AutoChess.Game.DeleteHeroDead - Delete hero dead
+2023-05-03 23:38:23,309 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:24,718 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:25,221 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:25,730 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:26,256 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:26,767 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:27,270 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:27,783 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:28,291 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:28,800 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:29,316 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:29,821 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:30,326 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:30,842 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:31,370 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:31,871 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:32,382 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:32,896 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:33,410 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:33,910 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:34,416 [5] INFO  MyProject_AutoChess.Game.DeleteHeroDead - Delete hero dead
+2023-05-03 23:38:34,416 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:35,455 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:35,955 [5] INFO  MyProject_AutoChess.Game.DeleteHeroDead - Delete hero dead
+2023-05-03 23:38:35,956 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:37,108 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:37,620 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:38,120 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:38,629 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:39,136 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:39,650 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:40,158 [5] INFO  MyProject_AutoChess.Game.DeleteHeroDead - Delete hero dead
+2023-05-03 23:38:40,158 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:41,153 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:41,652 [5] INFO  MyProject_AutoChess.Game.DeleteHeroDead - Delete hero dead
+2023-05-03 23:38:41,652 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:42,687 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:43,196 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:43,702 [5] INFO  MyProject_AutoChess.Game.PlayerTurn - Player turn
+2023-05-03 23:38:44,234 [5] INFO  MyProject_AutoChess.Game.TimerGameStop - Battle timer stopped
+2023-05-03 23:38:44,256 [5] INFO  MyProject_AutoChess.Game.ShowTotalHP - Show Gilang's total HP
+2023-05-03 23:38:44,257 [5] INFO  MyProject_AutoChess.Game.ShowTotalHP - Show Enemy's total HP
+2023-05-03 23:38:44,257 [5] INFO  MyProject_AutoChess.Game.IsLoseOrWin - Gilang win
+2023-05-03 23:38:44,258 [5] INFO  MyProject_AutoChess.Game.ShowTotalHP - Show Gilang's total HP
+2023-05-03 23:38:44,258 [5] INFO  MyProject_AutoChess.Game.ShowTotalHP - Show Enemy's total HP
+2023-05-03 23:38:44,263 [5] INFO  MyProject_AutoChess.Game.ShowDeck - Show Gilang's deck
+2023-05-03 23:38:44,270 [5] INFO  MyProject_AutoChess.Game.ShowDeck - Show Enemy's deck

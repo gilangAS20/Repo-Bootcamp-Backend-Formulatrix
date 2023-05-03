@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\Try_UnitTest.csproj": {}
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\Try_UnitTest.csproj": {}
   },
   "projects": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\Try_UnitTest.csproj": {
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\Try_UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\Try_UnitTest.csproj",
+        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\Try_UnitTest.csproj",
         "projectName": "Try_UnitTest",
-        "projectPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\Try_UnitTest.csproj",
+        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\Try_UnitTest.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\obj\\",
+        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Try_UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

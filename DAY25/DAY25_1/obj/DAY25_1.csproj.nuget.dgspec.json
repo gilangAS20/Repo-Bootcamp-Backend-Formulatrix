@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\DAY25_1.csproj": {}
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\DAY25_1.csproj": {}
   },
   "projects": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\DAY25_1.csproj": {
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\DAY25_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\DAY25_1.csproj",
+        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\DAY25_1.csproj",
         "projectName": "DAY25_1",
-        "projectPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\DAY25_1.csproj",
+        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\DAY25_1.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\obj\\",
+        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\DAY25\\DAY25_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

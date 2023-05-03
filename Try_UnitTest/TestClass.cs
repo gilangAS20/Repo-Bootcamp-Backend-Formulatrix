@@ -24,7 +24,7 @@ public class TestClass
                argumen yang bisa dimasukkan sekaligus*/
     [InlineData(3)]
     [InlineData(5)]
-    [InlineData(6)] // salah
+    //[InlineData(6)] // salah
     //[InlineData(7)]
     public void MyFirstTheory(int myNumber)
     {

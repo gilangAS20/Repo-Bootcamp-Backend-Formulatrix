@@ -33,14 +33,14 @@ namespace MyProject_AutoChess
         public string TimerGameStart()
         {   
             _stopWatch.Start();
-            logger.Info("Battle timer started(log message)");
+            logger.Info("Battle timer started");
             return "Battle timer started";
         }
 
         public string TimerGameStop()
         {
             _stopWatch.Stop();
-            logger.Info("Battle timer stopped(log message)");
+            logger.Info("Battle timer stopped");
             return String.Format("Battle Time: {0:0.00} seconds", _stopWatch.Elapsed.TotalSeconds);
         }
         
@@ -48,7 +48,7 @@ namespace MyProject_AutoChess
         {
             if(_listPlayers.Count >= 2)
             {
-                return "Player sudah penuh";
+                //return "Player sudah penuh";
             }
             else
             {
@@ -59,7 +59,7 @@ namespace MyProject_AutoChess
                 _listPlayers.Add(_playerTwo);
             }
 
-            logger.Info($"Add Player 1 {PlayerName1} and Player 2 {PlayerName2} (log message)");
+            logger.Info($"Add Player 1 {PlayerName1} and Player 2 {PlayerName2}");
             return "Player 1: " + PlayerName1 + " dan Player 2: " + PlayerName2 + " telah ditambahkan";
         } // end of method AddPlayer
 
@@ -73,7 +73,7 @@ namespace MyProject_AutoChess
                 number++;
             }
 
-            logger.Info("Show list player (log message)");
+            logger.Info("Show list player");
             return returnListPlayer.ToString();
         } // end of method ShowListPlayer
 
@@ -142,7 +142,7 @@ namespace MyProject_AutoChess
                 }
             }
 
-            logger.Info($"Add hero to {playerInstance.GetPlayerName()}'s board (log message)");
+            logger.Info($"Add hero to {playerInstance.GetPlayerName()}'s board");
             return returnAddHero.ToString();
         } // end of method AddHeroPlayer
 
@@ -194,7 +194,7 @@ namespace MyProject_AutoChess
                     }
                 }
 
-            logger.Info($"Show {playerInstance.GetPlayerName()}'s deck (log message)");
+            logger.Info($"Show {playerInstance.GetPlayerName()}'s deck");
             return returnShowDeck.ToString();
         } // end of method NewShowDeck
 
@@ -203,7 +203,7 @@ namespace MyProject_AutoChess
             int totalHP = 0;
             totalHP = playerInstance.deck.listHero.Sum(x => x.GetHP());
 
-            logger.Info($"Show {playerInstance.GetPlayerName()}'s total HP (log message)");
+            logger.Info($"Show {playerInstance.GetPlayerName()}'s total HP");
             return totalHP;
         }
 
@@ -232,7 +232,7 @@ namespace MyProject_AutoChess
                 string deleteHeroResult = RemoveHeroDeckPlayers(playerInstance, _boardPlayerTwo, heroName, heroLocation);
                 removeHeroFromDeck.Append(deleteHeroResult);
             }
-            logger.Info($"Remove hero from {playerInstance.GetPlayerName()}'s deck (log message)");
+            logger.Info($"Remove hero from {playerInstance.GetPlayerName()}'s deck");
             return removeHeroFromDeck.ToString();
         }
 
@@ -324,7 +324,7 @@ namespace MyProject_AutoChess
 
             playerTurn.Append("=========================--===============================");
             
-            logger.Info($"Player turn (log message)");
+            logger.Info($"Player turn");
             return playerTurn.ToString();
         }
 
@@ -359,14 +359,14 @@ namespace MyProject_AutoChess
             {
                 AlldeleteHeroDead.AppendLine(_playerOne.GetPlayerName() + "'s " + _playerOne.deck.listHero[0].heroName + " is dead");
                 _playerOne.deck.listHero.RemoveAt(0);
-                logger.Info($"Delete hero dead (log message)");
+                logger.Info($"Delete hero dead");
             }
 
             if(_playerTwo.deck.listHero[0].HP <= 0)
             {
                 AlldeleteHeroDead.AppendLine(_playerTwo.GetPlayerName() + "'s " + _playerTwo.deck.listHero[0].heroName + " is dead");
                 _playerTwo.deck.listHero.RemoveAt(0);
-                logger.Info($"Delete hero dead (log message)");
+                logger.Info($"Delete hero dead");
             }
             else
             {
@@ -383,17 +383,17 @@ namespace MyProject_AutoChess
             if(_playerOne.deck.listHero.Count() > 0 && ShowTotalHP(_playerOne) > ShowTotalHP(_playerTwo))
             {
                 isLoseOrWin.AppendLine("\n===" + _playerOne.GetPlayerName() + " win! " + _playerTwo.GetPlayerName() + " lose!===");
-                logger.Info($"{_playerOne.GetPlayerName()} win (log message)");
+                logger.Info($"{_playerOne.GetPlayerName()} win");
             }
             else if(_playerTwo.deck.listHero.Count() > 0 && ShowTotalHP(_playerTwo) > ShowTotalHP(_playerOne))
             {
                 isLoseOrWin.AppendLine("\n===" + _playerTwo.GetPlayerName() + " win! " + _playerOne.GetPlayerName() + " lose!===");
-                logger.Info($"{_playerTwo.GetPlayerName()} win (log message)");
+                logger.Info($"{_playerTwo.GetPlayerName()} win");
             }
             else
             {
                 isLoseOrWin.AppendLine("\nDraw!");
-                logger.Info($"Draw (log message)");
+                logger.Info($"Draw");
             }
 
             isLoseOrWin.AppendLine(_playerOne.GetPlayerName() + "'s Total HP: " + ShowTotalHP(_playerOne));

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Try_Log4Net_1/1.0.0": {
+        "runtime": {
+          "Try_Log4Net_1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Try_Log4Net_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

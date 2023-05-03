@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#\\Bootcamp\\vscode\\Day 12\\IDisposable\\IDisposable.csproj": {}
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\IDisposable\\IDisposable.csproj": {}
   },
   "projects": {
-    "c:\\C#\\Bootcamp\\vscode\\Day 12\\IDisposable\\IDisposable.csproj": {
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\IDisposable\\IDisposable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#\\Bootcamp\\vscode\\Day 12\\IDisposable\\IDisposable.csproj",
+        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\IDisposable\\IDisposable.csproj",
         "projectName": "IDisposable",
-        "projectPath": "c:\\C#\\Bootcamp\\vscode\\Day 12\\IDisposable\\IDisposable.csproj",
-        "packagesPath": "C:\\Users\\kinar\\.nuget\\packages\\",
-        "outputPath": "c:\\C#\\Bootcamp\\vscode\\Day 12\\IDisposable\\obj\\",
+        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\IDisposable\\IDisposable.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\IDisposable\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kinar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

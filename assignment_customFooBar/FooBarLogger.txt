@@ -1,17 +1,17 @@
-02/05/2023 10:24:56 - Starting the program...
-02/05/2023 10:24:56 - Input value using AddKeyValue method, [Key]: 3, [Value]: foo
-02/05/2023 10:24:56 - Input value using AddKeyValue method, [Key]: 5, [Value]: bar
-02/05/2023 10:24:56 - Input value using AddKeyValue method, [Key]: 7, [Value]: zoo
-02/05/2023 10:24:56 - Display dictionary with DisplayDict method
-02/05/2023 10:24:56 - Remove dictionary with RemoveDict method, [Key]: 3
-02/05/2023 10:24:56 - Remove dictionary with RemoveDict method, [Key]: 5
-02/05/2023 10:24:56 - Remove dictionary with RemoveDict method, [Key]: 9
-02/05/2023 10:24:56 - Input value using AddKeyValue method, [Key]: 3, [Value]: foo
-02/05/2023 10:24:56 - Input value using AddKeyValue method, [Key]: 5, [Value]: bar
-02/05/2023 10:24:56 - Display dictionary with DisplayDict method
-02/05/2023 10:24:56 - Display change with DisplayChange method, [Input]: 35
-02/05/2023 10:24:56 - Input value using AddKeyValue method, [Key]: 7, [Value]: haha
-02/05/2023 10:24:56 - Display dictionary with DisplayDict method
-02/05/2023 10:24:56 - Remove dictionary with RemoveDict method, [Key]: 12
-02/05/2023 10:24:56 - Display change with DisplayChange method, [Input]: 35
-02/05/2023 10:24:56 - Exit the program...
+03/05/2023 11:43:51 - Starting the program...
+03/05/2023 11:43:51 - Input value using AddKeyValue method, [Key]: 3, [Value]: foo
+03/05/2023 11:43:51 - Input value using AddKeyValue method, [Key]: 5, [Value]: bar
+03/05/2023 11:43:51 - Input value using AddKeyValue method, [Key]: 7, [Value]: zoo
+03/05/2023 11:43:51 - Display dictionary with DisplayDict method
+03/05/2023 11:43:51 - Remove dictionary with RemoveDict method, [Key]: 3
+03/05/2023 11:43:51 - Remove dictionary with RemoveDict method, [Key]: 5
+03/05/2023 11:43:51 - Remove dictionary with RemoveDict method, [Key]: 9
+03/05/2023 11:43:51 - Input value using AddKeyValue method, [Key]: 3, [Value]: foo
+03/05/2023 11:43:51 - Input value using AddKeyValue method, [Key]: 5, [Value]: bar
+03/05/2023 11:43:51 - Display dictionary with DisplayDict method
+03/05/2023 11:43:51 - Display change with DisplayChange method, [Input]: 35
+03/05/2023 11:43:51 - Input value using AddKeyValue method, [Key]: 7, [Value]: haha
+03/05/2023 11:43:51 - Display dictionary with DisplayDict method
+03/05/2023 11:43:51 - Remove dictionary with RemoveDict method, [Key]: 12
+03/05/2023 11:43:51 - Display change with DisplayChange method, [Input]: 35
+03/05/2023 11:43:51 - Exit the program...

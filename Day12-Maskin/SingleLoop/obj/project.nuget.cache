@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qjai8WLdjABiypOEIMjBJaaMr4aTth6GhnIWsklv0z8B3rq9x/G5jB6x7rcfgYCY/9FpQ+zeqZakCEhR6d8ycA==",
+  "dgSpecHash": "nLnI4wBiKf+aw93Olwssgm2G4L1OKCsUIjbAKjOXrAZuZeavDATW4rMq3DwwPQRcXmwl3y+6yCQOqGr0Q02jbQ==",
   "success": true,
-  "projectFilePath": "c:\\C#\\Bootcamp\\vscode\\Day 12\\SingleLoop\\SingleLoop.csproj",
+  "projectFilePath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day12-Maskin\\SingleLoop\\SingleLoop.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

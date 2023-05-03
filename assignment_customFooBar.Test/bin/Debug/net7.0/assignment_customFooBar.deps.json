@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "assignment_customFooBar/1.0.0": {
+        "runtime": {
+          "assignment_customFooBar.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "assignment_customFooBar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

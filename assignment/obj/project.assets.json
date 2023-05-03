@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\bootcamp_formulatrix\\bootcamp_gilang2\\assignment\\assignment.csproj",
+      "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment\\assignment.csproj",
       "projectName": "assignment",
-      "projectPath": "E:\\bootcamp_formulatrix\\bootcamp_gilang2\\assignment\\assignment.csproj",
+      "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment\\assignment.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "E:\\bootcamp_formulatrix\\bootcamp_gilang2\\assignment\\obj\\",
+      "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

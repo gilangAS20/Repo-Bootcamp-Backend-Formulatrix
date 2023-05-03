@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bBU52kLa8SDlcZc3dMhU4+ZRgR+nHJsqvHEUM3IMmrBMPnlB1TA2OSPEblVdtYxNCb8z8Wny5GUNw1kdYLqVqA==",
+  "dgSpecHash": "K6nHmIVbqzcpvvaJqr7Y4zBO5B9mM1jbHH5LLrMM3a37z9D4xJ/twwNJeGIonsOiixN1hj3IXojK8ZxNWoZiGQ==",
   "success": true,
-  "projectFilePath": "C:\\C#\\Bootcamp\\vscode\\Day 17\\ConditionalCompilation\\ConditionalCompilation.csproj",
+  "projectFilePath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Day17-master\\ConditionalCompilation\\ConditionalCompilation.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
