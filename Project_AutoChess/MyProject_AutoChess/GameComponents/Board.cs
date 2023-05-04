@@ -4,7 +4,18 @@ namespace MyProject_AutoChess
     {
         // properties
         public Tile tiles = new Tile();
-        public bool CheckAvailabilityMoveTile(int tileInput) =>
-            tiles.tile.ContainsKey(tileInput) ? false : true;
+
+        public bool CheckAvailabilityTile(int tileInput)
+        {
+            if(tiles.tile.ContainsKey(tileInput) == true)
+            {
+                return false;
+            }
+            
+            else
+            {
+                return true;
+            }
+        }
     }
 }

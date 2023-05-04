@@ -17,7 +17,6 @@ static class Program
         // ==================================Make Game Instance================================
         // membuat instance untuk class Game
         Game game = new Game();
-
         // menambahkan player
         Console.WriteLine(game.AddPlayers("Gilang", "Enemy"));
         //Console.WriteLine(game.AddPlayers("yuki", "Enemiii")); // ini untuk tes aja, berhasil untuk tidak masuk ke listPlayer
@@ -26,6 +25,11 @@ static class Program
         System.Console.WriteLine("\nIsi dari listPlayer: ");
         System.Console.WriteLine(game.ShowListPlayer());
         System.Console.Write("\n");
+
+        // set Board Size (optional, default is 24)
+        game.SetBoardSize(25);
+        System.Console.WriteLine("Board Size: "  + game.GetBoardSize());
+        
         // ====================================================================================
 
 
@@ -133,7 +137,7 @@ static class Program
         {
             string startMyGame = game.StartGame();
             System.Console.WriteLine(startMyGame);
-            //Thread.Sleep(500);
+
             await Task.Delay(500); // dia mempengaruhi nilai dari timer
             if(startMyGame.Contains("is dead"))
             {   

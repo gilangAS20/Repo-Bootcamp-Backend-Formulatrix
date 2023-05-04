@@ -4,13 +4,30 @@ namespace MyProject_AutoChess.Test;
 
 public class UnitTest1
 {   
+    Game gameTest = new Game();
+
+    [Fact]
+    public void TestGetBoardSize()
+    {
+        //Arange
+        Game gameTest = new Game();
+        int boardSize = 24;
+
+        //Act
+        gameTest.SetBoardSize(boardSize);
+        int actualResult = gameTest.GetBoardSize();
+        int expectedResult = boardSize;
+
+        //Assert
+        Assert.Equal(expectedResult, actualResult);
+    }
 
     [Fact]
     public void TestAddPlayers()
     {
         // Arrange
         Game gameTest = new Game();
-        gameTest.AddPlayers("Gilang", "Enemy");
+
 
         // Act
         string actualResult = gameTest.AddPlayers("Gilang", "Enemy");
@@ -18,6 +35,24 @@ public class UnitTest1
 
         // Assert
         Assert.Equal(expectedResult, actualResult);
+    }
+
+    [Fact]
+    public void TestAddPlayersTwoTimes()
+    {
+        // Arrange
+        Game gameTest = new Game();
+        //gameTest.AddPlayers("Gilang", "Enemy");
+
+        // Act
+        string actualResultOne = gameTest.AddPlayers("Gilang", "Enemy");
+        string actualResultTwo = gameTest.AddPlayers("Suhu", "Enemiiii");
+        string expectedResultOne = "Player 1: Gilang dan Player 2: Enemy telah ditambahkan";
+        string expectedResultTwo = "Player sudah penuh";
+
+        // Assert
+        Assert.Equal(expectedResultOne, actualResultOne);
+        Assert.Equal(expectedResultTwo, actualResultTwo);
     }
 
     [Fact]
@@ -31,9 +66,6 @@ public class UnitTest1
                                 "\nPlayer 2: Enemy";
 
         Assert.Equal(expectedResult, actualResult);
-
-
-        //returnListPlayer.Append("\nPlayer "+ number + ": " + item.GetPlayerName());
     }
 
     [Fact]
@@ -41,39 +73,32 @@ public class UnitTest1
     {
         Game gameTest = new Game();
         Players playerOne = gameTest._playerOne;
-        string heroName = "Freya";
-        int heroLocation = 12;
+        gameTest.SetBoardSize(24);
+        
+        string heroNameOne = "Freya";
+        int heroLocationOne = 12;
+        string actualResultOne = gameTest.AddHeroToDeck(playerOne, heroNameOne, heroLocationOne);
+        string expectedResultOne = "Freya added to location 12";
 
-        string actualResult = gameTest.AddHeroToDeck(playerOne, heroName, heroLocation);
-        string expectedResult = "Freya added to location 12";
-        Assert.Equal(expectedResult, actualResult);
-    }
+        string heroNameTwo = "Garo";
+        int heroLocationTwo = 12;
+        string actualResultTwo = gameTest.AddHeroToDeck(playerOne, heroNameTwo, heroLocationTwo);
+        string expectedResultTwo = "Location 12 is already used by other hero";
 
-    [Fact]
-    public void TestFalseLocation_AddHeroToDeckPlayerOne()
-    {
-        Game gameTest = new Game();
-        Players playerOne = gameTest._playerOne;
-        string heroName = "Freya";
-        int heroLocation = 27;
+        string heroNameThree = "Asus";
+        int heroLocationThree = 13;
+        string actualResultThree = gameTest.AddHeroToDeck(playerOne, heroNameThree, heroLocationThree);
+        string expectedResultThree = "Hero Asus not found";
 
-        string actualResult = gameTest.AddHeroToDeck(playerOne, heroName, heroLocation);
-        string expectedResult = "Location must be between 1 and 24";
-        Assert.Equal(expectedResult, actualResult);
-    }
+        string heroNameFour = "Stella";
+        int heroLocationFour = 30;
+        string actualResultFour = gameTest.AddHeroToDeck(playerOne, heroNameFour, heroLocationFour);
+        string expectedResultFour = "Location must be between 1 and 24";
 
-    [Fact]
-    public void TestFalseHero_AddHeroToDeckPlayerOne()
-    {
-        Game gameTest = new Game();
-        Players playerOne = gameTest._playerOne;
-        string heroName = "Bobon";
-        int heroLocation = 12;
-
-        string actualResult = gameTest.AddHeroToDeck(playerOne, heroName, heroLocation);
-        string expectedResult = $"Hero {heroName} not found";
-
-        Assert.Equal(expectedResult, actualResult);
+        Assert.Equal(expectedResultOne, actualResultOne);
+        Assert.Equal(expectedResultTwo, actualResultTwo);
+        Assert.Equal(expectedResultThree, actualResultThree);
+        Assert.Equal(expectedResultFour, actualResultFour);
     }
 
     [Fact]
@@ -81,50 +106,37 @@ public class UnitTest1
     {
         Game gameTest = new Game();
         Players playerOne = gameTest._playerOne;
-        string heroName = "garo";
-        int heroLocation = 1;
+        gameTest.SetBoardSize(24);
+        int boardSize = gameTest.GetBoardSize();
+        
+        string heroNameOne = "garo";
+        int heroLocationOne = 1;
+        gameTest.AddHeroToDeck(playerOne, heroNameOne, heroLocationOne);
+        string actualResultOne = gameTest.RemoveHeroFromDeck(playerOne, heroNameOne, heroLocationOne);
+        string expectedResultOne = $"Hero '{heroNameOne}' with location 1 removed from deck";
 
-        // fill deck with hero
-        gameTest.AddHeroToDeck(playerOne, heroName, heroLocation);
+        string heroNameTwo = "garo";
+        int heroLocationTwo = 2;
+        gameTest.AddHeroToDeck(playerOne, heroNameTwo, heroLocationTwo);
+        string actualResultTwo = gameTest.RemoveHeroFromDeck(playerOne, heroNameTwo, 3);
+        string expectedResultTwo = $"Hero '{heroNameTwo}' with location 3 not found";
 
-        string actualResult = gameTest.RemoveHeroFromDeck(playerOne, heroName, heroLocation);
-        string expectedResult = $"Hero '{heroName}' with location 1 removed from deck";
 
-        Assert.Equal(expectedResult, actualResult);
+        string heroNameThree = "Stella";
+        int heroLocationThree = 3;
+        gameTest.AddHeroToDeck(playerOne, heroNameThree, heroLocationThree);
+        string actualResultThree = gameTest.RemoveHeroFromDeck(playerOne, heroNameThree);
+        string expectedResultThree = "Location must be filled";
+
+        string heroNameFour = "Freya";
+        int heroLocationFour = 12;
+        gameTest.AddHeroToDeck(playerOne, heroNameFour, heroLocationFour);
+        string actualResultFour = gameTest.RemoveHeroFromDeck(playerOne, heroNameFour, 99);
+        string expectedResultFour = $"Location must be between 1 and {boardSize}";
+
+        Assert.Equal(expectedResultOne, actualResultOne);
+        Assert.Equal(expectedResultTwo, actualResultTwo);
+        Assert.Equal(expectedResultThree, actualResultThree);
+        Assert.Equal(expectedResultFour, actualResultFour);
     }
-
-    [Fact]
-    public void TestFalseHeroLocation_RemoveHeroFromDeck()
-    {
-        Game gameTest = new Game();
-        Players playerOne = gameTest._playerOne;
-        string heroName = "garo";
-        int heroLocation = 1;
-
-        // fill deck with hero
-        gameTest.AddHeroToDeck(playerOne, heroName, heroLocation);
-
-        string actualResult = gameTest.RemoveHeroFromDeck(playerOne, heroName, 2);
-        string expectedResult = $"Hero '{heroName}' with location 2 not found";
-
-        Assert.Equal(expectedResult, actualResult);
-    }
-
-    [Fact]
-    public void TestFalseHeroName_RemoveHeroFromDeck()
-    {
-        Game gameTest = new Game();
-        Players playerOne = gameTest._playerOne;
-        string heroName = "suhu";
-        int heroLocation = 1;
-
-        // fill deck with hero
-        gameTest.AddHeroToDeck(playerOne, heroName, heroLocation);
-
-        string actualResult = gameTest.RemoveHeroFromDeck(playerOne, heroName, 1);
-        string expectedResult = $"Hero '{heroName}' with location 1 not found";
-
-        Assert.Equal(expectedResult, actualResult);
-    }
-
 }

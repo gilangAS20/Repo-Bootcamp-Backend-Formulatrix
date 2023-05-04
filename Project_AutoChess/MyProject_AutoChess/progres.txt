@@ -6,8 +6,19 @@ yang dikerjakan selama di kelas:
   SetPlayerName(string name) dan GetPlayerName()
 
 belum dicoba:
-- atur access modifier dari sebuah properties / variabel dari interface
-- utak atik isPlayingMode
-- atur time preparation
-- atur time battle
+- atur access modifier dari sebuah properties / variabel dari interface(sudah coba di class Player)
+- utak atik isPlayingMode (sudah)
+- atur time preparation (belum)
+- atur time battle (sudah)
+
+progres 04/05/2023
+- menambahkan time battle, jika waktu sudah melewati time battle maka game akan berhenti
+  pemenang ditentukan dari total HP seluruh hero-nya
+- menambahkan log aktivitas berupa INFO
+- menambahkan unit test untuk beberapa method dan kemungkinan
+- memperbaiki unit test untuk AddPlayer
+- membuat IPlayer, serta menambah private _playerName utk return nilai public playerName
+- menambahkan variabel private _boardSize = 24, bisa diatur pakai SetBoardSize(int boardSize)
+- menambahkan method SetBoardSize(int boardSize) dan GetBoardSize()
+- update sedikit di class diagram
   

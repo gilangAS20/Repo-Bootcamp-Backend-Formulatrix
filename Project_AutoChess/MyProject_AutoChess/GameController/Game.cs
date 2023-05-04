@@ -8,6 +8,8 @@ namespace MyProject_AutoChess
     public class Game
     {
         private List<Players> _listPlayers = new List<Players>();
+
+        private int _boardSize = 24; // default board size, use SetBoardSize() to change the board size
         private Board _boardPlayerOne = new Board();
         private Board _boardPlayerTwo = new Board();
         private Stopwatch _stopWatch = new Stopwatch();
@@ -23,13 +25,25 @@ namespace MyProject_AutoChess
 
         // untuk log4net
         private static readonly ILog logger = LogManager.GetLogger(typeof(Game));
-        //XmlConfigurator.Configure(new FileInfo("AutoChessLog4Net.config"));
         
         // make constructor
         public Game()
         {
             XmlConfigurator.Configure(new FileInfo("AutoChessLog4Net.config"));
+            logger.Info("Instanciate class Game");
         }
+
+        public void SetBoardSize(int boardSize)
+        {
+            this._boardSize = boardSize;
+            logger.Info($"Set board size to {boardSize}");
+        }
+
+        public int GetBoardSize()
+        {
+            return this._boardSize;
+        }
+
         public string TimerGameStart()
         {   
             _stopWatch.Start();
@@ -48,7 +62,7 @@ namespace MyProject_AutoChess
         {
             if(_listPlayers.Count >= 2)
             {
-                //return "Player sudah penuh";
+                return "Player sudah penuh";
             }
             else
             {
@@ -81,9 +95,9 @@ namespace MyProject_AutoChess
         public string AddHeroToDeck(Players playerInstance, string heroName, int heroLocation)
         {
             StringBuilder returnAddHero = new StringBuilder();
-            if(heroLocation < 1 || heroLocation > 24)
+            if(heroLocation < 1 || heroLocation > _boardSize)
             {
-                returnAddHero.Append("Location must be between 1 and 24");
+                returnAddHero.Append($"Location must be between 1 and {_boardSize}");
             }
             else
             {
@@ -105,44 +119,44 @@ namespace MyProject_AutoChess
         private string AddHeroPlayer(Players playerInstance, Board boardInstance, string heroName, int heroLocation)
         {
             StringBuilder returnAddHero = new StringBuilder();
-            if(playerInstance.deck.listHero.Count >= 5)
+            //if(playerInstance.deck.listHero.Count >= 5)
+            if(boardInstance.tiles.tile.Count >= 5)
             {
                 returnAddHero.Append(playerInstance.GetPlayerName() + "'s deck is full");
             }
-            else if(boardInstance.tiles.tile.ContainsKey(heroLocation))
-            {
+
+            else if(boardInstance.CheckAvailabilityTile(heroLocation) == false)
+            {   
                 returnAddHero.Append("Location " + heroLocation + " is already used by other hero");
             }
+
             else
             {
-                if(boardInstance.CheckAvailabilityMoveTile(heroLocation) == true)
+                if(heroName.ToLower() == "freya")
                 {
-                    if(heroName.ToLower() == "freya")
-                    {
-                        string returnHeroFreya = AddHeroFreya(playerInstance, heroLocation);
-                        returnAddHero.Append(returnHeroFreya);
-                        boardInstance.tiles.tile.Add(heroLocation, "freya");
-                    }
-                    else if(heroName.ToLower() == "garo")
-                    {
-                        string returnHeroGaro = AddHeroGaro(playerInstance, heroLocation);
-                        returnAddHero.Append(returnHeroGaro);
-                        boardInstance.tiles.tile.Add(heroLocation, "garo");
-                    }
-                    else if(heroName.ToLower() == "stella")
-                    {   
-                        string returnHeroStella = AddHeroStella(playerInstance, heroLocation);
-                        returnAddHero.Append(returnHeroStella);
-                        boardInstance.tiles.tile.Add(heroLocation, "stella");
-                    }
-                    else
-                    {
-                        returnAddHero.Append("Hero "+ heroName +" not found");
-                    }
+                    string returnHeroFreya = AddHeroFreya(playerInstance, heroLocation);
+                    returnAddHero.Append(returnHeroFreya);
+                    boardInstance.tiles.tile.Add(heroLocation, "freya");
                 }
+                else if(heroName.ToLower() == "garo")
+                {
+                    string returnHeroGaro = AddHeroGaro(playerInstance, heroLocation);
+                    returnAddHero.Append(returnHeroGaro);
+                    boardInstance.tiles.tile.Add(heroLocation, "garo");
+                }
+                else if(heroName.ToLower() == "stella")
+                {   
+                    string returnHeroStella = AddHeroStella(playerInstance, heroLocation);
+                    returnAddHero.Append(returnHeroStella);
+                    boardInstance.tiles.tile.Add(heroLocation, "stella");
+                }
+                else
+                {
+                    returnAddHero.Append("Hero "+ heroName +" not found");
+                }
+
             }
 
-            logger.Info($"Add hero to {playerInstance.GetPlayerName()}'s board");
             return returnAddHero.ToString();
         } // end of method AddHeroPlayer
 
@@ -153,7 +167,7 @@ namespace MyProject_AutoChess
             returnAddHeroFreya.Append("Freya added to location " + freya.GetLocationHero());
             playerInstance.deck.listHero.Add(freya);
             
-            //logger.Info($"Add hero Freya to {playerInstance.GetPlayerName()}'s deck (log message)");
+            logger.Info($"Add hero Freya to {playerInstance.GetPlayerName()}'s deck");
             return returnAddHeroFreya.ToString();
         } // end of method AddHeroFreya
 
@@ -164,6 +178,7 @@ namespace MyProject_AutoChess
             returnAddHeroGaro.Append("Garo added to location " + garo.GetLocationHero());
             playerInstance.deck.listHero.Add(garo);
 
+            logger.Info($"Add hero Garo to {playerInstance.GetPlayerName()}'s deck");
             return returnAddHeroGaro.ToString();
         } // end of method AddHeroGaro
 
@@ -174,6 +189,7 @@ namespace MyProject_AutoChess
             returnAddHeroStella.Append("Stella added to location " + stella.GetLocationHero());
             playerInstance.deck.listHero.Add(stella);
 
+            logger.Info($"Add hero Stella to {playerInstance.GetPlayerName()}'s deck");
             return returnAddHeroStella.ToString();
         } // end of method AddHeroStella
 
@@ -216,9 +232,9 @@ namespace MyProject_AutoChess
                 removeHeroFromDeck.Append("Location must be filled");
             }
             
-            else if(heroLocation < 0 || heroLocation > 24)
+            else if(heroLocation < 1 || heroLocation > _boardSize)
             {
-                removeHeroFromDeck.Append("Location must be between 1 and 24");
+                removeHeroFromDeck.Append($"Location must be between 1 and {_boardSize}");
             }
 
             else if(playerInstance == _playerOne)
@@ -232,7 +248,7 @@ namespace MyProject_AutoChess
                 string deleteHeroResult = RemoveHeroDeckPlayers(playerInstance, _boardPlayerTwo, heroName, heroLocation);
                 removeHeroFromDeck.Append(deleteHeroResult);
             }
-            logger.Info($"Remove hero from {playerInstance.GetPlayerName()}'s deck");
+            
             return removeHeroFromDeck.ToString();
         }
 
@@ -245,6 +261,7 @@ namespace MyProject_AutoChess
             if(boardInstance.tiles.tile.ContainsKey(heroLocation) && boardInstance.tiles.tile[heroLocation] == heroName)
             {
                 removeHeroPlayer.Append($"Hero '{heroName}' with location {heroLocation} removed from deck");
+                logger.Info($"Hero '{heroName}' with location {heroLocation} from {playerInstance.GetPlayerName()} removed from deck");
                 boardInstance.tiles.tile.Remove(heroLocation);
 
                 // hapus hero di deck (di listHero Players.cs)  
@@ -262,6 +279,7 @@ namespace MyProject_AutoChess
             else
             {
                 removeHeroPlayer.Append($"Hero '{heroName}' with location {heroLocation} not found");
+                logger.Info($"Hero '{heroName}' with location {heroLocation} from player {playerInstance.GetPlayerName()} can't delete, not found");
             }
 
             return removeHeroPlayer.ToString();
@@ -289,7 +307,6 @@ namespace MyProject_AutoChess
                 isPlayingMode = false;
             }
             
-            //logger.Info($"Start game (log message)");
             return startGame.ToString();
         } // end of method StartGame
 
@@ -308,6 +325,8 @@ namespace MyProject_AutoChess
                 // player2 turn
                 string playerTwoTurn = PlayerTwoTurn();
                 playerTurn.Append(playerTwoTurn);
+
+                logger.Info($"{_playerOne.GetPlayerName()} turn");
             }
             else
             {
@@ -318,13 +337,14 @@ namespace MyProject_AutoChess
                 // player1 turn
                 string playerTwoTurn = PlayerOneTurn();
                 playerTurn.Append(playerTwoTurn); 
+
+                logger.Info($"{_playerTwo.GetPlayerName()} turn");
             }
             string deleteHeroDead = DeleteHeroDead();
             playerTurn.Append(deleteHeroDead);
 
             playerTurn.Append("=========================--===============================");
             
-            logger.Info($"Player turn");
             return playerTurn.ToString();
         }
 
