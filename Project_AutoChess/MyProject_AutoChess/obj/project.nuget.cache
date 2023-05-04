@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "VeP9MdXZzmGr155eSIfEnYpH1Qi3EO4fbr4D9u5Ud1vLVf/duucMhevKpyfu8iCrSqE2ZC0fnBF0hJ3iiISi2A==",
+  "dgSpecHash": "LjEHqfHG0IF2u0UFnl2i4PlX+8ualL40sIMhfgDoPghtSj1ICcx2KclyTiCLrnOyLewVwIpI+KlVawI8fnjAFg==",
   "success": true,
-  "projectFilePath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj",
+  "projectFilePath": "d:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Project_AutoChess\\MyProject_AutoChess\\MyProject_AutoChess.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ACER\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-    "C:\\Users\\ACER\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
-    "C:\\Users\\ACER\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
   ],

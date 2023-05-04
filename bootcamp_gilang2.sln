@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -6,10 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment", "assignment\assignment.csproj", "{0F2A2758-C436-4492-95EE-5C511ED15482}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment_customFooBar", "assignment_customFooBar\assignment_customFooBar.csproj", "{17B60F2C-CF1F-4A20-9471-B50CC93D256F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latian_BoardGame_TurnBased2", "Latian_BoardGame_TurnBased2\Latian_BoardGame_TurnBased2.csproj", "{777BC879-1BFE-4821-8E66-A139979CF207}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latian_BoardGame_TurnBased", "Latian_BoardGame_TurnBased\Latian_BoardGame_TurnBased.csproj", "{C6805AC8-376A-48D3-825F-AB95E5F043FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try_UnitTest", "Try_UnitTest\Try_UnitTest.csproj", "{65BAE295-CA83-4024-AE68-CDCB766707A6}"
 EndProject
@@ -35,8 +31,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignment_customFooBar", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment_customFooBar.Test", "assignment_customFooBar.Test\assignment_customFooBar.Test.csproj", "{33EC6E95-0896-4920-92E3-890FD3C149B3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Latian_BoardGame_TurnBased", "Latian_BoardGame_TurnBased", "{9AC37FD3-2DCB-4D87-8DB6-A5F50A5F83E8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject_AutoChess.Test", "MyProject_AutoChess.Test\MyProject_AutoChess.Test.csproj", "{1C81B747-AD71-46B0-ADB7-7E473D68E75E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAY26-MasKin", "DAY26-MasKin", "{CC2F1A17-3741-4F4E-BF7E-6E28EE4B7843}"
@@ -46,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation.Test", "DAY26-MasKin\Day26\Calculation.Test\Calculation.Test.csproj", "{32C52724-8CBE-4872-B70C-14AEA412C0EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation", "DAY26-MasKin\Day26\Calculation\Calculation.csproj", "{A72A8857-A2E1-456D-BE19-88C93D47E656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAY26-Database", "DAY26-Database\DAY26-Database.csproj", "{4AFE9344-8CA0-401D-892F-DCD719692A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,14 +60,6 @@ Global
 		{17B60F2C-CF1F-4A20-9471-B50CC93D256F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17B60F2C-CF1F-4A20-9471-B50CC93D256F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17B60F2C-CF1F-4A20-9471-B50CC93D256F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{777BC879-1BFE-4821-8E66-A139979CF207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{777BC879-1BFE-4821-8E66-A139979CF207}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{777BC879-1BFE-4821-8E66-A139979CF207}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{777BC879-1BFE-4821-8E66-A139979CF207}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6805AC8-376A-48D3-825F-AB95E5F043FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6805AC8-376A-48D3-825F-AB95E5F043FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6805AC8-376A-48D3-825F-AB95E5F043FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6805AC8-376A-48D3-825F-AB95E5F043FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65BAE295-CA83-4024-AE68-CDCB766707A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65BAE295-CA83-4024-AE68-CDCB766707A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65BAE295-CA83-4024-AE68-CDCB766707A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -108,11 +96,13 @@ Global
 		{A72A8857-A2E1-456D-BE19-88C93D47E656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A72A8857-A2E1-456D-BE19-88C93D47E656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A72A8857-A2E1-456D-BE19-88C93D47E656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFE9344-8CA0-401D-892F-DCD719692A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFE9344-8CA0-401D-892F-DCD719692A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFE9344-8CA0-401D-892F-DCD719692A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFE9344-8CA0-401D-892F-DCD719692A66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1C81B747-AD71-46B0-ADB7-7E473D68E75E} = {6D8A143D-B292-472E-8752-641E219FCDA9}
-		{777BC879-1BFE-4821-8E66-A139979CF207} = {9AC37FD3-2DCB-4D87-8DB6-A5F50A5F83E8}
-		{C6805AC8-376A-48D3-825F-AB95E5F043FD} = {9AC37FD3-2DCB-4D87-8DB6-A5F50A5F83E8}
 		{33EC6E95-0896-4920-92E3-890FD3C149B3} = {89D208F3-4492-4D99-8AAB-59AFBA0FFE21}
 		{17B60F2C-CF1F-4A20-9471-B50CC93D256F} = {89D208F3-4492-4D99-8AAB-59AFBA0FFE21}
 		{38760B79-304A-4924-A64E-99042C9281AB} = {DDAAD664-DFA9-47FD-AC41-8B124809E7E5}
