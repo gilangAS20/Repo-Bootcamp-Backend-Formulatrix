@@ -11,6 +11,7 @@ belum dicoba:
 - atur time preparation (belum)
 - atur time battle (sudah)
 
+
 progres 04/05/2023
 - menambahkan time battle, jika waktu sudah melewati time battle maka game akan berhenti
   pemenang ditentukan dari total HP seluruh hero-nya
