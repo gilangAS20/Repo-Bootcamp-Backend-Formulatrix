@@ -1,0 +1,61 @@
+Progress 05/05/2023
+
+
+yang sudah dicoba:
+
+-pada menu 4. Adding a Category
+	awalnya cuma nambah Category tok, lalu saya edit agar bisa menambahkan Description
+	file "EFCore/Category.cs" tidak diubah, yang diubah dari file "Program.CUD.cs"
+
+
+
+pertanyaan(unit test):
+- saya ada 1 class yang dapat
+
+- kenapa kode ini:
+                  IQueryable<Category>? categories = db.Categories?
+                    .Include(c => c.Products);
+  menggunakan c => c.Products   ?
+  bukan c => c.Categories	  ?
+
+
+- di method ini error:
+
+        static void DeleteProduct()
+        {
+            using (Northwind db = new())
+            {
+                SectionTitle("Deleting a Product");
+
+                IQueryable<Product>? products = db.Products?
+                    .Include(p => p.Category);
+                
+                foreach(Product? p in products)
+                {
+                    Printer($"Product: {p.ProductId} - {p.ProductName}");
+                }
+
+                Printer("Enter the product ID: ");
+                string input = GetInput();
+                int id = int.Parse(input);
+
+                Product? product = db.Products?.Find(id);
+
+                if (product is null)
+                {
+                    Fail("Product not found.");
+                    return;
+                }
+
+                db.Products?.Remove(product);
+                db.SaveChanges();
+
+                Info("Product deleted successfully.");
+            }
+        }
+
+errornya: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+
+
+
+
