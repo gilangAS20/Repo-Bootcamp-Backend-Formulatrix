@@ -18,6 +18,7 @@ public partial class Category
     [Column(TypeName = "ntext")]
     public string? Description { get; set; }
 
+    // ini boleh dihapus jika memang tidak diperlukan
     [Column(TypeName = "image")]
     public byte[]? Picture { get; set; }
 

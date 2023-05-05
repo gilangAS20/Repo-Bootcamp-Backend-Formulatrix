@@ -3,8 +3,8 @@ using Xunit;
 namespace MyProject_AutoChess.Test;
 
 public class UnitTest1
-{   
-    Game gameTest = new Game();
+{
+    //Game gameTest = new Game();
 
     [Fact]
     public void TestGetBoardSize()
