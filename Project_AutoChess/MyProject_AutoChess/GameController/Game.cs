@@ -254,7 +254,7 @@ namespace MyProject_AutoChess
 
         private string RemoveHeroDeckPlayers(Players playerInstance, Board boardInstance, string heroName, int heroLocation)
         {
-            bool heroFound = false;
+            //bool heroFound = false;
             StringBuilder removeHeroPlayer = new StringBuilder();
 
             // hapus hero di board(di tile Board.cs)
@@ -270,7 +270,7 @@ namespace MyProject_AutoChess
                     if(heroName.ToLower() == playerInstance.deck.listHero[i].heroName.ToLower() && heroLocation == playerInstance.deck.listHero[i].GetLocationHero())
                     {
                         playerInstance.deck.listHero.RemoveAt(i);
-                        heroFound = true;
+                        //heroFound = true;
                         break;
                     }
                 }

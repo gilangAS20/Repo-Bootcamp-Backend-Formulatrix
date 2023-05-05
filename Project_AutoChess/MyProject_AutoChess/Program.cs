@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyProject_AutoChess;
 
-static class Program
+public partial class Program
 {
     static async Task Main()
     {
@@ -34,90 +34,12 @@ static class Program
 
 
         // ==================================player1===========================================
-        System.Console.WriteLine("==================================================");
-
-        // menambahkan hero player1 ke dalam deck
-        System.Console.WriteLine("--add hero to Gilang's deck--");
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "freya", 24));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "garo", 2));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 22));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 19));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "garo", 12)); // hilangkan command code jika mau cek winner dengan totalHP tertinggi
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 2)); // fail karena lokasi sudah digunakan
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 30)); // fail karena lokasi harus antara 1-24
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "slebew", 4)); // fail karena hero tidak ada
-
-        // menampilkan deck Gilang (player1)
-        System.Console.WriteLine("\n--show Gilang's deck--");
-        System.Console.WriteLine(game.ShowDeck(game._playerOne));
-
-        // tes delete hero player1 dari dalam deck
-        System.Console.WriteLine("\nDelete hero from Gilang's deck: ");
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerOne, "garo", 25));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerOne, "garo")); // location cannot be empty
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerOne, "garo", 12));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerOne, "stella", 19));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerOne, "freya", 2));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerOne, "Shiro"));
-
-        // menampilkan deck Gilang (player1) setelah remove
-        System.Console.WriteLine("\nDeck Gilang(after remove): ");
-        System.Console.WriteLine(game.ShowDeck(game._playerOne));
-
-        // menambahkan kembali hero player1 ke dalam deck
-        System.Console.WriteLine("\n--add hero to Gilang's deck--");
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "freya", 1));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 2));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerOne, "stella", 19));
-
-        // menampilkan deck Gilang (player1)
-        System.Console.WriteLine("\n--show Gilang's deck--");
-        System.Console.WriteLine(game.ShowDeck(game._playerOne));
-
-        System.Console.WriteLine("==================================================");
+        InitializePlayerOne(game);
         // ====================================================================================
 
-    
+        
         // ==================================player2===========================================
-        System.Console.WriteLine("\n==================================================");
-
-        // menambahkan hero player2 ke dalam deck
-        System.Console.WriteLine("--add hero to Enemy's deck--");
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "garo", 1));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "garo", 2));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "stella", 3));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "stella", 17));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "plankton", 4)); // fail karena nama hero tidak ada
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "freya", 21));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "freya", 24));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "freya", 3)); // fail karena lokasi sudah digunakan
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "freya", 0)); // fail karena lokasi harus antara 1 dan 24
-
-        // menampilkan deck Enemy (player2)
-        System.Console.WriteLine("\n--show Enemy's deck--");
-        System.Console.WriteLine(game.ShowDeck(game._playerTwo));
-
-        // tes delete hero player2 dari dalam deck
-        System.Console.WriteLine("\nDelete hero from Enemy's deck: ");
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "garo", 1));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "garo", 12));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "stella", 25));
-        System.Console.WriteLine(game.RemoveHeroFromDeck(game._playerTwo, "suhu", 17));
-
-        // menampilkan deck Enemy (player2) setelah remove
-        System.Console.WriteLine("\nDeck Enemy(after remove): ");
-        System.Console.WriteLine(game.ShowDeck(game._playerTwo));
-
-        // menambahkan kembali hero player2 ke dalam deck
-        System.Console.WriteLine("\n--add hero to Enemy's deck--");
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "garo", 1));
-        System.Console.WriteLine(game.AddHeroToDeck(game._playerTwo, "freya", 6));
-
-        // menampilkan deck Enemy (player2)
-        System.Console.WriteLine("\n--show Enemy's deck--");
-        System.Console.WriteLine(game.ShowDeck(game._playerTwo));
-
-        System.Console.WriteLine("==================================================");
+        InitializePlayerTwo(game);
         // ====================================================================================
 
 
