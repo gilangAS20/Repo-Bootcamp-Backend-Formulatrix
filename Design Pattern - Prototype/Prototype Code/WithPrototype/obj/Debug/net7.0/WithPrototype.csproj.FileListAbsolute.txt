@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\WithPrototype.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\WithPrototype.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\WithPrototype.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\WithPrototype.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\WithPrototype.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\bin\Debug\net7.0\WithPrototype.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\bin\Debug\net7.0\WithPrototype.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\bin\Debug\net7.0\WithPrototype.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\bin\Debug\net7.0\WithPrototype.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\bin\Debug\net7.0\WithPrototype.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\WithPrototype.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\refint\WithPrototype.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\WithPrototype.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\WithPrototype.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype\obj\Debug\net7.0\ref\WithPrototype.dll
