@@ -22,4 +22,8 @@ progres 04/05/2023
 - menambahkan variabel private _boardSize = 24, bisa diatur pakai SetBoardSize(int boardSize)
 - menambahkan method SetBoardSize(int boardSize) dan GetBoardSize()
 - update sedikit di class diagram
+
+05/05/2023
+- Memisahkan player1 dan player2 ke file .cs berbeda menggunakan
+  static partial class
   
