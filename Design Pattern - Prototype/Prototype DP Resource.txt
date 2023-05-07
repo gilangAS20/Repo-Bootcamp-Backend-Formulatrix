@@ -7,3 +7,4 @@ https://www.youtube.com/watch?v=GY8nYLWfd2k&list=PLBEm2Vv2nD-Ppk8U_LaR8wXl47kgCI
 Website:
 https://refactoring.guru/design-patterns/prototype
 https://chat.openai.com/c/4a65500a-4d37-42d0-9ce2-7c15066efa88
+https://chat.openai.com/c/455eabde-ffef-4674-b8ad-b45665a37a85
