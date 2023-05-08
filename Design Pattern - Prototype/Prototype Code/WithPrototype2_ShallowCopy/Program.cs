@@ -17,12 +17,16 @@ public class Client
         };
 
         // Shallow copy
+        System.Console.WriteLine("isi dari prototype(awal):");
+        prototype.PrintInfo(); // Output: Name: John, Address: New York, USA
+
         System.Console.WriteLine("========================================");
         Person john1 = (Person)prototype.Clone();
         john1.Address.City = "San Francisco";
         System.Console.WriteLine("isi dari john1:");
         john1.PrintInfo(); // Output: Name: John, Address: San Francisco, USA
-        System.Console.WriteLine("isi dari prototype:");
+        System.Console.WriteLine("========================================");
+        System.Console.WriteLine("isi dari prototype(setelah instance 2 ganti isi):");
         prototype.PrintInfo(); // Output: Name: John, Address: San Francisco, USA (Changed due to shallow copy)
         System.Console.WriteLine("========================================");
 
@@ -36,7 +40,7 @@ public class Client
 public class Person : ICloneable
 {
     public string Name;
-    public Address Address;
+    public Address Address; // referensi ke class Address
 
     public object Clone()
     {

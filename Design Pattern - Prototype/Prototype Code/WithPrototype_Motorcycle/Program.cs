@@ -18,7 +18,6 @@ class Program
         
         System.Console.WriteLine("\nisi dari motorcycle1:");
         motorcycle1.PrintInfo();
-        motorcycle1.PrintInfo();
 
         // clone dari motorcycle1
         System.Console.WriteLine("\nisi dari motorcycle2:");

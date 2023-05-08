@@ -9,7 +9,7 @@ public class Client
         Person prototype = new Person
         {
             Name = "Gilang",
-            Address = new Address
+            Address = new Address // kunci dari deep copy
             {
                 City = "Salatiga",
                 Country = "Indonesia"
@@ -17,10 +17,22 @@ public class Client
         };
 
         // Shallow copy
-        Person shallowCopy = (Person)prototype.Clone();
-        shallowCopy.Address.City = "San Francisco";
-        shallowCopy.PrintInfo(); // Output: Name: John, Address: San Francisco, USA
+        System.Console.WriteLine("isi dari prototype(awal):");
+        prototype.PrintInfo();
+
+        System.Console.WriteLine("========================================");
+        
+        Person person2 = (Person)prototype.Clone();
+        person2.Address.City = "San Francisco";
+        System.Console.WriteLine("isi dari shallowCopy:");
+        person2.PrintInfo(); // Output: Name: John, Address: San Francisco, USA
+
+        System.Console.WriteLine("========================================");
+
+        System.Console.WriteLine("isi dari prototype(setelah instance 2 ganti isi):");
         prototype.PrintInfo(); // Output: Name: John, Address: San Francisco, USA (Changed due to shallow copy)
+        
+        System.Console.WriteLine("========================================");
 
         // output
         // Name: John, Address: San Francisco, USA

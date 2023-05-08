@@ -26,13 +26,6 @@ class Client
         Car newCarOne = new Car(prototypeCar.GetBrand(), prototypeCar.GetModel());
         newCarOne.PrintInfo();
 
-        /*
-        System.Console.WriteLine("\nChane Instance 4 become:");
-        newCarOne.SetBrand("Hyundai");
-        newCarOne.SetBrand("Kona electric");
-        newCarOne.PrintInfo();
-        */
-
         System.Console.WriteLine("\nEdit Instance 1 and print it: ");
         prototypeCar.SetBrand("Cherry");
         prototypeCar.SetModel("Tigo");
