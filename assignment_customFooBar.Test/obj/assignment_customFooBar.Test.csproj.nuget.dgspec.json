@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\assignment_customFooBar.Test.csproj": {}
+    "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\assignment_customFooBar.Test.csproj": {}
   },
   "projects": {
-    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\assignment_customFooBar.Test.csproj": {
+    "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\assignment_customFooBar.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\assignment_customFooBar.Test.csproj",
+        "projectUniqueName": "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\assignment_customFooBar.Test.csproj",
         "projectName": "assignment_customFooBar.Test",
-        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\assignment_customFooBar.Test.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\obj\\",
+        "projectPath": "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\assignment_customFooBar.Test.csproj",
+        "packagesPath": "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FORMULATRIX.SE-105\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj": {
-                "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj"
+              "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj": {
+                "projectPath": "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj"
               }
             }
           }
@@ -72,8 +74,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,29 +83,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj": {
+    "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj",
+        "projectUniqueName": "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj",
         "projectName": "assignment_customFooBar",
-        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\obj\\",
+        "projectPath": "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\assignment_customFooBar.csproj",
+        "packagesPath": "C:\\Users\\FORMULATRIX.SE-105\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\FORMULATRIX.SE-105\\Desktop\\Gilang\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\assignment_customFooBar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FORMULATRIX.SE-105\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,8 +131,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
         }
       }
     }
