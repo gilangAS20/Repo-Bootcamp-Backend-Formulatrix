@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\NoPrototype_Motorcycle.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\NoPrototype_Motorcycle.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\NoPrototype_Motorcycle.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\NoPrototype_Motorcycle.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\NoPrototype_Motorcycle.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\bin\Debug\net7.0\NoPrototype_Motorcycle.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\bin\Debug\net7.0\NoPrototype_Motorcycle.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\bin\Debug\net7.0\NoPrototype_Motorcycle.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\bin\Debug\net7.0\NoPrototype_Motorcycle.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\bin\Debug\net7.0\NoPrototype_Motorcycle.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\NoPrototype_Motorcycle.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\refint\NoPrototype_Motorcycle.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\NoPrototype_Motorcycle.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\NoPrototype_Motorcycle.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\NoPrototype_Motorcycle\obj\Debug\net7.0\ref\NoPrototype_Motorcycle.dll

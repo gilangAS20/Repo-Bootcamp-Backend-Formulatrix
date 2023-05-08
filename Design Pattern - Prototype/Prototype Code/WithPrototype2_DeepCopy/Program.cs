@@ -8,11 +8,11 @@ public class Client
         // Create prototype object
         Person prototype = new Person
         {
-            Name = "John",
+            Name = "Gilang",
             Address = new Address
             {
-                City = "New York",
-                Country = "USA"
+                City = "Salatiga",
+                Country = "Indonesia"
             }
         };
 
@@ -22,16 +22,8 @@ public class Client
         shallowCopy.PrintInfo(); // Output: Name: John, Address: San Francisco, USA
         prototype.PrintInfo(); // Output: Name: John, Address: San Francisco, USA (Changed due to shallow copy)
 
-        // Deep copy
-        Person deepCopy = (Person)prototype.Clone();
-        deepCopy.Address.City = "Los Angeles";
-        deepCopy.PrintInfo(); // Output: Name: John, Address: Los Angeles, USA
-        prototype.PrintInfo(); // Output: Name: John, Address: San Francisco, USA (Unchanged due to deep copy)
-
         // output
         // Name: John, Address: San Francisco, USA
-        // Name: John, Address: New York, USA
-        // Name: John, Address: Los Angeles, USA
         // Name: John, Address: New York, USA
     }
 }

@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -14,6 +14,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithPrototype2_ShallowCopy", "WithPrototype2_ShallowCopy\WithPrototype2_ShallowCopy.csproj", "{B90E5739-E16D-4ABA-BD1B-C653C1E96A31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithPrototype2_DeepCopy", "WithPrototype2_DeepCopy\WithPrototype2_DeepCopy.csproj", "{2698226A-A929-4D10-A69E-2E8918536BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoPrototype_Motorcycle", "NoPrototype_Motorcycle\NoPrototype_Motorcycle.csproj", "{CA9F09CF-33A6-4CB8-9448-062AF0FF9E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithPrototype_Motorcycle", "WithPrototype_Motorcycle\WithPrototype_Motorcycle.csproj", "{E1FB239C-45EC-4B93-B555-A8838857166B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contoh Motorcycle", "Contoh Motorcycle", "{08A9E1DE-CCCB-4BF4-B28E-B3BE0914965F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shallow and Deep Copy", "Shallow and Deep Copy", "{B4409AD2-5C95-4A1C-ABB4-A0836DC2FE2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +56,19 @@ Global
 		{2698226A-A929-4D10-A69E-2E8918536BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2698226A-A929-4D10-A69E-2E8918536BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2698226A-A929-4D10-A69E-2E8918536BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9F09CF-33A6-4CB8-9448-062AF0FF9E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9F09CF-33A6-4CB8-9448-062AF0FF9E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9F09CF-33A6-4CB8-9448-062AF0FF9E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9F09CF-33A6-4CB8-9448-062AF0FF9E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FB239C-45EC-4B93-B555-A8838857166B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FB239C-45EC-4B93-B555-A8838857166B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FB239C-45EC-4B93-B555-A8838857166B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FB239C-45EC-4B93-B555-A8838857166B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B90E5739-E16D-4ABA-BD1B-C653C1E96A31} = {B4409AD2-5C95-4A1C-ABB4-A0836DC2FE2B}
+		{2698226A-A929-4D10-A69E-2E8918536BF1} = {B4409AD2-5C95-4A1C-ABB4-A0836DC2FE2B}
+		{E1FB239C-45EC-4B93-B555-A8838857166B} = {08A9E1DE-CCCB-4BF4-B28E-B3BE0914965F}
+		{CA9F09CF-33A6-4CB8-9448-062AF0FF9E5F} = {08A9E1DE-CCCB-4BF4-B28E-B3BE0914965F}
 	EndGlobalSection
 EndGlobal

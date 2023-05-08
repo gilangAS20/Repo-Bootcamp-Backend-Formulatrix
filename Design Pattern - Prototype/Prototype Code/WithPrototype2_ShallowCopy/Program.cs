@@ -17,22 +17,18 @@ public class Client
         };
 
         // Shallow copy
-        Person shallowCopy = (Person)prototype.Clone();
-        shallowCopy.Address.City = "San Francisco";
-        shallowCopy.PrintInfo(); // Output: Name: John, Address: San Francisco, USA
+        System.Console.WriteLine("========================================");
+        Person john1 = (Person)prototype.Clone();
+        john1.Address.City = "San Francisco";
+        System.Console.WriteLine("isi dari john1:");
+        john1.PrintInfo(); // Output: Name: John, Address: San Francisco, USA
+        System.Console.WriteLine("isi dari prototype:");
         prototype.PrintInfo(); // Output: Name: John, Address: San Francisco, USA (Changed due to shallow copy)
-
-        // Deep copy
-        Person deepCopy = (Person)prototype.Clone();
-        deepCopy.Address.City = "Los Angeles";
-        deepCopy.PrintInfo(); // Output: Name: John, Address: Los Angeles, USA
-        prototype.PrintInfo(); // Output: Name: John, Address: San Francisco, USA (Unchanged due to deep copy)
+        System.Console.WriteLine("========================================");
 
         // output
         // Name: John, Address: San Francisco, USA
         // Name: John, Address: San Francisco, USA
-        // Name: John, Address: Los Angeles, USA
-        // Name: John, Address: Los Angeles, USA
     }
 }
 
