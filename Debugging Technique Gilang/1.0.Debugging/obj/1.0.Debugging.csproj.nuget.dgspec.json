@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj": {}
+    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Debugging Technique Gilang\\1.0.Debugging\\1.0.Debugging.csproj": {}
   },
   "projects": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj": {
+    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Debugging Technique Gilang\\1.0.Debugging\\1.0.Debugging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj",
-        "projectName": "1_LearnFromMicrosoft",
-        "projectPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj",
+        "projectUniqueName": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Debugging Technique Gilang\\1.0.Debugging\\1.0.Debugging.csproj",
+        "projectName": "1.0.Debugging",
+        "projectPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Debugging Technique Gilang\\1.0.Debugging\\1.0.Debugging.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\obj\\",
+        "outputPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Debugging Technique Gilang\\1.0.Debugging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,12 +40,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Humanizer": {
-              "target": "Package",
-              "version": "[2.14.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
