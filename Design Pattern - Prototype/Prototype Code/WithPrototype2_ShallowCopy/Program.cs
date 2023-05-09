@@ -22,6 +22,7 @@ public class Client
 
         System.Console.WriteLine("========================================");
         Person john1 = (Person)prototype.Clone();
+        john1.Name = "Agung";
         john1.Address.City = "San Francisco";
         System.Console.WriteLine("isi dari john1:");
         john1.PrintInfo(); // Output: Name: John, Address: San Francisco, USA
@@ -45,7 +46,7 @@ public class Person : ICloneable
     public object Clone()
     {
         // Shallow copy
-        return MemberwiseClone();
+        return this.MemberwiseClone();
 
         //Deep copy
         // return new Person
@@ -65,10 +66,15 @@ public class Person : ICloneable
     }
 }
 
-public class Address
+public class Address : ICloneable
 {
     public string City;
     public string Country;
+
+    public object Clone()
+    {
+        return MemberwiseClone();
+    }
 }
 
 

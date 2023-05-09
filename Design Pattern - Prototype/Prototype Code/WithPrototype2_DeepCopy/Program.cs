@@ -22,7 +22,9 @@ public class Client
 
         System.Console.WriteLine("========================================");
         
-        Person person2 = (Person)prototype.Clone();
+        //Person person2 = (Person)prototype.Clone();
+        Person person2 = prototype.Clone();
+        person2.Name = "Agung";
         person2.Address.City = "San Francisco";
         System.Console.WriteLine("isi dari shallowCopy:");
         person2.PrintInfo(); // Output: Name: John, Address: San Francisco, USA
@@ -33,6 +35,7 @@ public class Client
         prototype.PrintInfo(); // Output: Name: John, Address: San Francisco, USA (Changed due to shallow copy)
         
         System.Console.WriteLine("========================================");
+        
 
         // output
         // Name: John, Address: San Francisco, USA
@@ -41,12 +44,14 @@ public class Client
 }
 
 
-public class Person : ICloneable
+public class Person //: ICloneable
+//public class Person : ICloneable
 {
     public string Name;
     public Address Address;
 
-    public object Clone()
+    //public Person Clone()
+    public Person Clone()
     {
         // Shallow copy
         //return MemberwiseClone();

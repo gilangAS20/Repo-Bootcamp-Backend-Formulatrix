@@ -23,6 +23,7 @@ class Program
         System.Console.WriteLine("\nisi dari motorcycle2:");
         Motorcycle motorcycle2 = (Motorcycle)motorcycle1.Clone();
         motorcycle2.ImmobilizerPin = "2345";
+        motorcycle2.harga = 40000000;
         motorcycle2.PrintInfo();
 
         System.Console.WriteLine("\nisi dari motorcycle1 lagi:");
