@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\bin\Debug\net7.0\WithPrototype2_ShallowCopy2.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\bin\Debug\net7.0\WithPrototype2_ShallowCopy2.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\bin\Debug\net7.0\WithPrototype2_ShallowCopy2.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\bin\Debug\net7.0\WithPrototype2_ShallowCopy2.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\bin\Debug\net7.0\WithPrototype2_ShallowCopy2.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\WithPrototype2_ShallowCopy2.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\WithPrototype2_ShallowCopy2.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\WithPrototype2_ShallowCopy2.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\WithPrototype2_ShallowCopy2.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\WithPrototype2_ShallowCopy2.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\WithPrototype2_ShallowCopy2.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\refint\WithPrototype2_ShallowCopy2.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\WithPrototype2_ShallowCopy2.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\WithPrototype2_ShallowCopy2.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Design Pattern - Prototype\Prototype Code\WithPrototype2_ShallowCopy2\obj\Debug\net7.0\ref\WithPrototype2_ShallowCopy2.dll

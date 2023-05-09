@@ -22,6 +22,8 @@ public class Client
 
         System.Console.WriteLine("========================================");
         Person john1 = (Person)prototype.Clone();
+        john1.Address = (Address)prototype.Address.Clone();
+        
         john1.Name = "Agung";
         john1.Address.City = "San Francisco";
         System.Console.WriteLine("isi dari john1:");
