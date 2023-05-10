@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\bin\Debug\net7.0\1.1.Check the Plug.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\bin\Debug\net7.0\1.1.Check the Plug.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\bin\Debug\net7.0\1.1.Check the Plug.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\bin\Debug\net7.0\1.1.Check the Plug.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\bin\Debug\net7.0\1.1.Check the Plug.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\1.1.Check the Plug.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\1.1.Check the Plug.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\1.1.Check the Plug.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\1.1.Check the Plug.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\1.1.Check the Plug.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\1.1.Check the Plug.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\refint\1.1.Check the Plug.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\1.1.Check the Plug.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\1.1.Check the Plug.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\obj\Debug\net7.0\ref\1.1.Check the Plug.dll

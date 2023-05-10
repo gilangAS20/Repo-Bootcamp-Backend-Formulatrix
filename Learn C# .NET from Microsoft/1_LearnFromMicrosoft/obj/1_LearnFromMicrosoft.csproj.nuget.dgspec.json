@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj": {}
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj": {}
   },
   "projects": {
-    "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj": {
+    "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj",
+        "projectUniqueName": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj",
         "projectName": "1_LearnFromMicrosoft",
-        "projectPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj",
+        "projectPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\1_LearnFromMicrosoft.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\obj\\",
+        "outputPath": "e:\\bootcamp_formulatrix\\Repo-Bootcamp-Backend-Formulatrix\\Learn C# .NET from Microsoft\\1_LearnFromMicrosoft\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

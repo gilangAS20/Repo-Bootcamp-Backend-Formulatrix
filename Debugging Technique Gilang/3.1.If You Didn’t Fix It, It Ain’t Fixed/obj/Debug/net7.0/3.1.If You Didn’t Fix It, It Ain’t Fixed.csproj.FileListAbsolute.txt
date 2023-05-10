@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\bin\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\bin\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\bin\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\bin\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\bin\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\refint\3.1.If You Didn’t Fix It, It Ain’t Fixed.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\3.1.If You Didn’t Fix It, It Ain’t Fixed.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\3.1.If You Didn’t Fix It, It Ain’t Fixed\obj\Debug\net7.0\ref\3.1.If You Didn’t Fix It, It Ain’t Fixed.dll

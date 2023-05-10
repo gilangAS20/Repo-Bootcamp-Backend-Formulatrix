@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\bin\Debug\net7.0\1.0.Debugging.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\bin\Debug\net7.0\1.0.Debugging.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\bin\Debug\net7.0\1.0.Debugging.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\bin\Debug\net7.0\1.0.Debugging.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\bin\Debug\net7.0\1.0.Debugging.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\1.0.Debugging.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\1.0.Debugging.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\1.0.Debugging.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\1.0.Debugging.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\1.0.Debugging.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\1.0.Debugging.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\refint\1.0.Debugging.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\1.0.Debugging.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\1.0.Debugging.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.0.Debugging\obj\Debug\net7.0\ref\1.0.Debugging.dll

@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\bin\Debug\net7.0\2.1.Get a Fresh View.exe
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\bin\Debug\net7.0\2.1.Get a Fresh View.deps.json
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\bin\Debug\net7.0\2.1.Get a Fresh View.runtimeconfig.json
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\bin\Debug\net7.0\2.1.Get a Fresh View.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\bin\Debug\net7.0\2.1.Get a Fresh View.pdb
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\2.1.Get a Fresh View.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\2.1.Get a Fresh View.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\2.1.Get a Fresh View.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\2.1.Get a Fresh View.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\2.1.Get a Fresh View.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\2.1.Get a Fresh View.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\refint\2.1.Get a Fresh View.dll
+E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\2.1.Get a Fresh View.pdb
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\2.1.Get a Fresh View.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\2.1.Get a Fresh View\obj\Debug\net7.0\ref\2.1.Get a Fresh View.dll
