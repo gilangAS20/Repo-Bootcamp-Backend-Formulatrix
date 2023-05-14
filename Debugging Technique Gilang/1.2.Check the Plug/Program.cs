@@ -23,13 +23,13 @@ class Program
 
     static void HumanizeDate()
     {
-        Console.WriteLine(DateTime.UtcNow.AddHours(-24).Humanize());
-        Console.WriteLine(DateTime.UtcNow.AddHours(-2).Humanize());
-        Console.WriteLine(DateTime.UtcNow.AddHours(+1).Humanize());
+        Console.WriteLine(DateTime.UtcNow.AddHours(-24).Humanize()); // output: yesterday
+        Console.WriteLine(DateTime.UtcNow.AddHours(-2).Humanize()); // output: 2 hours ago
+        Console.WriteLine(DateTime.UtcNow.AddHours(+1).Humanize()); // output: 59 minutes from now
 
-        Console.WriteLine(TimeSpan.FromDays(1).Humanize());
-        Console.WriteLine(TimeSpan.FromDays(7).Humanize());
-        Console.WriteLine(TimeSpan.FromDays(14).Humanize());
-        Console.WriteLine(TimeSpan.FromHours(5).Humanize());
+        Console.WriteLine(TimeSpan.FromDays(1).Humanize()); // output: 1 day
+        Console.WriteLine(TimeSpan.FromDays(7).Humanize()); // output: 1 week
+        Console.WriteLine(TimeSpan.FromDays(14).Humanize()); // output: 2 weeks
+        Console.WriteLine(TimeSpan.FromHours(5).Humanize()); // output: 5 hours
     }
 }

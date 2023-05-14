@@ -1,0 +1,15 @@
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\bin\Debug\net7.0\SendingGmail.exe
+e:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\bin\Debug\net7.0\SendingGmail.deps.json
+e:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\bin\Debug\net7.0\SendingGmail.runtimeconfig.json
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\bin\Debug\net7.0\SendingGmail.dll
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\bin\Debug\net7.0\SendingGmail.pdb
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\SendingGmail.csproj.AssemblyReference.cache
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\SendingGmail.GeneratedMSBuildEditorConfig.editorconfig
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\SendingGmail.AssemblyInfoInputs.cache
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\SendingGmail.AssemblyInfo.cs
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\SendingGmail.csproj.CoreCompileInputs.cache
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\SendingGmail.dll
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\refint\SendingGmail.dll
+E:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\SendingGmail.pdb
+e:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\SendingGmail.genruntimeconfig.cache
+e:\bootcamp_formulatrix\Try_Sending_Gmail\SendingGmail\obj\Debug\net7.0\ref\SendingGmail.dll

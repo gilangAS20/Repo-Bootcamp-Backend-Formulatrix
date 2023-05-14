@@ -1,0 +1,16 @@
+saya ingin membuat aplikasi console di c# dengan google calendar api,
+ada 3 email yang dibuat sebagai ruang meeting yang akan dibooking,
+ruang 1 berkapasitas 5 orang, ruang 2 berkapasitas 10 orang, dan ruang 3
+berkapasitas 20 orang.
+
+fitur yang pertama yaitu user memasukkan jumlah orang yang ingin meeting,
+kemudian sistem menampilkan ruang mana yang kapasitasnya cukup, kemudian
+sistem menampilkan range waktu yang sudah dibooking oleh user lain, jika
+user tersebut memilih di range jam yang sama maka ruangan tidak bisa
+dibooking, jika range berbeda maka ruang bisa dibooking.
+
+fitur kedua yaitu user dapat mengundang orang-orang yang diajak meeting
+dengan memasukkan alamat gmail mereka, orang yang diundang akan mendapatkan
+email mengenai meeting tersebut.
+
+tolong buatkan stepnya, serta logika yang diperlukan

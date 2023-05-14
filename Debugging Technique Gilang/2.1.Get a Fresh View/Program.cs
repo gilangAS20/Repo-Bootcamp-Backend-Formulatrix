@@ -26,7 +26,7 @@ class Program
             Console.WriteLine("Simpan ke dalam file");
             string namaFile = "WriteInputResult.txt";
 
-          //string path = @"E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plu\WriteInputResult.txt";
+          //string path = @"E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\WriteInputResult.txt";
             string path = Path.Combine(Directory.GetCurrentDirectory(), namaFile); // saran dari chatGPT
             string writeToFile = "Input user adalah: \n" + inputResult.ToString();
             File.WriteAllText(path, writeToFile);

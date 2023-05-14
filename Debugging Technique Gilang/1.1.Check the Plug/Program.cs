@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-//using System;
+
 using System;
 using System.Text;
 class Program
@@ -25,7 +25,8 @@ class Program
             Console.WriteLine("Input user adalah: \n" + inputResult);
 
             Console.WriteLine("Simpan ke dalam file");
-            string path = @"E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plu\WriteInputResult.txt";
+            string path = @"E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug\WriteInputResult.txt";
+            //              E:\bootcamp_formulatrix\Repo-Bootcamp-Backend-Formulatrix\Debugging Technique Gilang\1.1.Check the Plug
             string writeToFile = "Input user adalah: \n" + inputResult.ToString();
             File.WriteAllText(path, writeToFile);
 
